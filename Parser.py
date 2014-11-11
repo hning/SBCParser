@@ -10,6 +10,15 @@ from operator import itemgetter
 import os
 import base64, re, datetime, StringIO
 
+def FindLines(layout):
+    objstack = list(reversed(layout._objs))
+    xlines = [ ]
+    ylines = [ ]
+    while objstack:
+        obj = objstack.pop()
+        print obj
+
+
 def convert_pdf_to_txt(path):
     # rsrcmgr = PDFResourceManager()
     # retstr = StringIO()
@@ -47,15 +56,16 @@ def convert_pdf_to_txt(path):
     device = PDFPageAggregator(rsrcmgr, laparams=laparams)
     interpreter = PDFPageInterpreter(rsrcmgr, device)
 
-    password = ""
-    maxpages = 2
-    caching = True
+    password=""
+    maxpages=2
+    caching=True
     pagenos=set()
 
     for page in PDFPage.get_pages(fp, pagenos, maxpages=maxpages, 
         password=password,caching=caching, check_extractable=True):
         interpreter.process_page(page)
         layout = device.get_result()
+        FindLines(layout)
         print layout
 
 
