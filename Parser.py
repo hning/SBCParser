@@ -16,13 +16,33 @@ def FindLines(layout):
     ylines = [ ]
     while objstack:
         obj = objstack.pop()
-        print obj
+
+       
+        if type(obj) in [LTTextBoxHorizontal]:
+            text = obj.get_text().replace('\n', '')
+            text = text.lstrip().rstrip();
+
+            if len(text) > 0:
+                print text.encode('utf-8');
+                print "{0} {1} {2} {3}".format(obj.x0, obj.x1,
+                    obj.y0,obj.y1)
+                print obj
+                print ""
+
+    #TODO Add code to determine which boxes are in the same row
+    #Strategy: Keep a 2D array of objects that hold lists of elements for each row
+    #For each box 
+    #   if box either subsumes or is subsumed by one of the rows
+    #       Add box to the row
+    #       if the box subsumed the row
+    #           update the row min and max y  
+    #   else
+    #       create new row with bounds from box
 
 
 def convert_pdf_to_txt(path):
     # rsrcmgr = PDFResourceManager()
     # retstr = StringIO()
-    # codec = 'utf-8'
     # laparams = LAParams()
     # device = TextConverter(rsrcmgr, retstr, codec=codec, laparams=laparams)
     # fp = file(path, 'rb')
@@ -38,21 +58,10 @@ def convert_pdf_to_txt(path):
     # str = retstr.getvalue()
     # retstr.close()
 
-    
-    
-    # cin = StringIO.StringIO()
-    # pdfbinary = base64.b64decode(text)
-
-    # cin.write(text)
-    # cin.seek(0)
-    # parser = PDFParser(cin)
-    # doc = PDFDocument(parser)
-    # parser.set_document(doc)
-
     fp = open(path, "rb")
     rsrcmgr = PDFResourceManager()
     laparams = LAParams()
-
+    codec = 'utf-8'
     device = PDFPageAggregator(rsrcmgr, laparams=laparams)
     interpreter = PDFPageInterpreter(rsrcmgr, device)
 
