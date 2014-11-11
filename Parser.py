@@ -38,11 +38,15 @@ def FindLines(layout):
     #           update the row min and max y  
     #   else
     #       create new row with bounds from box
-
+    #
+    #Additional: Also take into account the x coordinates of the column to determine 
+    # which column the box is in. 
+    # 
+    #Deal with overflow
 
 def convert_pdf_to_txt(path):
     # rsrcmgr = PDFResourceManager()
-    # retstr = StringIO()
+    # retstr = StringIO
     # laparams = LAParams()
     # device = TextConverter(rsrcmgr, retstr, codec=codec, laparams=laparams)
     # fp = file(path, 'rb')
