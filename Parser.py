@@ -97,7 +97,7 @@ class TableRows:
     def merge_rows(self):
         self.rows = sorted(self.rows, key=attrgetter('max_size'))
         for i in range(0,len(self.rows)):
-
+            print i
 
     def sort(self):
         #Need to merge elements before sort
@@ -114,7 +114,7 @@ def getRows(layout):
     rows = TableRows()
     while objstack:
         obj = objstack.pop()
-
+        #print obj
        
         if type(obj) in [LTTextBoxHorizontal]:
             # text = obj.get_text().replace('\n', '')
@@ -131,7 +131,7 @@ def getRows(layout):
                 rows.add(obj)
 
     rows.sort()
-    print ""
+    # print ""
     print rows
 
 
@@ -149,6 +149,7 @@ def getRows(layout):
     # which column the box is in. 
     # 
     #Deal with overflow
+    #Deal with boxes being grouped together
 
 def convert_pdf_to_txt(path):
     # rsrcmgr = PDFResourceManager()
@@ -185,7 +186,7 @@ def convert_pdf_to_txt(path):
         interpreter.process_page(page)
         layout = device.get_result()
         getRows(layout)
-       # print layout
+        print layout
 
 
     return str
