@@ -65,7 +65,7 @@ class TableRows:
         for row in self.rows:
             if len(row) >= min_elements_in_row: 
                 output += str(row)
-                output += "\n"
+                output += "\n\n"
         return output
 
     def __len__(self):
