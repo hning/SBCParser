@@ -10,4 +10,4 @@ Requirements:
 * pdfminer
 
 Usage:
-Just user Parser.py for now. Files are hardcoded for now.
+Just use Parser.py for now. Files are hardcoded for now.
