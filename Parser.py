@@ -6,11 +6,14 @@ from pdfminer.layout import LAParams, LTTextBox, LTTextLine, LTFigure, LTImage, 
                             LTChar, LTRect, LTLine
 from pdfminer.pdfpage import PDFPage
 from operator import itemgetter, attrgetter, methodcaller
-# from cStringIO import StringIO
 import os
 import base64, re, datetime, StringIO
 
 overlap_threshold = 0.5
+min_elements_in_row = 0
+line_margin_threshold = 0.25
+pages_to_view = 1
+titles = ["Important Questions", "Answers", "Why This Matters:"]
 
 def strip_text(input):
     return input.replace('\n','').lstrip().rstrip();
@@ -28,10 +31,9 @@ class TableRow:
     def __str__(self):
         output = "|"
         for d in self.data:
-            #print strip_text(d.get_text())
             text = strip_text(d.get_text())
             output += text.encode('utf-8');
-            output += "|".format()
+            output += "|"
         return output
 
     def __len__(self):
@@ -61,8 +63,9 @@ class TableRows:
     def __str__(self):
         output = ""
         for row in self.rows:
-            output += str(row)
-            output += "\n"
+            if len(row) >= min_elements_in_row: 
+                output += str(row)
+                output += "\n"
         return output
 
     def __len__(self):
@@ -72,7 +75,7 @@ class TableRows:
         #print obj
         #print strip_text(obj.get_text()).encode('utf-8')
         for row in self.rows:
-            #Use set intersection
+            #Use set intersection to find rows
             newR = range(int(round(obj.y0)), int(round(obj.y1)))
             rowR = range(int(round(row.min_y)), int(round(row.max_y)))
 
@@ -94,10 +97,12 @@ class TableRows:
         self.rows.append(TableRow(obj))
 
     #TODO: Finish this method
+    #Check for lines that should be part of specific rows,
+    #but do not fit within the textbox. Add them to the column
     def merge_rows(self):
         self.rows = sorted(self.rows, key=attrgetter('max_size'))
         for i in range(0,len(self.rows)):
-            print i
+            hi = i
 
     def sort(self):
         #Need to merge elements before sort
@@ -108,18 +113,20 @@ class TableRows:
         self.rows = sorted(self.rows,
             key=attrgetter('min_y'), reverse=True)
 
+class LTRects:
+    def __init__(self, _obj):
+        self.obj = _obj;
+        self.width = self.obj.x1 - self.obj.x0
 
 def getRows(layout):
     objstack = list(reversed(layout._objs))
     rows = TableRows()
+    rectArr = []
     while objstack:
         obj = objstack.pop()
         #print obj
        
-        if type(obj) in [LTTextBoxHorizontal]:
-            # text = obj.get_text().replace('\n', '')
-            # text = text.lstrip().rstrip();
-
+        if type(obj) == LTTextBoxHorizontal:
             text = strip_text(obj.get_text())
             if len(text) > 0:
                 # print text.encode('utf-8');
@@ -127,15 +134,29 @@ def getRows(layout):
                 #     obj.y0,obj.y1)
                 # print obj
                 # print ""
+                is_title = False
 
+                if is_title: 
+                    continue
                 rows.add(obj)
+        elif type(obj) == LTRect:
+            #Keep track of other rects to maybe use later
+            rectArr.append(LTRects(obj))
+
+    # rectArr = sorted(rectArr, key=attrgetter('width'), reverse=True)
+    # for r in rectArr:
+    #     print r.obj
+    #     print "{0} {1} {2} {3}".format(
+    #             r.obj.x0,
+    #             r.obj.x1,
+    #             r.obj.y0,
+    #             r.obj.y1
+    #         )
+    #     print r.width
 
     rows.sort()
-    # print ""
     print rows
 
-
-    #TODO Add code to determine which boxes are in the same row
     #Strategy: Keep a 2D array of objects that hold lists of elements for each row
     #For each box 
     #   if box either subsumes or is subsumed by one of the rows
@@ -151,33 +172,18 @@ def getRows(layout):
     #Deal with overflow
     #Deal with boxes being grouped together
 
-def convert_pdf_to_txt(path):
-    # rsrcmgr = PDFResourceManager()
-    # retstr = StringIO
-    # laparams = LAParams()
-    # device = TextConverter(rsrcmgr, retstr, codec=codec, laparams=laparams)
-    # fp = file(path, 'rb')
-    # interpreter = PDFPageInterpreter(rsrcmgr, device)
-    # password = ""
-    # maxpages = 0
-    # caching = True
-    # pagenos=set()
-    # for page in PDFPage.get_pages(fp, pagenos, maxpages=maxpages, password=password,caching=caching, check_extractable=True):
-    #     interpreter.process_page(page)
-    # fp.close()
-    # device.close()
-    # str = retstr.getvalue()
-    # retstr.close()
+def output_pdf_to_table(path):
 
     fp = open(path, "rb")
     rsrcmgr = PDFResourceManager()
     laparams = LAParams()
+    laparams.line_margin = line_margin_threshold
     codec = 'utf-8'
     device = PDFPageAggregator(rsrcmgr, laparams=laparams)
     interpreter = PDFPageInterpreter(rsrcmgr, device)
 
     password=""
-    maxpages=2
+    maxpages=pages_to_view
     caching=True
     pagenos=set()
 
@@ -186,11 +192,7 @@ def convert_pdf_to_txt(path):
         interpreter.process_page(page)
         layout = device.get_result()
         getRows(layout)
-        print layout
-
-
-    return str
 
 directory = os.path.dirname(__file__)
-filename = os.path.join(directory, '../ExampleSBC/Anthem.pdf')
-print convert_pdf_to_txt(filename)
+filename = os.path.join(directory, '../ExampleSBC/OEMGroup.pdf')
+output_pdf_to_table(filename)
