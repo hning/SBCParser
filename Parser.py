@@ -10,6 +10,54 @@ from operator import itemgetter
 import os
 import base64, re, datetime, StringIO
 
+threshold = 0.5
+
+class TableRow:
+    def __init__(self, element):
+        self.data = []
+        self.min_y = element.y0
+        self.max_y = element.y1
+
+    def __getitem__(self, index):
+        return self.data[index]
+
+    def add(self, obj):
+        print "hi"
+        #if object.y0 < row.min_y 
+
+
+class TableRows:
+    def __init__(self):
+        self.rows = []
+
+    def __getitem__(self, index):
+        return self.rows[index]
+
+    def add(self, obj):
+        for row in rows:
+            #Use set intersection
+            newR = range(round(obj.y0), round(obj.y1))
+            rowR = range(round(row.min_y), round(row.max_y))
+
+            newS = set(newR)
+            rowS = set(rowR)
+
+            resultIntersect = newS.intersection(rowS)
+            minSize = 0
+            if((obj.y1 - obj.y0) > (row.max_y - row.min_y)):
+                minSize = row.max_y - row.min_y
+            else:
+                minSize = obj.y1 - obj.y0
+
+            if len(resultIntersect) >= (minSize * threshold):
+                #Found row
+                row.add(obj)
+                return
+
+
+
+
+
 def FindLines(layout):
     objstack = list(reversed(layout._objs))
     xlines = [ ]
