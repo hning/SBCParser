@@ -194,5 +194,5 @@ def output_pdf_to_table(path):
         getRows(layout)
 
 directory = os.path.dirname(__file__)
-filename = os.path.join(directory, '../ExampleSBC/OEMGroup.pdf')
+filename = os.path.join(directory, '../ExampleSBC/Anthem.pdf')
 output_pdf_to_table(filename)
