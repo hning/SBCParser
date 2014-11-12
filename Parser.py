@@ -11,7 +11,12 @@ import base64, re, datetime, StringIO
 
 overlap_threshold = 0.5
 min_elements_in_row = 0
+
+#default 0.3, 0.25 works for OEMgroup
 line_margin_threshold = 0.25
+
+#default 0.2
+word_margin_threshold = 0.2
 pages_to_view = 1
 titles = ["Important Questions", "Answers", "Why This Matters:"]
 
@@ -171,6 +176,12 @@ def getRows(layout):
     # 
     #Deal with overflow
     #Deal with boxes being grouped together
+    #Special case: row short 1 element, look for 2+ spaces and spilt into new row
+    #Special case: row short 1 element, look @ row before or after for 2+ spaces to split into 
+    #   this row
+    #Special case (anthem): Find question marks and append those elements on previous column
+    #   or previous row
+
 
 def output_pdf_to_table(path):
 
@@ -178,6 +189,7 @@ def output_pdf_to_table(path):
     rsrcmgr = PDFResourceManager()
     laparams = LAParams()
     laparams.line_margin = line_margin_threshold
+    laparams.word_margin = word_margin_threshold
     codec = 'utf-8'
     device = PDFPageAggregator(rsrcmgr, laparams=laparams)
     interpreter = PDFPageInterpreter(rsrcmgr, device)

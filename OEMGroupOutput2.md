@@ -1,0 +1,27 @@
+|HSA Choice Plus Plan BZY / 0H9                        Coverage Period: 11/01/2013 – 10/31/2014|
+
+|Summary of Benefits and Coverage: What This Plan Covers & What it Costs|Coverage for: Employee & Family|Plan Type: PS1|
+
+|This is only a summary. If you want more detail about your coverage and costs, you can get the complete terms in the policy or plan document at www.myuhc.com or by calling 1-866-314-0335.|
+
+|Important Questions|Answers|Why This Matters:|
+
+|What is the overall deductible?|Network: $2,000 * Individual / $6,000 Family Non-Network: $4,000 * Individual / $12,000 FamilyPer Calendar year.Does not apply to   services listed below as "No Charge". *Doesn’t apply if policy covers 2+ people. Prescription drug costs are subject to the Annual Deductible.|You must pay all the costs up to the deductible amount before this plan begins to pay for covered services you use. Check your policy or plan document to see when the deductible starts over (usually, but not always, January 1st). See the Common Medical Events chart for how much you pay for covered services after you meet the deductible.|
+
+|Are there other deductibles for specific services?|No. There are no other deductibles.|You don’t have to meet deductibles for specific services, but see the Common Medical Events chart for other costs for services this plan covers.|
+
+|Is there an out-of-pocket limit on my expenses?|Network: $5,950 *Individual / $11,900 Family Non-Network: $12,000 *Individual / $24,000 Family *Doesn’t apply if policy covers 2+ people.Prescription drug costs apply to the out-of-pocket limit|The out-of-pocket limit is the most you could pay during a coverage period (usually one year) for your share of the cost of covered services. This limit helps you plan for health care expenses.|
+
+|What is not included in the out-of-pocket limit?|Premium,  balance-billed charges, health care this plan doesn’t cover, and penalties for failure to obtain Pre-Authorization for services.|Even though you pay these expenses, they don’t count toward the out-of-pocket limit.|
+
+|Is there an overall annual limit on what the plan pays?|No.|The Common Medical Events chart describes any limits on what the plan will pay for specific covered services, such as office visits.|
+
+|Does this plan use a network of providers?|Yes, this plan uses network providers. If you use a non-network provider your cost may be more. For a list of network providers, see www.myuhc.com or call 1-866-314-0335 for a list of network providers.|If you use a network doctor or other health care provider, this plan will pay some or all of the costs of covered services. Be aware, your network doctor or hospital may use a non-network provider for some services. Plans use the term network, preferred, or participating for providers in their network. See the Common Medical Events chart for how this plan pays different kinds of providers.|
+
+|Do I need a referral to see a specialist?|No. You don't need a referral to see a specialist.  You can see the specialist you choose without permission from this plan.|
+
+|Are there services this plan doesn’t cover?|Yes.|Some of the services this plan doesn’t cover are listed under Services Your Plan Does NOT Cover. See your policy or plan document for additional information about excluded services.|
+
+|Questions: Call 1-866-314-0335 or visit us at www.myuhc.com. If you aren’t clear about any of the terms used in this form, see the Glossary.                                                          1 of 8                                                             You can view the Glossary at www.dol.gov/ebsa/healthreform or call the phone number above to request a copy. This is only a summary.   It in no way modifies your benefits as described in your plan documents. Please refer to your plan documents provided by your employer for complete terms of this plan.|
+
+
