@@ -1,127 +1,20 @@
-Anthem Blue Cross and Blue Shield Anthem Premier DirectAccess - gyaa Summary of Benefits and Coverage: What this Plan Covers & What it Costs                         Coverage Period: 03/01/2014 – 02/28/2015 Coverage for: Individual + Family | Plan Type: PPO
-36.0 773.736 507.768 612.19008
-<LTTextBoxHorizontal(0) 36.000,507.768,773.736,612.190 u' \nAnthem Blue Cross and Blue Shield \nAnthem Premier DirectAccess - gyaa \nSummary of Benefits and Coverage: What this Plan Covers & What it Costs                         Coverage Period: 03/01/2014 \u2013 02/28/2015 \nCoverage for: Individual + Family | Plan Type: PPO \n \n'>
 
-This is only a summary. If you want more detail about your coverage and costs, you can get the complete terms in the policy or plan document at www.anthem.com or by calling (855) 330-1214.
-92.64 758.28 464.256 519.3804
-<LTTextBoxHorizontal(1) 92.640,464.256,758.280,519.380 u' \nThis is only a summary. If you want more detail about your coverage and costs, you can get the complete terms in the policy or plan \ndocument at www.anthem.com or by calling (855) 330-1214. \n \n'>
+|Anthem Blue Cross and Blue Shield Anthem Premier DirectAccess - gyaa Summary of Benefits and Coverage: What this Plan Covers & What it Costs                         Coverage Period: 03/01/2014 – 02/28/2015 Coverage for: Individual + Family | Plan Type: PPO|
+|This is only a summary. If you want more detail about your coverage and costs, you can get the complete terms in the policy or plan document at www.anthem.com or by calling (855) 330-1214.|
+|What is the overall deductible?|You must pay all costs up to the deductible amount before this plan begins to pay for covered services you use. Check your policy or plan document to see when the deductible starts over (usually, but not always, January 1st). See the chart starting on page 3 for how much you pay for covered services after you meet the deductible.|
+|Important Questions|Answers $0 person / $0 family for In-Network Provider. $2,000 person / $4,000 family for Non-Network Provider. Does not apply to Copayments, Emergency Room Services, Home Health Care, and Prescription Drugs. In-Network Provider and Non-Network Provider deductibles are separate and do not count towards each other.|Why this Matters:|
+|Are there other deductibles for specific services?|No.|You don't have to meet deductibles for specific services, but see the chart starting on page 3 for other costs for services this plan covers.|
+|Is there an out–of–pocket limit on my expenses?|Yes; $2,500 person / $5,000 family for In-Network Provider. $5,000 person / $10,000 family for Non-Network Provider. In-Network Provider and Non-Network Provider Out of Pocket are separate and do not count towards each other.   Premiums, Balance-Billed charges, and Health Care This Plan Doesn't|The out-of-pocket limit is the most you could pay during a coverage period (usually one year) for your share of the cost of covered services. This limit helps you plan for health care expenses.|Even though you pay these expenses, they don’t count toward the out–of–pocket limit.|
+|What is not included in the out–of–pocket limit? Questions: Call (855) 330-1214 or visit us at www.anthem.com If you aren’t clear about any of the underlined terms used in this form, see the Glossary. You can view the Glossary at www.cciio.cms.gov or call (855) 330-1214 to request a copy.|
+|Page 1 of 10|
 
-Why this Matters:
-335.04 438.372 430.728 459.72
-<LTTextBoxHorizontal(4) 335.040,430.728,438.372,459.720 u' \nWhy this Matters: \n'>
 
-You must pay all costs up to the deductible amount before this plan begins to pay for covered services you use. Check your policy or plan document to see when the deductible starts over (usually, but not always, January 1st). See the chart starting on page 3 for how much you pay for covered services after you meet the deductible.
-335.04 760.2 314.976 377.952
-<LTTextBoxHorizontal(5) 335.040,314.976,760.200,377.952 u'You must pay all costs up to the deductible amount before this plan begins to pay for \ncovered services you use. Check your policy or plan document to see when the deductible \nstarts over (usually, but not always, January 1st). See the chart starting on page 3 for how \nmuch you pay for covered services after you meet the deductible. \n'>
+|Important Questions|Answers Cover. No; This policy has no overall annual limit on the amount it will pay each year.|Why this Matters:|The chart starting on page 3 describes any limits on what the plan will pay for specific covered services, such as office visits.|
+|Is there an overall annual limit on what the plan pays?|
+|Does this plan use a network of providers?|Yes; See www.anthem.com or call (855) 330-1214 for a list of participating providers.|If you use an in-network doctor or other health care provider, this plan will pay some or all of the costs of covered services. Be aware, your in-network doctor or hospital may use an out-of-network provider for some services. Plans use the term in-network, preferred, or participating for providers in their network. See the chart starting on page 3 for how this plan pays different kinds of providers.|
+|No; You do not need a referral to see a specialist.|
+|Do I need a referral to see a specialist?|You can see the specialist you choose without permission from this plan.|
+|Are there services this plan doesn’t cover?|Yes.|Some of the services this plan doesn’t cover are listed on page 7. See your policy or plan document for additional information about excluded services.|
+|Page 2 of 9|
 
-You don't have to meet deductibles for specific services, but see the chart starting on page 3 for other costs for services this plan covers.
-335.04 765.6 222.516 251.592
-<LTTextBoxHorizontal(6) 335.040,222.516,765.600,251.592 u"You don't have to meet deductibles for specific services, but see the chart starting on page 3 \nfor other costs for services this plan covers. \n">
-
-The out-of-pocket limit is the most you could pay during a coverage period (usually one year) for your share of the cost of covered services. This limit helps you plan for health care expenses.
-335.04 764.04 143.076 189.672
-<LTTextBoxHorizontal(7) 335.040,143.076,764.040,189.672 u'The out-of-pocket limit is the most you could pay during a coverage period (usually one \nyear) for your share of the cost of covered services. This limit helps you plan for health care \nexpenses. \n'>
-
-Important Questions
-41.4 162.096 422.448 473.94
-<LTTextBoxHorizontal(9) 41.400,422.448,162.096,473.940 u' \n \nImportant Questions \n \n'>
-
-What is the overall deductible?
-41.4 138.12 325.536 355.392
-<LTTextBoxHorizontal(10) 41.400,325.536,138.120,355.392 u'What is the overall \ndeductible?  \n'>
-
-Are there other deductibles for specific services?
-41.4 161.76 210.672 258.552
-<LTTextBoxHorizontal(11) 41.400,210.672,161.760,258.552 u'Are there other \ndeductibles for specific \nservices? \n'>
-
-Is there an out–of–pocket limit on my expenses?
-41.4 139.92 135.912 181.632
-<LTTextBoxHorizontal(12) 41.400,135.912,139.920,181.632 u'Is there an out\u2013of\u2013\npocket limit on my \nexpenses? \n'>
-
-Answers $0 person / $0 family for In-Network Provider. $2,000 person / $4,000 family for Non-Network Provider. Does not apply to Copayments, Emergency Room Services, Home Health Care, and Prescription Drugs. In-Network Provider and Non-Network Provider deductibles are separate and do not count towards each other.
-173.04 325.68 258.756 459.72
-<LTTextBoxHorizontal(13) 173.040,258.756,325.680,459.720 u' \nAnswers \n$0 person / $0 family for In-\nNetwork Provider. \n$2,000 person / $4,000 family \nfor Non-Network Provider. \nDoes not apply to Copayments, \nEmergency Room Services, \nHome Health Care, and \nPrescription Drugs. In-Network \nProvider and Non-Network \nProvider deductibles are \nseparate and do not count \ntowards each other.   \n'>
-
-No.
-173.04 193.53504 235.356 250.872
-<LTTextBoxHorizontal(14) 173.040,235.356,193.535,250.872 u'No. \n'>
-
-Yes; $2,500 person / $5,000 family for In-Network Provider. $5,000 person / $10,000 family for Non-Network Provider. In-Network Provider and Non-Network Provider Out of Pocket are separate and do not count towards each other.   Premiums, Balance-Billed charges, and Health Care This Plan Doesn't
-173.04 325.53504 62.316 215.472
-<LTTextBoxHorizontal(15) 173.040,62.316,325.535,215.472 u"Yes; $2,500 person / $5,000 \nfamily for In-Network Provider. \n$5,000 person / $10,000 family \nfor Non-Network Provider. \nIn-Network Provider and Non-\nNetwork Provider Out of \nPocket are separate and do not \ncount towards each other.   \nPremiums, \nBalance-Billed charges, and \nHealth Care This Plan Doesn't \n">
-
-What is not included in the out–of–pocket limit? Questions: Call (855) 330-1214 or visit us at www.anthem.com If you aren’t clear about any of the underlined terms used in this form, see the Glossary. You can view the Glossary at www.cciio.cms.gov or call (855) 330-1214 to request a copy.
-36.0 575.52 12.996 105.072
-<LTTextBoxHorizontal(16) 36.000,12.996,575.520,105.072 u'What is not included in \nthe out\u2013of\u2013pocket \nlimit? \nQuestions: Call (855) 330-1214 or visit us at www.anthem.com \nIf you aren\u2019t clear about any of the underlined terms used in this form, see the Glossary. You can view the Glossary \nat www.cciio.cms.gov or call (855) 330-1214 to request a copy. \n'>
-
-Even though you pay these expenses, they don’t count toward the out–of–pocket limit.
-335.04 749.25504 80.976 97.392
-<LTTextBoxHorizontal(17) 335.040,80.976,749.255,97.392 u'Even though you pay these expenses, they don\u2019t count toward the out\u2013of\u2013pocket limit. \n'>
-
-Page 1 of 10
-713.4 772.56 -1.344 15.072
-<LTTextBoxHorizontal(18) 713.400,-1.344,772.560,15.072 u'Page 1 of 10 \n'>
-
-<LTPage(1) 0.000,0.000,792.000,612.000 rotate=0>
-Important Questions
-41.4 162.096 559.128 596.52
-<LTTextBoxHorizontal(0) 41.400,559.128,162.096,596.520 u' \nImportant Questions \n \n'>
-
-Is there an overall annual limit on what the plan pays?
-41.4 149.04 494.256 537.552
-<LTTextBoxHorizontal(1) 41.400,494.256,149.040,537.552 u'Is there an overall \nannual limit on what \nthe plan pays?   \n'>
-
-Does this plan use a network of providers?
-41.4 153.84 438.456 468.312
-<LTTextBoxHorizontal(2) 41.400,438.456,153.840,468.312 u'Does this plan use a \nnetwork of providers? \n'>
-
-Do I need a referral to see a specialist?
-41.4 156.0 370.896 400.872
-<LTTextBoxHorizontal(3) 41.400,370.896,156.000,400.872 u'Do I need a referral to \nsee a specialist? \n'>
-
-Are there services this plan doesn’t cover?
-41.4 155.4 316.656 346.512
-<LTTextBoxHorizontal(4) 41.400,316.656,155.400,346.512 u'Are there services this \nplan doesn\u2019t cover? \n'>
-
-Answers Cover. No; This policy has no overall annual limit on the amount it will pay each year.
-173.04 316.2 498.996 596.52
-<LTTextBoxHorizontal(5) 173.040,498.996,316.200,596.520 u' \nAnswers \nCover. \nNo; This policy has no overall \nannual limit on the amount it \nwill pay each year. \n'>
-
-Yes; See www.anthem.com or call (855) 330-1214 for a list of participating providers.
-173.04 322.896 436.476 483.192
-<LTTextBoxHorizontal(6) 173.040,436.476,322.896,483.192 u'Yes; See www.anthem.com or \ncall (855) 330-1214 for a list of \nparticipating providers. \n'>
-
-No; You do not need a referral to see a specialist.
-173.04 320.28 389.436 420.432
-<LTTextBoxHorizontal(7) 173.040,389.436,320.280,420.432 u'No; You do not need a referral \nto see a specialist. \n'>
-
-Yes.
-173.04 195.45504 330.276 345.792
-<LTTextBoxHorizontal(9) 173.040,330.276,195.455,345.792 u'Yes. \n'>
-
-Why this Matters:
-335.04 438.372 567.408 596.52
-<LTTextBoxHorizontal(10) 335.040,567.408,438.372,596.520 u' \nWhy this Matters: \n'>
-
-The chart starting on page 3 describes any limits on what the plan will pay for specific covered services, such as office visits.
-335.04 727.812 501.756 530.916
-<LTTextBoxHorizontal(11) 335.040,501.756,727.812,530.916 u'The chart starting on page 3 describes any limits on what the plan will pay for specific \ncovered services, such as office visits. \n'>
-
-If you use an in-network doctor or other health care provider, this plan will pay some or all of the costs of covered services. Be aware, your in-network doctor or hospital may use an out-of-network provider for some services. Plans use the term in-network, preferred, or participating for providers in their network. See the chart starting on page 3 for how this plan pays different kinds of providers.
-335.04 763.32 418.176 488.592
-<LTTextBoxHorizontal(12) 335.040,418.176,763.320,488.592 u'If you use an in-network doctor or other health care provider, this plan will pay some or all \nof the costs of covered services. Be aware, your in-network doctor or hospital may use an \nout-of-network provider for some services. Plans use the term in-network, preferred, or \nparticipating for providers in their network. See the chart starting on page 3 for how this \nplan pays different kinds of providers. \n'>
-
-You can see the specialist you choose without permission from this plan.
-335.04 681.69504 383.736 400.152
-<LTTextBoxHorizontal(13) 335.040,383.736,681.695,400.152 u'You can see the specialist you choose without permission from this plan. \n'>
-
-Some of the services this plan doesn’t cover are listed on page 7. See your policy or plan document for additional information about excluded services.
-335.04 746.64 321.696 353.472
-<LTTextBoxHorizontal(14) 335.040,321.696,746.640,353.472 u'Some of the services this plan doesn\u2019t cover are listed on page 7. See your policy or plan \ndocument for additional information about excluded services. \n'>
-
-Page 2 of 9
-718.2 773.4 -1.344 15.072
-<LTTextBoxHorizontal(15) 718.200,-1.344,773.400,15.072 u'Page 2 of 9 \n'>
-
-<LTPage(2) 0.000,0.000,792.000,612.000 rotate=0>
 <type 'str'>
