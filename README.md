@@ -22,11 +22,6 @@ Use the maximum sensitivity for line breaks and determine which elements are in 
 
 Assume that the columns are laid out like:
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
 | Important Questions | Answers | Why this Matters: |
 | ------------------- | ------- | ------------------|
 | ...                 | ...     | ...               |
