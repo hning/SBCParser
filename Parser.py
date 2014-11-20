@@ -15,7 +15,7 @@ min_elements_in_row = 0
 
 #default 0.3, 0.25 works for OEMgroup
 #This is the separation between lines that pdfminer uses for textbox analysis
-line_margin_threshold = 0.01
+line_margin_threshold = 0.00000001
 
 #default 0.2
 word_margin_threshold = 0.3
@@ -196,27 +196,6 @@ def getRows(layout):
 
     # rows.sort()
     # print rows
-
-    #Strategy: Keep a 2D array of objects that hold lists of elements for each row
-    #For each box 
-    #   if box either subsumes or is subsumed by one of the rows
-    #       Add box to the row
-    #       if the box subsumed the row
-    #           update the row min and max y  
-    #   else
-    #       create new row with bounds from box
-    #
-    #Additional: Also take into account the x coordinates of the column to determine 
-    # which column the box is in. 
-    # 
-    #Deal with overflow
-    #Deal with boxes being grouped together
-    #Special case: row short 1 element, look for 2+ spaces and spilt into new row
-    #Special case: row short 1 element, look @ row before or after for 2+ spaces to split into 
-    #   this row
-    #   **Could use column width to do this
-    #Special case (anthem): Find question marks and append those elements on previous column
-    #   or previous row
 
 
 def output_pdf_to_table(path):
