@@ -144,7 +144,7 @@ def getRows(layout):
     textboxArr = []
     while objstack:
         obj = objstack.pop()
-        # print obj
+        #print obj
         # print "{0} {1} {2} {3}".format(obj.x0, obj.x1,
         #             obj.y0,obj.y1)
        
@@ -164,10 +164,11 @@ def getRows(layout):
                     continue
                 rows.add(obj)
         elif type(obj) == LTLine:
+
             if is_line_vertical(obj):
                 lineArr.append(obj)
-                print obj
-            
+            print obj
+
         elif type(obj) in [LTLine, LTRect]:
             #Keep track of other rects to maybe use later
             rectArr.append(LTRects(obj))
@@ -221,5 +222,5 @@ def output_pdf_to_table(path):
         getRows(layout)
 
 directory = os.path.dirname(__file__)
-filename = os.path.join(directory, '../ExampleSBC/CaBronze.pdf')
+filename = os.path.join(directory, '../ExampleSBC/CalChoice.pdf')
 output_pdf_to_table(filename)

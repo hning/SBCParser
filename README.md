@@ -26,3 +26,20 @@ Assume that the columns are laid out like:
 | ------------------- | ------- | ------------------|
 | ...                 | ...     | ...               |
 
+Some pdfs don't have horizontal lines (Anthem). Have to use a different method with rects for those. 
+
+#### Analyze using lines
+* Blue Cross
+* CA Bronze
+* PPO
+#### Analyze using other methods (rects, horizontal textboxes, etc)
+* Anthem
+* OEMGroup
+* SeeChange
+* CalChoice
+#### Unreadable
+* Kaiser
+
+
+
+
