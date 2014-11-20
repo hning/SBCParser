@@ -8,17 +8,30 @@ from pdfminer.pdfpage import PDFPage
 from operator import itemgetter, attrgetter, methodcaller
 import os
 import base64, re, datetime, StringIO
+import math
 
 overlap_threshold = 0.5
 min_elements_in_row = 0
 
 #default 0.3, 0.25 works for OEMgroup
-line_margin_threshold = 0.25
+#This is the separation between lines that pdfminer uses for textbox analysis
+line_margin_threshold = 0.01
 
 #default 0.2
-word_margin_threshold = 0.2
+word_margin_threshold = 0.3
+
 pages_to_view = 1
 titles = ["Important Questions", "Answers", "Why This Matters:"]
+
+def is_line_vertical(el):
+    horizontal_distance = math.fabs(el.x1 - el.x0)
+    vertical_distance = math.fabs(el.y1 - el.y0)
+
+    #Assume that its a vertical line if the horizontal distance 
+    # is less than 1% of the vertical distance
+    if horizontal_distance <= vertical_distance*.01:
+        return True
+    return False
 
 def strip_text(input):
     return input.replace('\n','').lstrip().rstrip();
@@ -127,11 +140,17 @@ def getRows(layout):
     objstack = list(reversed(layout._objs))
     rows = TableRows()
     rectArr = []
+    lineArr = []
+    textboxArr = []
     while objstack:
         obj = objstack.pop()
-        #print obj
+        # print obj
+        # print "{0} {1} {2} {3}".format(obj.x0, obj.x1,
+        #             obj.y0,obj.y1)
        
+
         if type(obj) == LTTextBoxHorizontal:
+            textboxArr.append(obj)
             text = strip_text(obj.get_text())
             if len(text) > 0:
                 # print text.encode('utf-8');
@@ -144,9 +163,25 @@ def getRows(layout):
                 if is_title: 
                     continue
                 rows.add(obj)
-        elif type(obj) == LTRect:
+        elif type(obj) == LTLine:
+            if is_line_vertical(obj):
+                lineArr.append(obj)
+                print obj
+            
+        elif type(obj) in [LTLine, LTRect]:
             #Keep track of other rects to maybe use later
             rectArr.append(LTRects(obj))
+
+    print ""
+    textboxArr = sorted(textboxArr, key=attrgetter('x0','y0'))
+    for t in textboxArr:
+        print t
+
+    print ""
+    lineArr = sorted(lineArr, key=attrgetter('x0','y0'))
+    for l in lineArr:
+        print l
+
 
     # rectArr = sorted(rectArr, key=attrgetter('width'), reverse=True)
     # for r in rectArr:
@@ -159,8 +194,8 @@ def getRows(layout):
     #         )
     #     print r.width
 
-    rows.sort()
-    print rows
+    # rows.sort()
+    # print rows
 
     #Strategy: Keep a 2D array of objects that hold lists of elements for each row
     #For each box 
@@ -179,6 +214,7 @@ def getRows(layout):
     #Special case: row short 1 element, look for 2+ spaces and spilt into new row
     #Special case: row short 1 element, look @ row before or after for 2+ spaces to split into 
     #   this row
+    #   **Could use column width to do this
     #Special case (anthem): Find question marks and append those elements on previous column
     #   or previous row
 
@@ -206,5 +242,5 @@ def output_pdf_to_table(path):
         getRows(layout)
 
 directory = os.path.dirname(__file__)
-filename = os.path.join(directory, '../ExampleSBC/Anthem.pdf')
+filename = os.path.join(directory, '../ExampleSBC/CaBronze.pdf')
 output_pdf_to_table(filename)
