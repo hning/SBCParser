@@ -9,6 +9,7 @@ from operator import itemgetter, attrgetter, methodcaller
 import os
 import base64, re, datetime, StringIO
 import math
+import sys
 
 overlap_threshold = 0.7
 min_elements_in_row = 0
@@ -329,5 +330,5 @@ def output_pdf_to_table(path):
         getRows(layout)
 
 directory = os.path.dirname(__file__)
-filename = os.path.join(directory, 'BlueCross.pdf')
+filename = os.path.join(directory, sys.argv[1])
 output_pdf_to_table(filename)
