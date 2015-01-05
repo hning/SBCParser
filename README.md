@@ -41,6 +41,18 @@ Some pdfs don't have horizontal lines (Anthem). Have to use a different method w
 #### Unreadable
 * Kaiser
 
+##Values Extracted
+
+#### Current Key Values
+* Overall deductible (In-Network, Out of Network)
+* Specific Service deductible
+* Out of pocket limit (In-Network, Out of Network)
+* Annual Limit
+
+#### Possible Values
+* Referral for specialist
+* Network of providers
+* Not included in out of pocket limit (List of values)
 
 
 
