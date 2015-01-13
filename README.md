@@ -54,5 +54,44 @@ Some pdfs don't have horizontal lines (Anthem). Have to use a different method w
 * Network of providers
 * Not included in out of pocket limit (List of values)
 
+#Setup File
+
+```
+{
+	"overall_deductible":	{
+		"contains": ["overall","deductible"],
+		"multiple": "true",
+		"type": "number", 
+		"output_format": [
+			{"name": "overall_individual_in-network"},
+			{"name": "overall_family_in_network"},
+			{"name": "overall_individual_out-network"},
+			{"name": "overall_family_out-network"}
+		]
+	},
+	"key2": {
+		....
+	}
+}
+```
+
+### Contains
+
+The first column contains these strings (Future work: use AND and OR logic for the contains)
+
+### Multiple
+
+There are multiple hits that are described within "output_format"
+
+### Types
+* "number"
+	- Numeric values
+* "boolean"
+	- looks for "true/false" & "yes/no"
+* "boolean-extra-yes", "boolean-extra-no", "boolean-extra-all"
+	- "boolean" but also includes the extra information within the second box
+
+### Output Format
+The key pair output that is described within type and given a name
 
 
