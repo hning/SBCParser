@@ -36,6 +36,21 @@
 		"output_format": [
 			{"name": "specific_service_deductible"}
 		]
+	},
+	"referral_for_specialist": {
+		"contains": ["referral", "specialist"],
+		"multiple": "false",
+		"type": "boolean-extra-yes",
+		"output_format": [
+			{"name": "referral_for_specialist"}
+		]
+	},
+	"network_of_providers": {
+		"contains": ["network", "providers"],
+		"multiple": "false",
+		"type": "boolean-extra-all",
+		"output_format": [
+			{"name": "network_of_providers"}
+		]
 	}
-
 }
