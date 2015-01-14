@@ -75,15 +75,15 @@ Some pdfs don't have horizontal lines (Anthem). Have to use a different method w
 }
 ```
 
-### Contains
+### "contains"
 
-The first column contains these strings (Future work: use AND and OR logic for the contains)
+The first non-zero column contains these strings 
 
-### Multiple
+### "multiple"
 
 There are multiple hits that are described within "output_format"
 
-### Types
+### "type" - Types of parsing
 * "number"
 	- Numeric values
 * "boolean"
@@ -94,4 +94,6 @@ There are multiple hits that are described within "output_format"
 ### Output Format
 The key pair output that is described within type and given a name
 
-
+### Improvements
+* Add "boolean-number-yes" type. If "Yes", use output_format to read the rest of the numbers on the page. If "No", simply output "No" (Specific Case: BlueCross Out-Of-Pocket limit)
+* Contains: use AND, OR, parentheses (etc.) logic for the contains
