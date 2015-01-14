@@ -130,7 +130,7 @@ class LTRects:
 class TableClass:
     column_arr = []
     row_arr = []
-    #self.table is a 2D array of arrays that contain the text in each square
+    #self.table is a 2D array that contain the text in each square
 
     def __init__(self, _column_arr, _row_arr):
         self.column_arr = sorted(_column_arr)
@@ -156,12 +156,13 @@ class TableClass:
             output += "\n\n"
         return output
 
-    def sort_table(self):
-        for row in self.table:
-            for col in row:
-                col = sorted(col, key=attrgetter('y0'), reverse = True)
+    # def sort_table(self):
+    #     for row in self.table:
+    #         for col in row:
+    #             col = sorted(col, key=attrgetter('y0'), reverse = True)
 
     def process_cells(self):
+        #Combines the column text into a single text with sorted boxes
         self.sort_table()
         new_table = []
         for row in self.table:
