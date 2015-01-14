@@ -2,13 +2,8 @@
 	"overall_deductible":	{
 		"contains": ["overall","deductible"],
 		"multiple": "true",
-		"type": "number", 
-		"output_format": [
-			{"name": "overall_deductible_individual_in-network"},
-			{"name": "overall_deductible_family_in_network"},
-			{"name": "overall_deductible_individual_out-network"},
-			{"name": "overall_deductible_family_out-network"}
-		]
+		"type": "money-variable",
+		"prefix": "deductible"
 	},
 	"specific_service_deductible": {
 		"contains": ["deductibles","specific"],
@@ -21,20 +16,15 @@
 	"out_of_pocket_limit":	{
 		"contains": ["out","of", "pocket"],
 		"multiple": "true",
-		"type": "number", 
-		"output_format": [
-			{"name": "out_of_pocket_limit_individual_in-network"},
-			{"name": "out_of_pocket_limit_family_in_network"},
-			{"name": "out_of_pocket_limit_individual_out-network"},
-			{"name": "out_of_pocket_limit_family_out-network"}
-		]
+		"type": "money-variable", 
+		"prefix": "output_of_pocket"
 	},
 	"annual_limit": {
 		"contains": ["annual","limit"],
 		"multiple": "false",
 		"type": "boolean-extra-yes",
 		"output_format": [
-			{"name": "specific_service_deductible"}
+			{"name": "annual_limit"}
 		]
 	},
 	"referral_for_specialist": {
