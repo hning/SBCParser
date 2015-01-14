@@ -249,6 +249,8 @@ def getRows(layout, config):
     column_arr = set()
     row_arr = set()
 
+    print len(column_arr)
+
     max_x = 0
     max_y = 0
 
@@ -281,7 +283,7 @@ def getRows(layout, config):
                 row_arr.add(obj.y0)
                 max_x = max(max_x, obj.x1)
                 max_y = max(max_y, obj.y1)
-            # print obj
+ 
 
         elif type(obj) in [LTLine, LTRect]:
             #Keep track of other rects to (maybe) use later

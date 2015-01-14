@@ -133,8 +133,8 @@ class TableClass:
     #self.table is a 2D array of arrays that contain the text in each square
 
     def __init__(self, _column_arr, _row_arr):
-        self.column_arr.extend(sorted(_column_arr))
-        self.row_arr.extend(sorted(_row_arr))
+        self.column_arr = sorted(_column_arr)
+        self.row_arr = sorted(_row_arr)
         self.table = [[[] for i in xrange(len(self.column_arr))] for i in xrange(len(self.row_arr))]
             
     def __str__(self):
@@ -175,7 +175,7 @@ class TableClass:
                 text = ""
                 for c in new_col:
                     text += c.get_text().encode('utf-8')
-                new_row.append(text)
+                new_row.append(text.replace("\n"," "))
 
             new_table.append(new_row)
         self.table = new_table

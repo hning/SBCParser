@@ -2,110 +2,118 @@ test
 Imported ConfigParser
 BlueCross.json
 GET ROWS RUN
+0
 
 <LTTextBoxHorizontal(2) 32.000,532.533,446.786,544.329 u'Summary of Benefits and Coverage: What this Plan Covers & What it Costs\n'>
-<LTTextBoxHorizontal(1) 32.000,547.924,342.139,565.618 u'PPO $20/$40 Copay $250 Deductible\n'>
-<LTTextBoxHorizontal(0) 32.000,566.924,292.045,584.618 u'Anthem BlueCross BlueShield\n'>
-<LTTextBoxHorizontal(43) 36.000,28.727,350.653,39.635 u'Questions: Call 1-855-333-5735 or visit us at www.anthem.com.\n'>
-<LTTextBoxHorizontal(47) 36.000,2.727,345.275,13.635 u'at www.cciio.cms.gov or call 1-855-333-5735 to request a copy.\n'>
-<LTTextBoxHorizontal(45) 36.000,15.727,589.715,26.635 u"If you aren't clear about any of the underlined terms used in this form, see the Glossary. You can view the Glossary\n">
-<LTTextBoxHorizontal(37) 37.000,182.005,144.508,193.813 u'limit on my expenses?\n'>
-<LTTextBoxHorizontal(34) 37.000,195.005,159.388,206.813 u'Is there an out-of-pocket\n'>
-<LTTextBoxHorizontal(24) 37.000,269.510,149.860,281.318 u'deductibles for specific\n'>
-<LTTextBoxHorizontal(23) 37.000,282.510,111.316,294.318 u'Are there other\n'>
-<LTTextBoxHorizontal(17) 37.000,357.016,92.500,368.824 u'deductible?\n'>
-<LTTextBoxHorizontal(14) 37.000,370.016,130.000,381.824 u'What is the overall\n'>
-<LTTextBoxHorizontal(7) 37.000,444.528,219.016,456.324 u'Important Questions Answers\n'>
-<LTTextBoxHorizontal(26) 37.000,256.510,78.016,268.318 u'services?\n'>
-<LTTextBoxHorizontal(6) 77.000,474.014,367.543,485.930 u'document at www.anthem.com or by calling 1-855-333-5735.\n'>
+<LTTextBoxHorizontal(1) 32.000,547.924,150.080,565.618 u'PPO 1500/$35\n'>
+<LTTextBoxHorizontal(0) 32.000,566.924,194.018,584.618 u'Anthem BlueCross\n'>
+<LTTextBoxHorizontal(49) 36.000,28.727,364.645,39.635 u'Questions: Call 1-855-333-5730 or visit us at www.anthem.com/ca.\n'>
+<LTTextBoxHorizontal(53) 36.000,2.727,345.275,13.635 u'at www.cciio.cms.gov or call 1-855-333-5730 to request a copy.\n'>
+<LTTextBoxHorizontal(51) 36.000,15.727,589.715,26.635 u"If you aren't clear about any of the underlined terms used in this form, see the Glossary. You can view the Glossary\n">
+<LTTextBoxHorizontal(15) 37.000,123.505,144.508,135.313 u'limit on my expenses?\n'>
+<LTTextBoxHorizontal(14) 37.000,136.505,159.388,148.313 u'Is there an out-of-pocket\n'>
+<LTTextBoxHorizontal(12) 37.000,217.516,149.860,229.324 u'deductibles for specific\n'>
+<LTTextBoxHorizontal(11) 37.000,230.516,111.316,242.324 u'Are there other\n'>
+<LTTextBoxHorizontal(10) 37.000,331.016,92.500,342.824 u'deductible?\n'>
+<LTTextBoxHorizontal(9) 37.000,344.016,130.000,355.824 u'What is the overall\n'>
+<LTTextBoxHorizontal(7) 37.000,444.533,219.016,456.329 u'Important Questions Answers\n'>
+<LTTextBoxHorizontal(13) 37.000,204.516,78.016,216.324 u'services?\n'>
+<LTTextBoxHorizontal(6) 77.000,474.014,381.115,485.930 u'document at www.anthem.com/ca or by calling 1-855-333-5730.\n'>
 <LTTextBoxHorizontal(5) 77.000,487.014,737.804,501.064 u'This is only a summary. If you want more detail about your coverage and costs, you can get the complete terms in the policy or plan\n'>
-<LTTextBoxHorizontal(10) 169.000,409.082,270.939,420.998 u'Participating Provider\n'>
-<LTTextBoxHorizontal(22) 169.000,305.082,307.839,316.998 u'not count towards each other.\n'>
-<LTTextBoxHorizontal(21) 169.000,318.082,312.879,329.998 u'deductibles are separate and do\n'>
-<LTTextBoxHorizontal(20) 169.000,331.082,296.307,342.998 u'Non-Participating Provider\n'>
-<LTTextBoxHorizontal(19) 169.000,344.082,294.195,355.998 u' Participating Provider and\n'>
-<LTTextBoxHorizontal(18) 169.000,357.082,299.703,368.998 u'Preventive Care and Copays\n'>
-<LTTextBoxHorizontal(15) 169.000,370.082,310.935,381.998 u'Does not apply to In-Network\n'>
-<LTTextBoxHorizontal(12) 169.000,383.082,296.307,394.998 u'Non-Participating Provider\n'>
-<LTTextBoxHorizontal(42) 169.000,143.071,289.023,154.987 u'count towards each other.\n'>
-<LTTextBoxHorizontal(41) 169.000,156.071,310.359,167.987 u'pocket are separate and do not\n'>
-<LTTextBoxHorizontal(40) 169.000,169.071,306.591,180.987 u'Participating Provider out-of-\n'>
-<LTTextBoxHorizontal(38) 169.000,182.071,319.563,193.987 u'Participating Provider and Non-\n'>
-<LTTextBoxHorizontal(35) 169.000,195.071,310.291,206.987 u'Single: $6000, Family: $12000\n'>
-<LTTextBoxHorizontal(29) 169.000,208.071,296.307,219.987 u'Non-Participating Provider\n'>
-<LTTextBoxHorizontal(28) 169.000,221.071,304.571,232.987 u'Single: $3000, Family: $6000\n'>
-<LTTextBoxHorizontal(27) 169.000,234.071,292.455,245.987 u'Yes; Participating Provider\n'>
-<LTTextBoxHorizontal(25) 169.000,269.576,187.228,281.492 u'No.\n'>
-<LTTextBoxHorizontal(11) 169.000,396.082,308.103,407.998 u'$500 single / $1500 family for\n'>
-<LTTextBoxHorizontal(9) 169.000,422.082,302.383,433.998 u'$250 single / $750 family for\n'>
-<LTTextBoxHorizontal(16) 329.999,370.016,741.370,381.932 u'begins to pay for covered services you use. Check your policy to see when the deductible\n'>
-<LTTextBoxHorizontal(39) 329.999,182.005,697.307,193.921 u'the cost of covered services.  This limit helps you plan for health care expenses. \n'>
-<LTTextBoxHorizontal(36) 329.999,195.005,752.938,206.921 u'The out-of-pocket limit is the most you could pay during a policy period for your share of\n'>
-<LTTextBoxHorizontal(33) 329.999,263.076,535.847,274.992 u'3 for other costs for services this plan covers.\n'>
-<LTTextBoxHorizontal(32) 329.999,276.076,743.854,287.992 u'You don\u2019t have to meet deductibles for specific services, but see the chart starting on page\n'>
-<LTTextBoxHorizontal(31) 329.999,344.016,681.095,355.932 u'3 for how much you pay for covered services after you meet the deductible.\n'>
-<LTTextBoxHorizontal(30) 329.999,357.016,693.479,368.932 u'starts over (usually, but not always, January 1st.) See the chart starting on page\n'>
-<LTTextBoxHorizontal(13) 329.999,383.016,743.302,394.932 u'You must pay all the costs up to the deductible amount before this health insurance plan\n'>
-<LTTextBoxHorizontal(8) 329.999,444.528,430.007,456.324 u'Why this Matters:\n'>
+<LTTextBoxHorizontal(36) 169.000,211.077,255.891,222.993 u'Prescription Drug.\n'>
+<LTTextBoxHorizontal(17) 169.000,409.817,283.359,421.733 u'for In-Network Provider\n'>
+<LTTextBoxHorizontal(46) 169.000,78.076,259.263,89.992 u'towards each other.\n'>
+<LTTextBoxHorizontal(45) 169.000,91.076,289.599,102.992 u'separate and do not count\n'>
+<LTTextBoxHorizontal(44) 169.000,104.076,291.687,115.992 u'Provider out-of-pocket are\n'>
+<LTTextBoxHorizontal(43) 169.000,117.076,298.491,128.992 u'Provider and Non-Network\n'>
+<LTTextBoxHorizontal(42) 169.000,130.076,307.743,141.992 u'Member: $10000 In-Network\n'>
+<LTTextBoxHorizontal(41) 169.000,143.076,296.055,154.992 u'Non-Network Provider per\n'>
+<LTTextBoxHorizontal(40) 169.000,156.076,248.667,167.992 u'family maximum\n'>
+<LTTextBoxHorizontal(39) 169.000,169.076,292.351,180.992 u'member: $5000 2 member\n'>
+<LTTextBoxHorizontal(38) 169.000,182.076,306.399,193.992 u'Yes; In-Network Provider per\n'>
+<LTTextBoxHorizontal(34) 169.000,224.077,288.887,235.993 u'Yes; $250 per member for\n'>
+<LTTextBoxHorizontal(29) 169.000,253.817,272.007,265.733 u'helps satisfy the other.\n'>
+<LTTextBoxHorizontal(28) 169.000,266.817,302.619,278.733 u'are combined. Satisfying one\n'>
+<LTTextBoxHorizontal(27) 169.000,279.817,308.139,291.733 u'Network Provider deductibles\n'>
+<LTTextBoxHorizontal(26) 169.000,292.817,318.687,304.733 u' In-Network Provider and Non-\n'>
+<LTTextBoxHorizontal(25) 169.000,305.817,207.100,317.733 u'Hospice\n'>
+<LTTextBoxHorizontal(24) 169.000,318.817,306.135,330.733 u'Copayments, and In-network\n'>
+<LTTextBoxHorizontal(23) 169.000,331.817,257.691,343.733 u'Drugs, Office Visit\n'>
+<LTTextBoxHorizontal(22) 169.000,344.817,304.251,356.733 u'Preventive Care, Prescription\n'>
+<LTTextBoxHorizontal(21) 169.000,357.817,307.839,369.733 u'Does not apply to In-network\n'>
+<LTTextBoxHorizontal(20) 169.000,370.817,208.516,382.733 u'Provider\n'>
+<LTTextBoxHorizontal(19) 169.000,383.817,284.091,395.733 u'family for Non-Network\n'>
+<LTTextBoxHorizontal(18) 169.000,396.817,286.274,408.733 u'$1500 single / 2 members\n'>
+<LTTextBoxHorizontal(16) 169.000,422.817,318.350,434.733 u'$1500 single / 2 members family\n'>
+<LTTextBoxHorizontal(31) 329.999,344.016,741.370,355.932 u'begins to pay for covered services you use. Check your policy to see when the deductible\n'>
+<LTTextBoxHorizontal(48) 329.999,123.505,697.307,135.421 u'the cost of covered services.  This limit helps you plan for health care expenses. \n'>
+<LTTextBoxHorizontal(47) 329.999,136.505,752.938,148.421 u'The out-of-pocket limit is the most you could pay during a policy period for your share of\n'>
+<LTTextBoxHorizontal(37) 329.999,211.077,497.111,222.993 u'plan begins to pay for these services.\n'>
+<LTTextBoxHorizontal(35) 329.999,224.077,755.098,235.993 u'You must pay all the costs for these services up to the specific deductible amount before this\n'>
+<LTTextBoxHorizontal(33) 329.999,318.016,681.095,329.932 u'3 for how much you pay for covered services after you meet the deductible.\n'>
+<LTTextBoxHorizontal(32) 329.999,331.016,693.479,342.932 u'starts over (usually, but not always, January 1st.) See the chart starting on page\n'>
+<LTTextBoxHorizontal(30) 329.999,357.016,743.302,368.932 u'You must pay all the costs up to the deductible amount before this health insurance plan\n'>
+<LTTextBoxHorizontal(8) 329.999,444.533,430.007,456.329 u'Why this Matters:\n'>
 <LTTextBoxHorizontal(4) 490.565,516.533,764.003,528.329 u'Coverage For: Individual/Family | Plan Type: PPO\n'>
-<LTTextBoxHorizontal(3) 530.521,532.533,763.980,544.329 u'Coverage Period: 09/01/2013 - 08/31/2014\n'>
-<LTTextBoxHorizontal(44) 598.999,38.193,743.338,45.074 u'NV SG PPO $20/$40 Copay $250 Deductible\n'>
-<LTTextBoxHorizontal(46) 692.968,16.617,762.999,28.413 u'Page 1 of 11\n'>
+<LTTextBoxHorizontal(3) 530.521,532.533,763.980,544.329 u'Coverage Period: 10/01/2013 - 09/30/2014\n'>
+<LTTextBoxHorizontal(50) 598.999,38.193,716.893,45.074 u'CA SG PPO 1500/$35 (SG2003 7/12)\n'>
+<LTTextBoxHorizontal(52) 692.968,16.617,762.999,28.413 u'Page 1 of 12\n'>
 
-<LTLine 32.500,138.076,32.500,252.516>
-<LTLine 32.500,138.076,32.500,462.916>
-<LTLine 32.500,251.516,32.500,301.088>
-<LTLine 32.500,300.088,32.500,440.528>
+<LTLine 32.500,73.076,32.500,200.516>
+<LTLine 32.500,73.076,32.500,462.916>
+<LTLine 32.500,199.516,32.500,249.088>
+<LTLine 32.500,248.088,32.500,440.528>
 <LTLine 32.500,439.528,32.500,462.916>
-<LTLine 164.500,138.076,164.500,252.516>
-<LTLine 164.500,138.076,164.500,252.516>
-<LTLine 164.500,251.516,164.500,301.088>
-<LTLine 164.500,251.516,164.500,301.088>
-<LTLine 164.500,300.088,164.500,440.528>
-<LTLine 164.500,300.088,164.500,440.528>
+<LTLine 164.500,73.076,164.500,200.516>
+<LTLine 164.500,73.076,164.500,200.516>
+<LTLine 164.500,199.516,164.500,249.088>
+<LTLine 164.500,199.516,164.500,249.088>
+<LTLine 164.500,248.088,164.500,440.528>
+<LTLine 164.500,248.088,164.500,440.528>
 <LTLine 164.500,439.528,164.500,462.916>
 <LTLine 164.500,439.528,164.500,462.916>
-<LTLine 325.500,138.076,325.500,252.516>
-<LTLine 325.500,138.076,325.500,252.516>
-<LTLine 325.500,251.516,325.500,301.088>
-<LTLine 325.500,251.516,325.500,301.088>
-<LTLine 325.500,300.088,325.500,440.528>
-<LTLine 325.500,300.088,325.500,440.528>
+<LTLine 325.500,73.076,325.500,200.516>
+<LTLine 325.500,73.076,325.500,200.516>
+<LTLine 325.500,199.516,325.500,249.088>
+<LTLine 325.500,199.516,325.500,249.088>
+<LTLine 325.500,248.088,325.500,440.528>
+<LTLine 325.500,248.088,325.500,440.528>
 <LTLine 325.500,439.528,325.500,462.916>
 <LTLine 325.500,439.528,325.500,462.916>
-<LTLine 762.501,138.076,762.501,252.516>
-<LTLine 762.501,138.076,762.501,462.916>
-<LTLine 762.501,251.516,762.501,301.088>
-<LTLine 762.501,300.088,762.501,440.528>
+<LTLine 762.501,73.076,762.501,200.516>
+<LTLine 762.501,73.076,762.501,462.916>
+<LTLine 762.501,199.516,762.501,249.088>
+<LTLine 762.501,248.088,762.501,440.528>
 <LTLine 762.501,439.528,762.501,462.916>
 
 Didn't find place for <LTTextBoxHorizontal(2) 32.000,532.533,446.786,544.329 u'Summary of Benefits and Coverage: What this Plan Covers & What it Costs\n'>
-Didn't find place for <LTTextBoxHorizontal(1) 32.000,547.924,342.139,565.618 u'PPO $20/$40 Copay $250 Deductible\n'>
-Didn't find place for <LTTextBoxHorizontal(0) 32.000,566.924,292.045,584.618 u'Anthem BlueCross BlueShield\n'>
-Didn't find place for <LTTextBoxHorizontal(43) 36.000,28.727,350.653,39.635 u'Questions: Call 1-855-333-5735 or visit us at www.anthem.com.\n'>
-Didn't find place for <LTTextBoxHorizontal(47) 36.000,2.727,345.275,13.635 u'at www.cciio.cms.gov or call 1-855-333-5735 to request a copy.\n'>
-Didn't find place for <LTTextBoxHorizontal(45) 36.000,15.727,589.715,26.635 u"If you aren't clear about any of the underlined terms used in this form, see the Glossary. You can view the Glossary\n">
-Didn't find place for <LTTextBoxHorizontal(6) 77.000,474.014,367.543,485.930 u'document at www.anthem.com or by calling 1-855-333-5735.\n'>
+Didn't find place for <LTTextBoxHorizontal(1) 32.000,547.924,150.080,565.618 u'PPO 1500/$35\n'>
+Didn't find place for <LTTextBoxHorizontal(0) 32.000,566.924,194.018,584.618 u'Anthem BlueCross\n'>
+Didn't find place for <LTTextBoxHorizontal(49) 36.000,28.727,364.645,39.635 u'Questions: Call 1-855-333-5730 or visit us at www.anthem.com/ca.\n'>
+Didn't find place for <LTTextBoxHorizontal(53) 36.000,2.727,345.275,13.635 u'at www.cciio.cms.gov or call 1-855-333-5730 to request a copy.\n'>
+Didn't find place for <LTTextBoxHorizontal(51) 36.000,15.727,589.715,26.635 u"If you aren't clear about any of the underlined terms used in this form, see the Glossary. You can view the Glossary\n">
+Didn't find place for <LTTextBoxHorizontal(6) 77.000,474.014,381.115,485.930 u'document at www.anthem.com/ca or by calling 1-855-333-5730.\n'>
 Didn't find place for <LTTextBoxHorizontal(5) 77.000,487.014,737.804,501.064 u'This is only a summary. If you want more detail about your coverage and costs, you can get the complete terms in the policy or plan\n'>
 Didn't find place for <LTTextBoxHorizontal(4) 490.565,516.533,764.003,528.329 u'Coverage For: Individual/Family | Plan Type: PPO\n'>
-Didn't find place for <LTTextBoxHorizontal(3) 530.521,532.533,763.980,544.329 u'Coverage Period: 09/01/2013 - 08/31/2014\n'>
-Didn't find place for <LTTextBoxHorizontal(44) 598.999,38.193,743.338,45.074 u'NV SG PPO $20/$40 Copay $250 Deductible\n'>
-Didn't find place for <LTTextBoxHorizontal(46) 692.968,16.617,762.999,28.413 u'Page 1 of 11\n'>
+Didn't find place for <LTTextBoxHorizontal(3) 530.521,532.533,763.980,544.329 u'Coverage Period: 10/01/2013 - 09/30/2014\n'>
+Didn't find place for <LTTextBoxHorizontal(50) 598.999,38.193,716.893,45.074 u'CA SG PPO 1500/$35 (SG2003 7/12)\n'>
+Didn't find place for <LTTextBoxHorizontal(52) 692.968,16.617,762.999,28.413 u'Page 1 of 12\n'>
 
 y (row): 
-138.076242135,251.516277129,300.087931065,439.527902502,462.916453896,
+73.076131089,199.516404243,248.088058179,439.527902502,462.916453896,
 x (col):
 32.4999475476,164.499982023,325.499941455,762.50067972,
 |Is there an out-of-pocket
 limit on my expenses?
-|Yes; Participating Provider
-Single: $3000, Family: $6000
-Non-Participating Provider
-Single: $6000, Family: $12000
-Participating Provider and Non-
-Participating Provider out-of-
-pocket are separate and do not
-count towards each other.
+|Yes; In-Network Provider per
+member: $5000 2 member
+family maximum
+Non-Network Provider per
+Member: $10000 In-Network
+Provider and Non-Network
+Provider out-of-pocket are
+separate and do not count
+towards each other.
 |The out-of-pocket limit is the most you could pay during a policy period for your share of
 the cost of covered services.  This limit helps you plan for health care expenses. 
 |
@@ -113,23 +121,28 @@ the cost of covered services.  This limit helps you plan for health care expense
 |Are there other
 deductibles for specific
 services?
-|No.
-|You don’t have to meet deductibles for specific services, but see the chart starting on page
-3 for other costs for services this plan covers.
+|Yes; $250 per member for
+Prescription Drug.
+|You must pay all the costs for these services up to the specific deductible amount before this
+plan begins to pay for these services.
 |
 
 |What is the overall
 deductible?
-|$250 single / $750 family for
-Participating Provider
-$500 single / $1500 family for
-Non-Participating Provider
-Does not apply to In-Network
-Preventive Care and Copays
- Participating Provider and
-Non-Participating Provider
-deductibles are separate and do
-not count towards each other.
+|$1500 single / 2 members family
+for In-Network Provider
+$1500 single / 2 members
+family for Non-Network
+Provider
+Does not apply to In-network
+Preventive Care, Prescription
+Drugs, Office Visit
+Copayments, and In-network
+Hospice
+ In-Network Provider and Non-
+Network Provider deductibles
+are combined. Satisfying one
+helps satisfy the other.
 |You must pay all the costs up to the deductible amount before this health insurance plan
 begins to pay for covered services you use. Check your policy to see when the deductible
 starts over (usually, but not always, January 1st.) See the chart starting on page
@@ -140,202 +153,180 @@ starts over (usually, but not always, January 1st.) See the chart starting on pa
 ||Why this Matters:
 |
 
-|Anthem BlueCross BlueShield
-PPO $20/$40 Copay $250 Deductible
+|Anthem BlueCross
+PPO 1500/$35
 Summary of Benefits and Coverage: What this Plan Covers & What it Costs
-Questions: Call 1-855-333-5735 or visit us at www.anthem.com.
+Questions: Call 1-855-333-5730 or visit us at www.anthem.com/ca.
 If you aren't clear about any of the underlined terms used in this form, see the Glossary. You can view the Glossary
-at www.cciio.cms.gov or call 1-855-333-5735 to request a copy.
+at www.cciio.cms.gov or call 1-855-333-5730 to request a copy.
 |This is only a summary. If you want more detail about your coverage and costs, you can get the complete terms in the policy or plan
-document at www.anthem.com or by calling 1-855-333-5735.
-|Coverage Period: 09/01/2013 - 08/31/2014
+document at www.anthem.com/ca or by calling 1-855-333-5730.
+|Coverage Period: 10/01/2013 - 09/30/2014
 Coverage For: Individual/Family | Plan Type: PPO
-NV SG PPO $20/$40 Copay $250 Deductible
-Page 1 of 11
+CA SG PPO 1500/$35 (SG2003 7/12)
+Page 1 of 12
 |
 
 
-output_of_pocket_individual_in-network:3000
-output_of_pocket_individual_in-network:6000
-output_of_pocket_individual_in-network:6000
-output_of_pocket_individual_in-network:12000
-specific_service_deductible:no.
-deductible_individual_in-network:250
-deductible_individual_in-network:750
-deductible_individual_in-network:500
-deductible_individual_in-network:1500
+output_of_pocket_individual:5000
+output_of_pocket_individual:10000
+
+specific_service_deductible:yes
+
+deductible_individual:1500
+deductible_individual:1500
+
 GET ROWS RUN
+0
 
-<LTTextBoxHorizontal(38) 29.000,262.877,122.636,274.685 u"plan doesn't cover?\n">
-<LTTextBoxHorizontal(37) 29.000,275.877,135.512,287.685 u'Are there services this\n'>
-<LTTextBoxHorizontal(34) 29.000,298.449,103.448,310.257 u'see a specialist?\n'>
-<LTTextBoxHorizontal(32) 29.000,311.449,139.088,323.257 u'Do I need a referral to\n'>
-<LTTextBoxHorizontal(25) 29.000,340.521,136.184,352.329 u'network of providers?\n'>
-<LTTextBoxHorizontal(24) 29.000,353.521,127.640,365.329 u'Does this plan use a\n'>
-<LTTextBoxHorizontal(20) 29.000,382.593,92.660,394.401 u'insurer pays?\n'>
-<LTTextBoxHorizontal(18) 29.000,395.593,151.136,407.401 u'annual limit on what the\n'>
-<LTTextBoxHorizontal(16) 29.000,408.593,117.152,420.401 u'Is there an overall\n'>
-<LTTextBoxHorizontal(3) 29.000,489.599,145.844,501.407 u'the out-of-pocket limit?\n'>
-<LTTextBoxHorizontal(2) 29.000,502.599,146.000,514.407 u'What is not included in\n'>
-<LTTextBoxHorizontal(0) 29.000,583.611,211.016,595.407 u'Important Questions Answers\n'>
-<LTTextBoxHorizontal(39) 161.000,269.443,179.516,281.359 u'Yes.\n'>
-<LTTextBoxHorizontal(35) 161.000,298.515,241.796,310.431 u'to see a specialist.\n'>
-<LTTextBoxHorizontal(33) 161.000,311.515,301.723,323.431 u'No, you do not need a referral\n'>
-<LTTextBoxHorizontal(26) 161.000,360.021,302.419,371.937 u'Yes. See www.anthem.com or\n'>
-<LTTextBoxHorizontal(21) 161.000,382.659,245.540,394.575 u'will pay each year.\n'>
-<LTTextBoxHorizontal(19) 161.000,395.659,299.431,407.575 u'annual limit on the amount it\n'>
-<LTTextBoxHorizontal(17) 161.000,408.659,300.871,420.575 u'No. This policy has no overall\n'>
-<LTTextBoxHorizontal(15) 161.000,431.165,217.448,443.081 u'transplants..\n'>
-<LTTextBoxHorizontal(14) 161.000,444.165,271.903,456.081 u'human organ and tissue\n'>
-<LTTextBoxHorizontal(13) 161.000,457.165,309.007,469.081 u'Coinsurance amounts related to\n'>
-<LTTextBoxHorizontal(12) 161.000,470.165,263.731,482.081 u'Plan, Out of Network\n'>
-<LTTextBoxHorizontal(11) 161.000,483.165,295.603,495.081 u'Under the Prescription Drug\n'>
-<LTTextBoxHorizontal(9) 161.000,496.165,303.247,508.081 u'to Prescription Drugs Covered\n'>
-<LTTextBoxHorizontal(8) 161.000,509.165,311.887,521.081 u'Cover, Premiums, Costs Related\n'>
-<LTTextBoxHorizontal(7) 161.000,522.165,305.419,534.081 u"Health Care This Plan Doesn't\n">
-<LTTextBoxHorizontal(6) 161.000,535.165,291.667,547.081 u'Pre-Authorization Penalties,\n'>
-<LTTextBoxHorizontal(5) 161.000,548.165,283.951,560.081 u'Deductibles, Copayments,\n'>
-<LTTextBoxHorizontal(4) 161.000,561.165,271.087,573.081 u'Balance-Billed Charges,\n'>
-<LTTextBoxHorizontal(30) 161.000,334.021,268.808,345.937 u'participating providers.\n'>
-<LTTextBoxHorizontal(28) 161.000,347.021,313.087,358.937 u'call 1-855-333-5735 for a list of\n'>
-<LTTextBoxHorizontal(41) 321.999,262.943,607.719,274.859 u'document for additional information about excluded services.\n'>
-<LTTextBoxHorizontal(40) 321.999,275.943,726.915,287.859 u'Some of the services this plan doesn\u2019t cover are listed on page 8. See your policy or plan\n'>
-<LTTextBoxHorizontal(36) 321.999,305.015,656.967,316.931 u'You can see the specialist you choose without permission from this plan.\n'>
-<LTTextBoxHorizontal(31) 321.999,334.087,495.195,346.003 u'to refer to providers in their network.\n'>
-<LTTextBoxHorizontal(29) 321.999,347.087,739.826,359.003 u'of the costs of covered services.  Plans use the terms in-network, preferred, or participating\n'>
-<LTTextBoxHorizontal(27) 321.999,360.087,743.294,372.003 u'If you use an in-network doctor or other health care provider, this plan will pay some or all\n'>
-<LTTextBoxHorizontal(23) 321.999,389.159,490.659,401.075 u'covered services, such as office visits.\n'>
-<LTTextBoxHorizontal(22) 321.999,402.159,731.979,414.075 u'The chart starting on page 3 describes any limits on what the insurer will pay for specific\n'>
-<LTTextBoxHorizontal(10) 321.999,496.165,726.483,508.081 u"Even though you pay these expenses, they don't count toward the out-of-pocket limit.\n">
-<LTTextBoxHorizontal(1) 321.999,583.611,422.007,595.407 u'Why this Matters:\n'>
-<LTTextBoxHorizontal(42) 692.968,16.617,762.999,28.413 u'Page 2 of 11\n'>
+<LTTextBoxHorizontal(37) 29.000,275.882,122.636,287.690 u"plan doesn't cover?\n">
+<LTTextBoxHorizontal(36) 29.000,288.882,135.512,300.690 u'Are there services this\n'>
+<LTTextBoxHorizontal(33) 29.000,311.454,103.448,323.262 u'see a specialist?\n'>
+<LTTextBoxHorizontal(31) 29.000,324.454,139.088,336.262 u'Do I need a referral to\n'>
+<LTTextBoxHorizontal(24) 29.000,353.521,136.184,365.329 u'network of providers?\n'>
+<LTTextBoxHorizontal(23) 29.000,366.521,127.640,378.329 u'Does this plan use a\n'>
+<LTTextBoxHorizontal(19) 29.000,395.598,92.660,407.406 u'insurer pays?\n'>
+<LTTextBoxHorizontal(17) 29.000,408.598,151.136,420.406 u'annual limit on what the\n'>
+<LTTextBoxHorizontal(15) 29.000,421.598,117.152,433.406 u'Is there an overall\n'>
+<LTTextBoxHorizontal(3) 29.000,496.099,145.844,507.907 u'the out-of-pocket limit?\n'>
+<LTTextBoxHorizontal(2) 29.000,509.099,146.000,520.907 u'What is not included in\n'>
+<LTTextBoxHorizontal(0) 29.000,583.616,211.016,595.412 u'Important Questions Answers\n'>
+<LTTextBoxHorizontal(28) 161.000,347.158,297.727,359.074 u'list of participating providers.\n'>
+<LTTextBoxHorizontal(38) 161.000,282.443,179.516,294.359 u'Yes.\n'>
+<LTTextBoxHorizontal(34) 161.000,311.515,241.796,323.431 u'to see a specialist.\n'>
+<LTTextBoxHorizontal(32) 161.000,324.515,301.723,336.431 u'No, you do not need a referral\n'>
+<LTTextBoxHorizontal(27) 161.000,360.158,296.983,372.074 u'or call 1-855-333-5730 for a\n'>
+<LTTextBoxHorizontal(25) 161.000,373.158,303.979,385.074 u'Yes. See www.anthem.com/ca\n'>
+<LTTextBoxHorizontal(20) 161.000,395.659,245.540,407.575 u'will pay each year.\n'>
+<LTTextBoxHorizontal(18) 161.000,408.659,299.431,420.575 u'annual limit on the amount it\n'>
+<LTTextBoxHorizontal(16) 161.000,421.659,300.871,433.575 u'No. This policy has no overall\n'>
+<LTTextBoxHorizontal(13) 161.000,444.170,218.876,456.086 u'copayments.\n'>
+<LTTextBoxHorizontal(12) 161.000,457.170,293.875,469.086 u'Health and Substance Abuse\n'>
+<LTTextBoxHorizontal(11) 161.000,470.170,287.503,482.086 u'Plan, Acupuncture, Mental\n'>
+<LTTextBoxHorizontal(10) 161.000,483.170,295.603,495.086 u'Under the Prescription Drug\n'>
+<LTTextBoxHorizontal(9) 161.000,496.170,303.247,508.086 u'to Prescription Drugs Covered\n'>
+<LTTextBoxHorizontal(8) 161.000,509.170,311.887,521.086 u'Cover, Premiums, Costs Related\n'>
+<LTTextBoxHorizontal(7) 161.000,522.170,305.419,534.086 u"Health Care This Plan Doesn't\n">
+<LTTextBoxHorizontal(6) 161.000,535.170,297.943,547.086 u'Infertility Treatment Copays,\n'>
+<LTTextBoxHorizontal(5) 161.000,548.170,291.667,560.086 u'Pre-Authorization Penalties,\n'>
+<LTTextBoxHorizontal(4) 161.000,561.170,271.087,573.086 u'Balance-Billed Charges,\n'>
+<LTTextBoxHorizontal(40) 321.999,275.943,607.719,287.859 u'document for additional information about excluded services.\n'>
+<LTTextBoxHorizontal(39) 321.999,288.943,726.915,300.859 u'Some of the services this plan doesn\u2019t cover are listed on page 8. See your policy or plan\n'>
+<LTTextBoxHorizontal(35) 321.999,318.015,656.967,329.931 u'You can see the specialist you choose without permission from this plan.\n'>
+<LTTextBoxHorizontal(30) 321.999,347.087,495.195,359.003 u'to refer to providers in their network.\n'>
+<LTTextBoxHorizontal(29) 321.999,360.087,739.826,372.003 u'of the costs of covered services.  Plans use the terms in-network, preferred, or participating\n'>
+<LTTextBoxHorizontal(26) 321.999,373.087,743.294,385.003 u'If you use an in-network doctor or other health care provider, this plan will pay some or all\n'>
+<LTTextBoxHorizontal(22) 321.999,402.159,490.659,414.075 u'covered services, such as office visits.\n'>
+<LTTextBoxHorizontal(21) 321.999,415.159,731.979,427.075 u'The chart starting on page 3 describes any limits on what the insurer will pay for specific\n'>
+<LTTextBoxHorizontal(14) 321.999,502.665,726.483,514.581 u"Even though you pay these expenses, they don't count toward the out-of-pocket limit.\n">
+<LTTextBoxHorizontal(1) 321.999,583.616,422.007,595.412 u'Why this Matters:\n'>
+<LTTextBoxHorizontal(41) 692.968,16.617,762.999,28.413 u'Page 2 of 12\n'>
 
-<LTLine 24.500,257.883,24.500,294.455>
-<LTLine 24.500,257.883,24.500,602.001>
-<LTLine 24.500,293.455,24.500,330.027>
-<LTLine 24.500,329.027,24.500,378.599>
-<LTLine 24.500,377.599,24.500,427.171>
-<LTLine 24.500,426.171,24.500,579.612>
+<LTLine 24.500,270.883,24.500,307.455>
+<LTLine 24.500,270.883,24.500,602.001>
+<LTLine 24.500,306.455,24.500,343.027>
+<LTLine 24.500,342.027,24.500,391.599>
+<LTLine 24.500,390.599,24.500,440.171>
+<LTLine 24.500,439.171,24.500,579.612>
 <LTLine 24.500,578.613,24.500,602.001>
-<LTLine 156.500,257.883,156.500,294.455>
-<LTLine 156.500,257.883,156.500,294.455>
-<LTLine 156.500,293.455,156.500,330.027>
-<LTLine 156.500,293.455,156.500,330.027>
-<LTLine 156.500,329.027,156.500,378.599>
-<LTLine 156.500,329.027,156.500,378.599>
-<LTLine 156.500,377.599,156.500,427.171>
-<LTLine 156.500,377.599,156.500,427.171>
-<LTLine 156.500,426.171,156.500,579.612>
-<LTLine 156.500,426.171,156.500,579.612>
+<LTLine 156.500,270.883,156.500,307.455>
+<LTLine 156.500,270.883,156.500,307.455>
+<LTLine 156.500,306.455,156.500,343.027>
+<LTLine 156.500,306.455,156.500,343.027>
+<LTLine 156.500,342.027,156.500,391.599>
+<LTLine 156.500,342.027,156.500,391.599>
+<LTLine 156.500,390.599,156.500,440.171>
+<LTLine 156.500,390.599,156.500,440.171>
+<LTLine 156.500,439.171,156.500,579.612>
+<LTLine 156.500,439.171,156.500,579.612>
 <LTLine 156.500,578.613,156.500,602.001>
 <LTLine 156.500,578.613,156.500,602.001>
-<LTLine 317.500,257.883,317.500,294.455>
-<LTLine 317.500,257.883,317.500,294.455>
-<LTLine 317.500,293.455,317.500,330.027>
-<LTLine 317.500,293.455,317.500,330.027>
-<LTLine 317.500,329.027,317.500,378.599>
-<LTLine 317.500,329.027,317.500,378.599>
-<LTLine 317.500,377.599,317.500,427.171>
-<LTLine 317.500,377.599,317.500,427.171>
-<LTLine 317.500,426.171,317.500,579.612>
-<LTLine 317.500,426.171,317.500,579.612>
+<LTLine 317.500,270.883,317.500,307.455>
+<LTLine 317.500,270.883,317.500,307.455>
+<LTLine 317.500,306.455,317.500,343.027>
+<LTLine 317.500,306.455,317.500,343.027>
+<LTLine 317.500,342.027,317.500,391.599>
+<LTLine 317.500,342.027,317.500,391.599>
+<LTLine 317.500,390.599,317.500,440.171>
+<LTLine 317.500,390.599,317.500,440.171>
+<LTLine 317.500,439.171,317.500,579.612>
+<LTLine 317.500,439.171,317.500,579.612>
 <LTLine 317.500,578.613,317.500,602.001>
 <LTLine 317.500,578.613,317.500,602.001>
-<LTLine 754.500,257.883,754.500,294.455>
-<LTLine 754.500,257.883,754.500,602.001>
-<LTLine 754.500,293.455,754.500,330.027>
-<LTLine 754.500,329.027,754.500,378.599>
-<LTLine 754.500,377.599,754.500,427.171>
-<LTLine 754.500,426.171,754.500,579.612>
+<LTLine 754.500,270.883,754.500,307.455>
+<LTLine 754.500,270.883,754.500,602.001>
+<LTLine 754.500,306.455,754.500,343.027>
+<LTLine 754.500,342.027,754.500,391.599>
+<LTLine 754.500,390.599,754.500,440.171>
+<LTLine 754.500,439.171,754.500,579.612>
 <LTLine 754.500,578.613,754.500,602.001>
 
+Didn't find place for <LTTextBoxHorizontal(41) 692.968,16.617,762.999,28.413 u'Page 2 of 12\n'>
 
 y (row): 
-138.076242135,251.516277129,300.087931065,439.527902502,462.916453896,257.88304659,293.455002243,329.026957896,377.599151709,426.171345522,578.61317475,602.00064639,
+270.88328475,306.455240403,342.027196056,390.598849992,439.171043805,578.61317475,602.00064639,
 x (col):
-32.4999475476,164.499982023,325.499941455,762.50067972,24.5001041493,156.500084637,317.499504192,754.49970258,
-||||||||
-
+24.5001041493,156.500084637,317.499504192,754.49970258,
 |Are there services this
 plan doesn't cover?
 |Yes.
 |Some of the services this plan doesn’t cover are listed on page 8. See your policy or plan
 document for additional information about excluded services.
-|||||
+|
+
+|Do I need a referral to
+see a specialist?
+|No, you do not need a referral
+to see a specialist.
+|You can see the specialist you choose without permission from this plan.
+|
+
+|Does this plan use a
+network of providers?
+|Yes. See www.anthem.com/ca
+or call 1-855-333-5730 for a
+list of participating providers.
+|If you use an in-network doctor or other health care provider, this plan will pay some or all
+of the costs of covered services.  Plans use the terms in-network, preferred, or participating
+to refer to providers in their network.
+|
 
 |Is there an overall
 annual limit on what the
 insurer pays?
-Does this plan use a
-network of providers?
-Do I need a referral to
-see a specialist?
-|transplants..
-No. This policy has no overall
+|No. This policy has no overall
 annual limit on the amount it
 will pay each year.
-Yes. See www.anthem.com or
-call 1-855-333-5735 for a list of
-participating providers.
-No, you do not need a referral
-to see a specialist.
 |The chart starting on page 3 describes any limits on what the insurer will pay for specific
 covered services, such as office visits.
-If you use an in-network doctor or other health care provider, this plan will pay some or all
-of the costs of covered services.  Plans use the terms in-network, preferred, or participating
-to refer to providers in their network.
-You can see the specialist you choose without permission from this plan.
-|||||
+|
 
-||human organ and tissue
-||||||
-
-|Important Questions Answers
-What is not included in
+|What is not included in
 the out-of-pocket limit?
 |Balance-Billed Charges,
-Deductibles, Copayments,
 Pre-Authorization Penalties,
+Infertility Treatment Copays,
 Health Care This Plan Doesn't
 Cover, Premiums, Costs Related
 to Prescription Drugs Covered
 Under the Prescription Drug
-Plan, Out of Network
-Coinsurance amounts related to
-|Why this Matters:
-Even though you pay these expenses, they don't count toward the out-of-pocket limit.
-Page 2 of 11
-|||||
+Plan, Acupuncture, Mental
+Health and Substance Abuse
+copayments.
+|Even though you pay these expenses, they don't count toward the out-of-pocket limit.
+|
 
-||||||||
+|Important Questions Answers
+||Why this Matters:
+|
 
-||||||||
-
-||||||||
-
-||||||||
-
-||||||||
-
-||||||||
-
-||||||||
+|||Page 2 of 12
+|
 
 
-Row wrong 8
-referral_for_specialist:transplants..
-no. this policy has no overall
-annual limit on the amount it
-will pay each year.
-yes. see www.anthem.com or
-call 1-855-333-5735 for a list of
-participating providers.
-no, you do not need a referral
-to see a specialist.
-Row wrong 8
-Row wrong 8
-Row wrong 8
-Row wrong 8
-Row wrong 8
-Row wrong 8
-Row wrong 8
+referral_for_specialist:no
+
+network_of_providers:yes
+
+annual_limit:no
+

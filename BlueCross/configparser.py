@@ -60,7 +60,10 @@ class ConfigParser:
 
 				if found_all is True and len(key_info) > 0:
 					to_delete = key
+					print ""
 					break
+				
+
 
 			if not to_delete is "":
 				del self.config.data[to_delete]
@@ -93,6 +96,17 @@ class ConfigParser:
 
 	def boolean_parse(self, text, info):
 		text = text.lower()
+
+		possible_values = ["true", "false", "yes", "no"]
+		replace_punctuation = string.maketrans(string.punctuation, ' '*len(string.punctuation))
+		text = text.translate(replace_punctuation)
+		text = ' ' + text + ' '
+
+		#Finding the possible values within the boolean
+		for val in possible_values:
+			if (' ' + val + ' ') in text:
+				return [val] 
+
 		return [text.rstrip()]
 
 	def money_parse(self, text, info):
