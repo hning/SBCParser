@@ -11,6 +11,9 @@ import base64, re, datetime, StringIO
 import math
 import sys
 
+import config
+from config import *
+
 overlap_threshold = 0.7
 min_elements_in_row = 0
 
@@ -158,6 +161,7 @@ class TableClass:
             output += str(c) + ","
 
         output += "\n"
+        self.sort_table()
         for row in self.table:
             for col in row:
                 cell_arr = sorted(col, key=attrgetter('y0'), reverse = True)
@@ -166,6 +170,12 @@ class TableClass:
                     output += cell.get_text().encode('utf-8')
             output += "\n\n"
         return output
+
+    def sort_table(self):
+        for row in self.table:
+            for col in row:
+                col = sorted(col, key=attrgetter('y0'), reverse = True)
+
 
     def add_textbox(self, text_box):
         col_num = -1
@@ -331,4 +341,5 @@ def output_pdf_to_table(path):
 
 directory = os.path.dirname(__file__)
 filename = os.path.join(directory, sys.argv[1])
+config = Config(os.path.join(directory, sys.argv[2]))
 output_pdf_to_table(filename)
