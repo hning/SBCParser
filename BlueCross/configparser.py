@@ -2,8 +2,6 @@ from config import *
 from TableClass import *
 import string
 
-print "Imported ConfigParser"
-
 class ConfigParser:
 	def __init__(self, _config, _table):
 		self.config =  _config
@@ -60,11 +58,8 @@ class ConfigParser:
 
 				if found_all is True and len(key_info) > 0:
 					to_delete = key
-					print ""
 					break
 				
-
-
 			if not to_delete is "":
 				del self.config.data[to_delete]
 
@@ -105,10 +100,10 @@ class ConfigParser:
 		#Finding the possible values within the boolean
 		for val in possible_values:
 			if (' ' + val + ' ') in no_punc_text:
-				output_arr = [val + '|'] 
+				output_arr = [val] 
 
 		if "extra" in info["type"]:
-			output_arr = [output_arr[0] + text]
+			output_arr = [output_arr[0] + "|" + text]
 
 		return output_arr
 

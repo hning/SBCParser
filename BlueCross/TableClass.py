@@ -223,8 +223,8 @@ class TableClass:
                 col_num = i-1
                 break
 
-        if row_num == -1 or col_num == -1:
-            print "Didn't find place for {0}".format(text_box)
+        # if row_num == -1 or col_num == -1:
+        #     print "Didn't find place for {0}".format(text_box)
 
         self.table[row_num][col_num].append(text_box)
 

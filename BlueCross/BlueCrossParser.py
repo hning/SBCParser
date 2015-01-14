@@ -238,8 +238,6 @@ import configparser
 from configparser import *
 
 def getRows(layout, config):
-    print "GET ROWS RUN"
-
     objstack = list(reversed(layout._objs))
     rows = TableRows()
     rectArr = []
@@ -248,8 +246,6 @@ def getRows(layout, config):
 
     column_arr = set()
     row_arr = set()
-
-    print len(column_arr)
 
     max_x = 0
     max_y = 0
@@ -292,23 +288,23 @@ def getRows(layout, config):
     column_arr.add(max_x)
     row_arr.add(max_y)
 
-    print ""
-    textboxArr = sorted(textboxArr, key=attrgetter('x0','y0'))
-    for t in textboxArr:
-        print t
+    # print ""
+    # textboxArr = sorted(textboxArr, key=attrgetter('x0','y0'))
+    # for t in textboxArr:
+    #     print t
 
 
-    print ""
-    lineArr = sorted(lineArr, key=attrgetter('x0','y0'))
-    for l in lineArr:
-        print l
+    # print ""
+    # lineArr = sorted(lineArr, key=attrgetter('x0','y0'))
+    # for l in lineArr:
+    #     print l
 
-    print ""
+    # print ""
 
     tableClass = TableClass(column_arr, row_arr)
     tableClass.add_textbox_arr(textboxArr)
-    print ""
-    print tableClass
+    # print ""
+    # print tableClass
 
     tableClass.process_cells()
     configparser = ConfigParser(config, tableClass)
