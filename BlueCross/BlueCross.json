@@ -2,7 +2,7 @@
 	"overall_deductible":	{
 		"contains": ["overall","deductible"],
 		"multiple": "true",
-		"type": "money", 
+		"type": "number", 
 		"output_format": [
 			{"name": "overall_deductible_individual_in-network"},
 			{"name": "overall_deductible_family_in_network"},
@@ -21,7 +21,7 @@
 	"out_of_pocket_limit":	{
 		"contains": ["out","of", "pocket"],
 		"multiple": "true",
-		"type": "money", 
+		"type": "number", 
 		"output_format": [
 			{"name": "out_of_pocket_limit_individual_in-network"},
 			{"name": "out_of_pocket_limit_family_in_network"},

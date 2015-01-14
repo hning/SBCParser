@@ -86,6 +86,8 @@ There are multiple hits that are described within "output_format"
 ### "type" - Types of parsing
 * "number"
 	- Numeric values
+* "money"
+	- Numeric values preceded by "$"
 * "boolean"
 	- looks for "true/false" & "yes/no"
 * "boolean-extra-yes", "boolean-extra-no", "boolean-extra-all"
@@ -97,3 +99,5 @@ The key pair output that is described within type and given a name
 ### Improvements
 * Add "boolean-number-yes" type. If "Yes", use output_format to read the rest of the numbers on the page. If "No", simply output "No" (Specific Case: BlueCross Out-Of-Pocket limit)
 * Contains: use AND, OR, parentheses (etc.) logic for the contains
+* Variable numbers (For example: 2 numbers may indicate that there are no out of network penalties)
+	- Possibly "money-variable": Creates names and parses based on the number of money items within the text

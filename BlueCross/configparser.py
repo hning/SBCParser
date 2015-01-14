@@ -69,15 +69,20 @@ class ConfigParser:
 		text = text.lower()
 		return [text.rstrip()]
 
+	def money_parse(self, text):
+		return [int(s.translate(None, string.punctuation)) for s in text.split() if ("$" in s and s.translate(None, string.punctuation).isdigit())]
+
 	def parse_cell(self, cell, in_type):
 		#Types: number, boolean
 
-		#print in_type
+		print in_type
 
 		if in_type == "number":
 			return self.number_parse(cell)
 		elif "boolean" in in_type:
 			return self.boolean_parse(cell, in_type)
+		elif in_type == "money":
+			return self.money_parse(cell)
 		else: 
 			print "ERROR: Type '{0}' is not present".format(in_type)
 
