@@ -13,9 +13,9 @@ class Config:
 		with open(self.setup_path) as data_file:    
    			self.data = json.load(data_file)
 
-   			for key in self.data:
-   				print key
-   				print self.data[key]
+   			# for key in self.data:
+   			# 	print key
+   			# 	print self.data[key]
 
    	def __getitem__(self, key):
    		return self.data[key]
