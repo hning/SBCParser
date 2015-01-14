@@ -95,19 +95,22 @@ class ConfigParser:
 		return [int(s.translate(None, string.punctuation)) for s in text.split() if s.translate(None, string.punctuation).isdigit()]
 
 	def boolean_parse(self, text, info):
-		text = text.lower()
 
 		possible_values = ["true", "false", "yes", "no"]
 		replace_punctuation = string.maketrans(string.punctuation, ' '*len(string.punctuation))
-		text = text.translate(replace_punctuation)
-		text = ' ' + text + ' '
+		no_punc_text = text.translate(replace_punctuation).lower()
+		no_punc_text = ' ' + no_punc_text + ' '
 
+		output_arr = []
 		#Finding the possible values within the boolean
 		for val in possible_values:
-			if (' ' + val + ' ') in text:
-				return [val] 
+			if (' ' + val + ' ') in no_punc_text:
+				output_arr = [val + '|'] 
 
-		return [text.rstrip()]
+		if "extra" in info["type"]:
+			output_arr = [output_arr[0] + text]
+
+		return output_arr
 
 	def money_parse(self, text, info):
 		if "variable" in info["type"]:

@@ -38,7 +38,7 @@
 	"network_of_providers": {
 		"contains": ["network", "providers"],
 		"multiple": "false",
-		"type": "boolean",
+		"type": "boolean-extra",
 		"output_format": [
 			{"name": "network_of_providers"}
 		]

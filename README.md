@@ -92,7 +92,7 @@ There are multiple hits that are described within "output_format"
 	- Determines whether there is a non-network option and then generates correct output based on the given information
 * "boolean"
 	- looks for "true/false" & "yes/no"
-* "boolean-extra-yes", "boolean-extra-no", "boolean-extra-all"
+* "boolean-extra"
 	- "boolean" but also includes the extra information within the second box
 
 ### Output Format
