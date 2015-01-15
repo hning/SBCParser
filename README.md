@@ -102,4 +102,6 @@ The key pair output that is described within type and given a name
 * Add "boolean-number-yes" type. If "Yes", use output_format to read the rest of the numbers on the page. If "No", simply output "No" (Specific Case: BlueCross Out-Of-Pocket limit)
 * Contains: use AND, OR, parentheses (etc.) logic for the contains
 * Works on badly formatted pdfs (Kaiser etc.)
+* Build out y-value from the found sentence
+* Out-of-network to In-network values (how they're grouped)
 
