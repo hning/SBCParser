@@ -1,6 +1,8 @@
 # SBCParser
 
-Parse SBC documents using pdfminer
+CURRENT WORKING PARSER FOUND UNDER BlueCross/BlueCrossParser.py
+
+Parse SBC documents using pdfminer.
 
 Mostly uses table parsing to determine the information from SBC forms
 
