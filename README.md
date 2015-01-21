@@ -34,7 +34,7 @@ Some pdfs don't have horizontal lines (Anthem). Have to use a different method w
 * CA Bronze
 * PPO
 
-#### Analyze using other methods (rects, horizontal textboxes, etc)
+#### Analyze using horizontal rects and textboxes
 * Anthem
 * OEMGroup
 * SeeChange
