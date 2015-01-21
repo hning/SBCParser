@@ -1,0 +1,175 @@
+
+<LTTextBoxHorizontal(26) 29.280,64.536,143.280,94.392 u'Are there services this \nplan doesn\u2019t cover? \n'>
+<LTTextBoxHorizontal(23) 29.280,103.056,143.880,132.912 u'Do I need a referral to \nsee a \n'>
+<LTTextBoxHorizontal(21) 29.280,168.456,134.424,198.432 u'Does this plan use a \nnetwork of providers\n'>
+<LTTextBoxHorizontal(20) 29.280,227.256,160.188,270.672 u'Is there an overall annual \nlimit on what the plan \npays? \n'>
+<LTTextBoxHorizontal(18) 29.280,279.216,150.480,311.232 u'What is not included in \nthe out\u2013of\u2013pocket limit\n'>
+<LTTextBoxHorizontal(15) 29.280,319.776,90.156,363.192 u'Is there an \npocket limit\nexpenses? \n'>
+<LTTextBoxHorizontal(13) 29.280,365.016,108.000,410.472 u'Are there other \ndeductibles \nservices? \n'>
+<LTTextBoxHorizontal(11) 29.280,432.456,126.000,462.432 u'What is the overall \ndeductible\n'>
+<LTTextBoxHorizontal(8) 29.280,485.088,149.976,501.720 u'Important Questions \n'>
+<LTTextBoxHorizontal(52) 36.000,17.436,575.520,60.072 u'Questions: Call 1-800-278-3296, TTY/TDD 1-800-777-1370 or visit us at www.kp.org. \nIf you aren\u2019t clear about any of the underlined terms used in this form, see the Glossary. You can view the Glossary \nat www.dol.gov/ebsa/pdf/SBCUniformGlossary.pdf, or call 1-800-278-3296 to request a copy. \n'>
+<LTTextBoxHorizontal(7) 36.000,503.711,37.101,509.200 u' \n'>
+<LTTextBoxHorizontal(1) 36.000,559.201,454.623,578.660 u'Summary of Benefits and Coverage: What this Plan Covers & What it Costs \n'>
+<LTTextBoxHorizontal(0) 36.000,571.705,340.371,599.480 u'Kaiser Permanente: 30/1000 Deductible \n'>
+<LTTextBoxHorizontal(24) 57.240,103.056,104.556,119.472 u'specialist\n'>
+<LTTextBoxHorizontal(5) 71.640,509.521,75.543,528.980 u' \n'>
+<LTTextBoxHorizontal(6) 72.000,503.711,73.101,509.200 u' \n'>
+<LTTextBoxHorizontal(4) 77.400,513.216,743.040,545.300 u'This is only a summary. If you want more detail about your coverage and costs, you can get the complete terms in the policy or plan \ndocument at www.kp.org or by calling 1-800-278-3296. \n'>
+<LTTextBoxHorizontal(12) 82.800,432.456,90.960,448.872 u'? \n'>
+<LTTextBoxHorizontal(16) 86.160,346.776,124.560,363.192 u'out\u2013of\u2013\n'>
+<LTTextBoxHorizontal(17) 90.120,333.216,127.800,349.632 u' on my \n'>
+<LTTextBoxHorizontal(14) 90.840,378.456,149.640,394.872 u'for specific \n'>
+<LTTextBoxHorizontal(25) 104.520,103.056,112.560,119.472 u'? \n'>
+<LTTextBoxHorizontal(22) 133.560,168.456,141.720,184.872 u'? \n'>
+<LTTextBoxHorizontal(19) 147.840,279.216,155.880,295.632 u'? \n'>
+<LTTextBoxHorizontal(37) 168.840,274.236,396.600,316.752 u"Premiums, prescription drug copayments, \ndurable medical equipment cost sharing, and \npayments for health care this plan doesn't cover. \n">
+<LTTextBoxHorizontal(9) 168.840,485.088,222.216,501.720 u'Answers \n'>
+<LTTextBoxHorizontal(44) 196.680,161.736,371.520,178.152 u'www.kp.org or call 1-800-278-3296. \n'>
+<LTTextBoxHorizontal(43) 199.080,176.076,369.240,191.592 u'For a list of preferred providers, see \n'>
+<LTTextBoxHorizontal(34) 206.280,326.496,362.040,342.912 u'$3,500 Individual/$7,000 Family \n'>
+<LTTextBoxHorizontal(27) 206.640,439.296,361.560,455.712 u'$1,000 Individual/$2,000 Family \n'>
+<LTTextBoxHorizontal(46) 273.360,71.256,294.840,87.672 u'Yes \n'>
+<LTTextBoxHorizontal(45) 273.360,109.776,294.840,126.192 u'Yes \n'>
+<LTTextBoxHorizontal(42) 273.360,188.736,294.840,205.152 u'Yes \n'>
+<LTTextBoxHorizontal(33) 273.360,340.056,294.840,356.472 u'Yes \n'>
+<LTTextBoxHorizontal(40) 274.440,240.816,293.760,257.232 u'No \n'>
+<LTTextBoxHorizontal(30) 274.440,379.536,293.760,395.952 u'No \n'>
+<LTTextBoxHorizontal(51) 407.280,65.316,763.440,94.272 u'Some of the services this plan doesn\u2019t cover are listed on page 6. See your \npolicy or plan document for additional information about excluded services. \n'>
+<LTTextBoxHorizontal(49) 407.280,96.216,748.200,139.632 u'This plan will pay some or all of the costs to see a specialist for covered \nservices but only if you have the plan\u2019s permission before you see the \nspecialist\n'>
+<LTTextBoxHorizontal(47) 407.280,141.456,762.240,225.432 u'If you use an in-network doctor or other health care provider, this plan will \npay some or all of the costs of covered services. Be aware, your in-network \ndoctor or hospital may use an out-of-network provider for some services. \nPlans use the term in-network, preferred, or participating for providers in \ntheir network. See the chart starting on page 2 for how this plan pays \ndifferent kinds of providers\n'>
+<LTTextBoxHorizontal(41) 407.280,234.660,753.720,263.712 u'The chart starting on page 2 describes any limits on what the plan will pay \nfor specific covered services, such as office visits. \n'>
+<LTTextBoxHorizontal(38) 407.280,280.296,755.280,310.152 u'Even though you pay these expenses, they don\u2019t count toward the out\u2013of\u2013\npocket limit\n'>
+<LTTextBoxHorizontal(35) 407.280,320.556,762.960,363.192 u'The out-of-pocket limit\nperiod (usually one year) for your share of the cost of covered services. This \nlimit helps you plan for health care expenses. \n'>
+<LTTextBoxHorizontal(31) 407.280,373.596,701.520,402.672 u'You don\u2019t have to meet deductibles\nstarting on page 2 for other costs for services this plan covers.  \n'>
+<LTTextBoxHorizontal(28) 407.280,412.296,754.440,482.592 u'You must pay all the costs up to the deductible amount before this plan \nbegins to pay for covered services you use. Check your policy or plan \ndocument to see when the deductible starts over (usually, but not always, \nJanuary 1st). See the chart starting on page 2 for how much you pay for \ncovered services after you meet the deductible\n'>
+<LTTextBoxHorizontal(10) 407.280,485.088,510.612,501.720 u'Why this Matters: \n'>
+<LTTextBoxHorizontal(2) 426.360,571.705,761.571,599.480 u'Coverage Period: _______________ \u2013 _________________ \n'>
+<LTTextBoxHorizontal(50) 454.560,96.996,460.200,112.512 u'. \n'>
+<LTTextBoxHorizontal(39) 468.120,281.076,473.880,296.592 u'. \n'>
+<LTTextBoxHorizontal(3) 477.480,559.968,759.336,576.600 u'Coverage for: Family | Plan Type: Deductible HMO \n'>
+<LTTextBoxHorizontal(36) 524.160,347.556,734.160,363.072 u' is the most you could pay during a coverage \n'>
+<LTTextBoxHorizontal(48) 538.560,142.236,544.200,157.752 u'. \n'>
+<LTTextBoxHorizontal(32) 579.120,387.036,758.880,402.552 u' for specific services, but see the chart \n'>
+<LTTextBoxHorizontal(29) 627.240,413.076,633.000,428.592 u'. \n'>
+<LTTextBoxHorizontal(54) 729.600,30.169,763.895,45.470 u' 1 of 9 \n'>
+<LTTextBoxHorizontal(53) 756.000,43.608,759.336,60.240 u' \n'>
+
+<LTTextBoxHorizontal(12) 82.800,432.456,90.960,448.872 u'? \n'>
+<LTTextBoxHorizontal(13) 29.280,365.016,108.000,410.472 u'Are there other \ndeductibles \nservices? \n'>
+<LTTextBoxHorizontal(15) 29.280,319.776,90.156,363.192 u'Is there an \npocket limit\nexpenses? \n'>
+<LTTextBoxHorizontal(19) 147.840,279.216,155.880,295.632 u'? \n'>
+<LTTextBoxHorizontal(20) 29.280,227.256,160.188,270.672 u'Is there an overall annual \nlimit on what the plan \npays? \n'>
+<LTTextBoxHorizontal(22) 133.560,168.456,141.720,184.872 u'? \n'>
+<LTTextBoxHorizontal(25) 104.520,103.056,112.560,119.472 u'? \n'>
+<LTTextBoxHorizontal(26) 29.280,64.536,143.280,94.392 u'Are there services this \nplan doesn\u2019t cover? \n'>
+Row: 8 Col: -1 Negative
+Row: 8 Col: -1 Negative
+Row: 8 Col: 1
+Row: 8 Col: 1
+Row: 8 Col: -1 Negative
+Row: 8 Col: -1 Negative
+Row: 8 Col: -1 Negative
+Row: 8 Col: -1 Negative
+Row: 7 Col: -1 Negative
+Row: 7 Col: 0
+Row: 7 Col: 1
+Row: 6 Col: -1 Negative
+Row: 6 Col: -1 Negative
+Row: 5 Col: -1 Negative
+Row: 5 Col: -1 Negative
+Row: 4 Col: -1 Negative
+Row: 4 Col: -1 Negative
+Row: 4 Col: -1 Negative
+Row: 3 Col: -1 Negative
+Row: 3 Col: -1 Negative
+Row: 2 Col: -1 Negative
+Row: 1 Col: -1 Negative
+Row: 1 Col: -1 Negative
+Row: 0 Col: -1 Negative
+Row: 0 Col: -1 Negative
+Row: 0 Col: -1 Negative
+Row: -1 Col: -1 Negative
+Row: 6 Col: 0
+Row: 6 Col: 1
+Row: 6 Col: 1
+Row: 5 Col: 0
+Row: 5 Col: 1
+Row: 5 Col: 1
+Row: 4 Col: 0
+Row: 4 Col: 0
+Row: 4 Col: 1
+Row: 4 Col: 1
+Row: 3 Col: 0
+Row: 3 Col: 1
+Row: 3 Col: 1
+Row: 2 Col: 0
+Row: 2 Col: 1
+Row: 1 Col: 0
+Row: 1 Col: 0
+Row: 1 Col: 0
+Row: 0 Col: 0
+Row: -1 Col: 0 Negative
+Row: 1 Col: 1
+Row: 1 Col: 1
+Row: 0 Col: 1
+Row: 0 Col: 1
+Row: -1 Col: 1 Negative
+Row: 8 Col: -1 Negative
+Row: 8 Col: 1
+Row: 8 Col: 1
+
+Row Delimiters: 
+63.0  94.8  140.04  225.84  271.08  318.36  363.6  410.88  483.12  503.64  
+Col Delimiters: 
+24.24  163.8  402.24  
+Row 0
+<LTTextBoxHorizontal(45) 273.360,109.776,294.840,126.192 u'Yes \n'>
+<LTTextBoxHorizontal(49) 407.280,96.216,748.200,139.632 u'This plan will pay some or all of the costs to see a specialist for covered \nservices but only if you have the plan\u2019s permission before you see the \nspecialist\n'>
+<LTTextBoxHorizontal(50) 454.560,96.996,460.200,112.512 u'. \n'>
+
+Row 1
+<LTTextBoxHorizontal(42) 273.360,188.736,294.840,205.152 u'Yes \n'>
+<LTTextBoxHorizontal(43) 199.080,176.076,369.240,191.592 u'For a list of preferred providers, see \n'>
+<LTTextBoxHorizontal(44) 196.680,161.736,371.520,178.152 u'www.kp.org or call 1-800-278-3296. \n'>
+<LTTextBoxHorizontal(47) 407.280,141.456,762.240,225.432 u'If you use an in-network doctor or other health care provider, this plan will \npay some or all of the costs of covered services. Be aware, your in-network \ndoctor or hospital may use an out-of-network provider for some services. \nPlans use the term in-network, preferred, or participating for providers in \ntheir network. See the chart starting on page 2 for how this plan pays \ndifferent kinds of providers\n'>
+<LTTextBoxHorizontal(48) 538.560,142.236,544.200,157.752 u'. \n'>
+
+Row 2
+<LTTextBoxHorizontal(40) 274.440,240.816,293.760,257.232 u'No \n'>
+<LTTextBoxHorizontal(41) 407.280,234.660,753.720,263.712 u'The chart starting on page 2 describes any limits on what the plan will pay \nfor specific covered services, such as office visits. \n'>
+
+Row 3
+<LTTextBoxHorizontal(37) 168.840,274.236,396.600,316.752 u"Premiums, prescription drug copayments, \ndurable medical equipment cost sharing, and \npayments for health care this plan doesn't cover. \n">
+<LTTextBoxHorizontal(38) 407.280,280.296,755.280,310.152 u'Even though you pay these expenses, they don\u2019t count toward the out\u2013of\u2013\npocket limit\n'>
+<LTTextBoxHorizontal(39) 468.120,281.076,473.880,296.592 u'. \n'>
+
+Row 4
+<LTTextBoxHorizontal(33) 273.360,340.056,294.840,356.472 u'Yes \n'>
+<LTTextBoxHorizontal(34) 206.280,326.496,362.040,342.912 u'$3,500 Individual/$7,000 Family \n'>
+<LTTextBoxHorizontal(35) 407.280,320.556,762.960,363.192 u'The out-of-pocket limit\nperiod (usually one year) for your share of the cost of covered services. This \nlimit helps you plan for health care expenses. \n'>
+<LTTextBoxHorizontal(36) 524.160,347.556,734.160,363.072 u' is the most you could pay during a coverage \n'>
+
+Row 5
+<LTTextBoxHorizontal(30) 274.440,379.536,293.760,395.952 u'No \n'>
+<LTTextBoxHorizontal(31) 407.280,373.596,701.520,402.672 u'You don\u2019t have to meet deductibles\nstarting on page 2 for other costs for services this plan covers.  \n'>
+<LTTextBoxHorizontal(32) 579.120,387.036,758.880,402.552 u' for specific services, but see the chart \n'>
+
+Row 6
+<LTTextBoxHorizontal(27) 206.640,439.296,361.560,455.712 u'$1,000 Individual/$2,000 Family \n'>
+<LTTextBoxHorizontal(28) 407.280,412.296,754.440,482.592 u'You must pay all the costs up to the deductible amount before this plan \nbegins to pay for covered services you use. Check your policy or plan \ndocument to see when the deductible starts over (usually, but not always, \nJanuary 1st). See the chart starting on page 2 for how much you pay for \ncovered services after you meet the deductible\n'>
+<LTTextBoxHorizontal(29) 627.240,413.076,633.000,428.592 u'. \n'>
+
+Row 7
+<LTTextBoxHorizontal(9) 168.840,485.088,222.216,501.720 u'Answers \n'>
+<LTTextBoxHorizontal(10) 407.280,485.088,510.612,501.720 u'Why this Matters: \n'>
+
+Row 8
+<LTTextBoxHorizontal(2) 426.360,571.705,761.571,599.480 u'Coverage Period: _______________ \u2013 _________________ \n'>
+<LTTextBoxHorizontal(3) 477.480,559.968,759.336,576.600 u'Coverage for: Family | Plan Type: Deductible HMO \n'>
+<LTTextBoxHorizontal(53) 756.000,43.608,759.336,60.240 u' \n'>
+<LTTextBoxHorizontal(54) 729.600,30.169,763.895,45.470 u' 1 of 9 \n'>
+
+Row 9
+
+Row 10

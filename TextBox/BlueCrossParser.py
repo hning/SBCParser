@@ -25,7 +25,7 @@ min_elements_in_row = 0
 
 #default 0.3, 0.25 works for OEMgroup
 #This is the separation between lines that pdfminer uses for textbox analysis
-line_margin_threshold = 0.25
+line_margin_threshold = 0.1
 
 #default 0.2
 word_margin_threshold = 0.1
@@ -142,7 +142,7 @@ def output_pdf_to_table(path, config):
     pagenos=set()
 
     for page in PDFPage.get_pages(fp, pagenos, maxpages=maxpages, 
-        password=password,caching=caching, check_extractable=True):
+        password=password,caching=caching, check_extractable=False):
         interpreter.process_page(page)
         layout = device.get_result()
         getRows(layout, config)

@@ -147,6 +147,11 @@ class TableClassHorizontal:
 					break
 				elif overlap > 0.1:
 					#Deal with vertical overlap
+					lines = el.get_text().splitlines()
+					print lines
+
+					#Anomaly with newlines
+
 					print "Vertical Overlap: {0} {1} {2} {3}".format(self.row_delimiters[i-1], self.row_delimiters[i],\
 								el.y0, el.y1)
 					print overlap
