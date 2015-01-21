@@ -2,6 +2,10 @@ from config import *
 from TableClass import *
 import string
 
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
 class ConfigParser:
 	def __init__(self, _config, _table):
 		self.config =  _config
@@ -101,6 +105,9 @@ class ConfigParser:
 		for val in possible_values:
 			if (' ' + val + ' ') in no_punc_text:
 				output_arr = [val] 
+
+		if len(output_arr) == 0:
+			return output_arr
 
 		if "extra" in info["type"]:
 			output_arr = [output_arr[0] + "|" + text]

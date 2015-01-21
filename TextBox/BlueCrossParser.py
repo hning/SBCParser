@@ -10,11 +10,14 @@ import os
 import base64, re, datetime, StringIO
 import math
 import sys
+from collections import defaultdict
 
 import config
 from config import *
 
 from TableClass import *
+
+from TableClassHorizontal import *
 
 overlap_threshold = 0.7
 
@@ -25,7 +28,7 @@ min_elements_in_row = 0
 line_margin_threshold = 0.25
 
 #default 0.2
-word_margin_threshold = 0
+word_margin_threshold = 0.1
 
 #Most information on the tables are within the first two pages
 pages_to_view = 1
@@ -39,6 +42,7 @@ from configparser import *
 def getRows(layout, config):
     objstack = list(reversed(layout._objs))
     rows = TableRows()
+    objArr = []
     rectArr = []
     lineArr = []
     textboxArr = []
@@ -53,7 +57,7 @@ def getRows(layout, config):
 
     while objstack:
         obj = objstack.pop()
-        print obj
+        objArr.append(obj)
         # print "{0} {1} {2} {3}".format(obj.x0, obj.x1,
         #             obj.y0,obj.y1)
        
@@ -77,7 +81,7 @@ def getRows(layout, config):
                 if "?" in text:
                     contains_question.append(obj)
 
-        elif type(obj) == LTLine:
+        elif type(obj) == LTRect:
 
             if is_line_vertical(obj):
                 lineArr.append(obj)
@@ -85,11 +89,7 @@ def getRows(layout, config):
                 row_arr.add(obj.y0)
                 max_x = max(max_x, obj.x1)
                 max_y = max(max_y, obj.y1)
- 
-
-        elif type(obj) in [LTLine, LTRect]:
-            #Keep track of other rects to (maybe) use later
-            rectArr.append(LTRects(obj))
+            rectArr.append(obj)
 
 
 
@@ -101,16 +101,16 @@ def getRows(layout, config):
     for t in textboxArr:
         print t
 
-
-    print ""
-    lineArr = sorted(lineArr, key=attrgetter('x0','y0'))
-    for l in lineArr:
-        print l
-
     print ""
     contains_question  = sorted(contains_question , key=attrgetter('y0'), reverse=True)
     for l in contains_question :
         print l
+
+
+    tableClass = TableClassHorizontal()
+    tableClass.process_elements(objArr)
+    tableClass.print_delimiters()
+    tableClass.print_table()
 
     # tableClass = TableClass(column_arr, row_arr)
     # tableClass.add_textbox_arr(textboxArr)

@@ -8,11 +8,12 @@ from pdfminer.pdfpage import PDFPage
 from operator import itemgetter, attrgetter, methodcaller
 import os
 import base64, re, datetime, StringIO
-import math
+
 import sys
 
 overlap_threshold = 0.7
 
+import math
 def is_line_vertical(el):
     horizontal_distance = math.fabs(el.x1 - el.x0)
     vertical_distance = math.fabs(el.y1 - el.y0)
@@ -20,6 +21,16 @@ def is_line_vertical(el):
     #Assume that its a vertical line if the horizontal distance 
     # is less than 1% of the vertical distance
     if horizontal_distance <= vertical_distance*.01:
+        return True
+    return False
+
+def is_line_horizontal(el):
+    horizontal_distance = math.fabs(el.x1 - el.x0)
+    vertical_distance = math.fabs(el.y1 - el.y0)
+
+    #Assume that its a vertical line if the horizontal distance 
+    # is less than 1% of the vertical distance
+    if vertical_distance <= horizontal_distance*.01:
         return True
     return False
 
