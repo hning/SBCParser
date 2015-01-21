@@ -1,0 +1,475 @@
+<LTTextBoxHorizontal(0) 36.000,571.705,340.371,599.480 u'Kaiser Permanente: 30/1000 Deductible \n'>
+<LTTextBoxHorizontal(1) 36.000,559.201,454.623,578.660 u'Summary of Benefits and Coverage: What this Plan Covers & What it Costs \n'>
+<LTTextBoxHorizontal(2) 426.360,571.705,761.571,599.480 u'Coverage Period: _______________ \u2013 _________________ \n'>
+<LTTextBoxHorizontal(3) 477.480,559.968,759.336,576.600 u'Coverage for: Family | Plan Type: Deductible HMO \n'>
+<LTTextBoxHorizontal(4) 77.400,525.841,743.040,545.300 u'This is only a summary. If you want more detail about your coverage and costs, you can get the complete terms in the policy or plan \n'>
+<LTTextBoxHorizontal(5) 77.400,513.216,337.230,531.523 u'document at www.kp.org or by calling 1-800-278-3296. \n'>
+<LTTextBoxHorizontal(6) 71.640,509.521,75.543,528.980 u' \n'>
+<LTTextBoxHorizontal(7) 72.000,503.711,73.101,509.200 u' \n'>
+<LTTextBoxHorizontal(8) 36.000,503.711,37.101,509.200 u' \n'>
+<LTTextBoxHorizontal(9) 29.280,485.088,149.976,501.720 u'Important Questions \n'>
+<LTTextBoxHorizontal(10) 168.840,485.088,222.216,501.720 u'Answers \n'>
+<LTTextBoxHorizontal(11) 407.280,485.088,510.612,501.720 u'Why this Matters: \n'>
+<LTTextBoxHorizontal(12) 29.280,432.456,126.000,462.432 u'What is the overall \ndeductible\n'>
+<LTTextBoxHorizontal(13) 82.800,432.456,90.960,448.872 u'? \n'>
+<LTTextBoxHorizontal(14) 29.280,365.016,108.000,410.472 u'Are there other \ndeductibles \nservices? \n'>
+<LTTextBoxHorizontal(15) 90.840,378.456,149.640,394.872 u'for specific \n'>
+<LTTextBoxHorizontal(16) 29.280,319.776,90.156,363.192 u'Is there an \npocket limit\nexpenses? \n'>
+<LTTextBoxHorizontal(17) 86.160,346.776,124.560,363.192 u'out\u2013of\u2013\n'>
+<LTTextBoxHorizontal(18) 90.120,333.216,127.800,349.632 u' on my \n'>
+<LTTextBoxHorizontal(19) 29.280,279.216,150.480,311.232 u'What is not included in \nthe out\u2013of\u2013pocket limit\n'>
+<LTTextBoxHorizontal(20) 147.840,279.216,155.880,295.632 u'? \n'>
+<LTTextBoxHorizontal(21) 29.280,227.256,160.188,270.672 u'Is there an overall annual \nlimit on what the plan \npays? \n'>
+<LTTextBoxHorizontal(22) 29.280,168.456,134.424,198.432 u'Does this plan use a \nnetwork of providers\n'>
+<LTTextBoxHorizontal(23) 133.560,168.456,141.720,184.872 u'? \n'>
+<LTTextBoxHorizontal(24) 29.280,103.056,143.880,132.912 u'Do I need a referral to \nsee a \n'>
+<LTTextBoxHorizontal(25) 57.240,103.056,104.556,119.472 u'specialist\n'>
+<LTTextBoxHorizontal(26) 104.520,103.056,112.560,119.472 u'? \n'>
+<LTTextBoxHorizontal(27) 29.280,64.536,143.280,94.392 u'Are there services this \nplan doesn\u2019t cover? \n'>
+<LTTextBoxHorizontal(28) 206.640,439.296,361.560,455.712 u'$1,000 Individual/$2,000 Family \n'>
+<LTTextBoxHorizontal(29) 274.440,379.536,293.760,395.952 u'No \n'>
+<LTTextBoxHorizontal(30) 273.360,340.056,294.840,356.472 u'Yes \n'>
+<LTTextBoxHorizontal(31) 206.280,326.496,362.040,342.912 u'$3,500 Individual/$7,000 Family \n'>
+<LTTextBoxHorizontal(32) 168.840,274.236,396.600,316.752 u"Premiums, prescription drug copayments, \ndurable medical equipment cost sharing, and \npayments for health care this plan doesn't cover. \n">
+<LTTextBoxHorizontal(33) 407.280,466.176,748.920,482.592 u'You must pay all the costs up to the deductible amount before this plan \n'>
+<LTTextBoxHorizontal(34) 407.280,453.516,731.520,469.032 u'begins to pay for covered services you use. Check your policy or plan \n'>
+<LTTextBoxHorizontal(35) 407.280,439.296,754.440,455.712 u'document to see when the deductible starts over (usually, but not always, \n'>
+<LTTextBoxHorizontal(36) 407.280,426.516,741.720,442.032 u'January 1st). See the chart starting on page 2 for how much you pay for \n'>
+<LTTextBoxHorizontal(37) 407.280,412.296,627.228,428.712 u'covered services after you meet the deductible\n'>
+<LTTextBoxHorizontal(38) 627.240,413.076,633.000,428.592 u'. \n'>
+<LTTextBoxHorizontal(39) 407.280,386.256,579.084,402.672 u'You don\u2019t have to meet deductibles\n'>
+<LTTextBoxHorizontal(40) 579.120,387.036,758.880,402.552 u' for specific services, but see the chart \n'>
+<LTTextBoxHorizontal(41) 407.280,373.596,701.520,389.112 u'starting on page 2 for other costs for services this plan covers.  \n'>
+<LTTextBoxHorizontal(42) 407.280,346.776,524.196,363.192 u'The out-of-pocket limit\n'>
+<LTTextBoxHorizontal(43) 524.160,347.556,734.160,363.072 u' is the most you could pay during a coverage \n'>
+<LTTextBoxHorizontal(44) 407.280,320.556,762.960,349.512 u'period (usually one year) for your share of the cost of covered services. This \nlimit helps you plan for health care expenses. \n'>
+<LTTextBoxHorizontal(45) 407.280,280.296,755.280,310.152 u'Even though you pay these expenses, they don\u2019t count toward the out\u2013of\u2013\npocket limit\n'>
+<LTTextBoxHorizontal(46) 468.120,281.076,473.880,296.592 u'. \n'>
+<LTTextBoxHorizontal(47) 274.440,240.816,293.760,257.232 u'No \n'>
+<LTTextBoxHorizontal(48) 407.280,248.196,753.720,263.712 u'The chart starting on page 2 describes any limits on what the plan will pay \n'>
+<LTTextBoxHorizontal(49) 407.280,234.660,630.600,250.356 u'for specific covered services, such as office visits. \n'>
+<LTTextBoxHorizontal(50) 273.360,188.736,294.840,205.152 u'Yes \n'>
+<LTTextBoxHorizontal(51) 199.080,176.076,369.240,191.592 u'For a list of preferred providers, see \n'>
+<LTTextBoxHorizontal(52) 196.680,161.736,371.520,178.152 u'www.kp.org or call 1-800-278-3296. \n'>
+<LTTextBoxHorizontal(53) 407.280,209.016,762.240,225.432 u'If you use an in-network doctor or other health care provider, this plan will \n'>
+<LTTextBoxHorizontal(54) 407.280,196.236,757.800,211.752 u'pay some or all of the costs of covered services. Be aware, your in-network \n'>
+<LTTextBoxHorizontal(55) 407.280,141.456,754.320,198.432 u'doctor or hospital may use an out-of-network provider for some services. \nPlans use the term in-network, preferred, or participating for providers in \ntheir network. See the chart starting on page 2 for how this plan pays \ndifferent kinds of providers\n'>
+<LTTextBoxHorizontal(56) 538.560,142.236,544.200,157.752 u'. \n'>
+<LTTextBoxHorizontal(57) 273.360,109.776,294.840,126.192 u'Yes \n'>
+<LTTextBoxHorizontal(58) 273.360,71.256,294.840,87.672 u'Yes \n'>
+<LTTextBoxHorizontal(59) 407.280,123.216,748.200,139.632 u'This plan will pay some or all of the costs to see a specialist for covered \n'>
+<LTTextBoxHorizontal(60) 407.280,110.556,731.640,126.072 u'services but only if you have the plan\u2019s permission before you see the \n'>
+<LTTextBoxHorizontal(61) 407.280,96.216,454.596,112.632 u'specialist\n'>
+<LTTextBoxHorizontal(62) 454.560,96.996,460.200,112.512 u'. \n'>
+<LTTextBoxHorizontal(63) 407.280,65.316,763.440,94.272 u'Some of the services this plan doesn\u2019t cover are listed on page 6. See your \npolicy or plan document for additional information about excluded services. \n'>
+<LTTextBoxHorizontal(64) 36.000,43.656,457.080,60.072 u'Questions: Call 1-800-278-3296, TTY/TDD 1-800-777-1370 or visit us at www.kp.org. \n'>
+<LTTextBoxHorizontal(65) 36.000,17.436,575.520,46.512 u'If you aren\u2019t clear about any of the underlined terms used in this form, see the Glossary. You can view the Glossary \nat www.dol.gov/ebsa/pdf/SBCUniformGlossary.pdf, or call 1-800-278-3296 to request a copy. \n'>
+<LTTextBoxHorizontal(66) 756.000,43.608,759.336,60.240 u' \n'>
+<LTTextBoxHorizontal(67) 729.600,30.169,763.895,45.470 u' 1 of 9 \n'>
+<LTRect 480.600,16.250,768.600,48.000>
+<LTRect 389.880,46.560,451.440,47.160>
+<LTRect 47.400,19.560,283.680,20.160>
+<LTCurve 26.800,554.900,763.800,554.950>
+<LTCurve 25.800,556.900,762.800,556.950>
+<LTRect 30.840,543.840,72.000,549.240>
+<LTRect 30.840,514.800,36.000,543.840>
+<LTRect 66.600,514.800,72.000,543.840>
+<LTRect 30.840,509.400,72.000,514.800>
+<LTRect 36.000,514.800,66.600,543.840>
+<LTFigure(Im0) 31.440,514.920,71.520,543.960 matrix=[40.08,0.00,0.00,29.04, (31.44,514.92)]>
+<LTRect 72.000,509.400,77.400,549.240>
+<LTRect 756.000,509.400,761.160,549.240>
+<LTRect 77.400,528.000,756.000,549.240>
+<LTRect 77.400,509.400,756.000,528.000>
+<LTRect 138.600,516.120,195.120,516.720>
+<LTRect 30.360,549.240,30.840,549.720>
+<LTRect 30.360,549.240,30.840,549.720>
+<LTRect 30.840,549.240,72.000,549.720>
+<LTRect 72.000,549.240,72.480,549.720>
+<LTRect 72.480,549.240,761.160,549.720>
+<LTRect 761.160,549.240,761.640,549.720>
+<LTRect 761.160,549.240,761.640,549.720>
+<LTRect 30.360,509.400,30.840,549.240>
+<LTRect 30.360,508.920,30.840,509.400>
+<LTRect 30.360,508.920,30.840,509.400>
+<LTRect 30.840,508.920,72.000,509.400>
+<LTRect 71.280,508.920,71.760,509.400>
+<LTRect 71.760,508.920,761.160,509.400>
+<LTRect 761.160,509.400,761.640,549.240>
+<LTRect 761.160,508.920,761.640,509.400>
+<LTRect 761.160,508.920,761.640,509.400>
+<LTRect 24.240,483.840,29.280,503.640>
+<LTRect 158.040,483.840,163.080,503.640>
+<LTRect 29.280,483.840,158.040,503.640>
+<LTRect 163.800,483.840,168.840,503.640>
+<LTRect 396.480,483.840,401.520,503.640>
+<LTRect 168.840,483.840,396.480,503.640>
+<LTRect 402.240,483.840,407.280,503.640>
+<LTRect 762.720,483.840,767.760,503.640>
+<LTRect 407.280,483.840,762.720,503.640>
+<LTRect 23.520,503.640,24.240,504.360>
+<LTRect 23.520,503.640,24.240,504.360>
+<LTRect 24.240,503.640,163.080,504.360>
+<LTRect 163.080,503.640,163.800,504.360>
+<LTRect 163.800,503.640,401.520,504.360>
+<LTRect 401.520,503.640,402.240,504.360>
+<LTRect 402.240,503.640,767.760,504.360>
+<LTRect 767.760,503.640,768.480,504.360>
+<LTRect 767.760,503.640,768.480,504.360>
+<LTRect 23.520,483.840,24.240,503.640>
+<LTRect 163.080,483.840,163.800,503.640>
+<LTRect 401.520,483.840,402.240,503.640>
+<LTRect 767.760,483.840,768.480,503.640>
+<LTRect 24.240,462.840,163.080,483.000>
+<LTRect 24.240,431.760,29.280,462.840>
+<LTRect 158.040,431.760,163.080,462.840>
+<LTRect 24.240,411.600,163.080,431.760>
+<LTRect 29.280,447.240,158.040,462.840>
+<LTRect 29.280,431.760,158.040,447.240>
+<LTRect 29.280,435.360,82.800,435.960>
+<LTRect 168.840,437.520,396.480,457.080>
+<LTRect 163.800,457.080,401.520,483.000>
+<LTRect 163.800,437.520,168.840,457.080>
+<LTRect 396.480,437.520,401.520,457.080>
+<LTRect 163.800,411.600,401.520,437.520>
+<LTRect 402.240,411.600,407.280,483.000>
+<LTRect 762.720,411.600,767.760,483.000>
+<LTRect 407.280,467.520,762.720,483.000>
+<LTRect 577.800,469.080,631.320,469.680>
+<LTRect 407.280,454.080,762.720,467.520>
+<LTRect 407.280,440.520,762.720,454.080>
+<LTRect 533.040,442.200,586.560,442.800>
+<LTRect 407.280,427.080,762.720,440.520>
+<LTRect 407.280,411.600,762.720,427.080>
+<LTRect 573.720,415.200,627.240,415.800>
+<LTRect 29.280,393.240,158.040,410.760>
+<LTRect 23.520,483.120,24.240,483.840>
+<LTRect 24.240,483.120,163.080,483.840>
+<LTRect 163.080,483.120,163.800,483.840>
+<LTRect 163.800,483.120,401.520,483.840>
+<LTRect 401.520,483.120,402.240,483.840>
+<LTRect 402.240,483.120,767.760,483.840>
+<LTRect 767.760,483.120,768.480,483.840>
+<LTRect 23.520,411.600,24.240,483.120>
+<LTRect 163.080,411.600,163.800,483.120>
+<LTRect 401.520,411.600,402.240,483.120>
+<LTRect 767.760,411.600,768.480,483.120>
+<LTRect 24.240,364.320,29.280,410.760>
+<LTRect 158.040,364.320,163.080,410.760>
+<LTRect 29.280,379.800,158.040,393.240>
+<LTRect 29.280,381.360,90.840,381.960>
+<LTRect 168.840,377.760,396.480,397.320>
+<LTRect 29.280,364.320,158.040,379.800>
+<LTRect 163.800,397.320,401.520,410.760>
+<LTRect 163.800,377.760,168.840,397.320>
+<LTRect 396.480,377.760,401.520,397.320>
+<LTRect 163.800,364.320,401.520,377.760>
+<LTRect 402.240,403.080,767.760,410.760>
+<LTRect 402.240,372.000,407.280,403.080>
+<LTRect 762.720,372.000,767.760,403.080>
+<LTRect 402.240,364.320,767.760,372.000>
+<LTRect 407.280,387.600,762.720,403.080>
+<LTRect 520.560,389.160,579.120,389.760>
+<LTRect 407.280,372.000,762.720,387.600>
+<LTRect 23.520,410.880,24.240,411.600>
+<LTRect 24.240,410.880,163.080,411.600>
+<LTRect 163.080,410.880,163.800,411.600>
+<LTRect 163.800,410.880,401.520,411.600>
+<LTRect 401.520,410.880,402.240,411.600>
+<LTRect 402.240,410.880,767.760,411.600>
+<LTRect 767.760,410.880,768.480,411.600>
+<LTRect 23.520,364.320,24.240,410.880>
+<LTRect 163.080,364.320,163.800,410.880>
+<LTRect 401.520,364.320,402.240,410.880>
+<LTRect 767.760,364.320,768.480,410.880>
+<LTRect 86.160,349.680,124.680,350.280>
+<LTRect 29.280,336.120,90.120,336.720>
+<LTRect 428.760,349.680,524.160,350.280>
+<LTRect 23.520,363.600,24.240,364.320>
+<LTRect 24.240,363.600,163.080,364.320>
+<LTRect 163.080,363.600,163.800,364.320>
+<LTRect 163.800,363.600,401.520,364.320>
+<LTRect 401.520,363.600,402.240,364.320>
+<LTRect 402.240,363.600,767.760,364.320>
+<LTRect 767.760,363.600,768.480,364.320>
+<LTRect 23.520,319.080,24.240,363.600>
+<LTRect 163.080,319.080,163.800,363.600>
+<LTRect 401.520,319.080,402.240,363.600>
+<LTRect 767.760,319.080,768.480,363.600>
+<LTRect 48.240,282.120,147.720,282.720>
+<LTRect 716.880,296.640,755.400,297.240>
+<LTRect 407.280,283.200,468.120,283.800>
+<LTRect 29.280,255.600,158.040,271.080>
+<LTRect 29.280,242.040,158.040,255.600>
+<LTRect 29.280,226.560,158.040,242.040>
+<LTRect 23.520,318.360,24.240,319.080>
+<LTRect 24.240,318.360,163.080,319.080>
+<LTRect 163.080,318.360,163.800,319.080>
+<LTRect 163.800,318.360,401.520,319.080>
+<LTRect 401.520,318.360,402.240,319.080>
+<LTRect 402.240,318.360,767.760,319.080>
+<LTRect 767.760,318.360,768.480,319.080>
+<LTRect 23.520,271.800,24.240,318.360>
+<LTRect 163.080,271.800,163.800,318.360>
+<LTRect 401.520,271.800,402.240,318.360>
+<LTRect 767.760,271.800,768.480,318.360>
+<LTRect 24.240,226.560,29.280,271.080>
+<LTRect 158.040,226.560,163.080,271.080>
+<LTRect 163.800,258.600,401.520,271.080>
+<LTRect 163.800,239.040,168.840,258.600>
+<LTRect 396.480,239.040,401.520,258.600>
+<LTRect 163.800,226.560,401.520,239.040>
+<LTRect 168.840,239.040,396.480,258.600>
+<LTRect 402.240,264.240,767.760,271.080>
+<LTRect 402.240,233.280,407.280,264.240>
+<LTRect 762.720,233.280,767.760,264.240>
+<LTRect 402.240,226.560,767.760,233.280>
+<LTRect 407.280,248.760,762.720,264.240>
+<LTRect 407.280,233.280,762.720,248.760>
+<LTRect 23.520,271.080,24.240,271.800>
+<LTRect 24.240,271.080,163.080,271.800>
+<LTRect 163.080,271.080,163.800,271.800>
+<LTRect 163.800,271.080,401.520,271.800>
+<LTRect 401.520,271.080,402.240,271.800>
+<LTRect 402.240,271.080,767.760,271.800>
+<LTRect 767.760,271.080,768.480,271.800>
+<LTRect 23.520,226.560,24.240,271.080>
+<LTRect 163.080,226.560,163.800,271.080>
+<LTRect 401.520,226.560,402.240,271.080>
+<LTRect 767.760,226.560,768.480,271.080>
+<LTRect 29.280,171.360,70.440,171.960>
+<LTRect 86.280,171.360,133.560,171.960>
+<LTRect 196.680,164.640,258.240,165.240>
+<LTRect 652.560,211.920,694.680,212.520>
+<LTRect 622.560,184.920,664.800,185.520>
+<LTRect 691.920,171.360,739.080,171.960>
+<LTRect 431.640,157.920,472.800,158.520>
+<LTRect 491.160,144.360,538.560,144.960>
+<LTRect 29.280,117.840,158.040,133.320>
+<LTRect 29.280,102.240,158.040,117.840>
+<LTRect 23.520,225.840,24.240,226.560>
+<LTRect 24.240,225.840,163.080,226.560>
+<LTRect 163.080,225.840,163.800,226.560>
+<LTRect 163.800,225.840,401.520,226.560>
+<LTRect 401.520,225.840,402.240,226.560>
+<LTRect 402.240,225.840,767.760,226.560>
+<LTRect 767.760,225.840,768.480,226.560>
+<LTRect 23.520,140.760,24.240,225.840>
+<LTRect 163.080,140.760,163.800,225.840>
+<LTRect 401.520,140.760,402.240,225.840>
+<LTRect 767.760,140.760,768.480,225.840>
+<LTRect 24.240,133.320,163.080,140.040>
+<LTRect 24.240,102.240,29.280,133.320>
+<LTRect 158.040,102.240,163.080,133.320>
+<LTRect 24.240,95.520,163.080,102.240>
+<LTRect 57.240,105.960,104.520,106.560>
+<LTRect 168.840,108.000,396.480,127.560>
+<LTRect 163.800,127.560,401.520,140.040>
+<LTRect 163.800,108.000,168.840,127.560>
+<LTRect 396.480,108.000,401.520,127.560>
+<LTRect 163.800,95.520,401.520,108.000>
+<LTRect 402.240,95.520,407.280,140.040>
+<LTRect 762.720,95.520,767.760,140.040>
+<LTRect 407.280,124.560,762.720,140.040>
+<LTRect 641.160,126.120,688.440,126.720>
+<LTRect 407.280,111.000,762.720,124.560>
+<LTRect 407.280,95.520,762.720,111.000>
+<LTRect 407.280,99.120,454.560,99.720>
+<LTRect 23.520,140.040,24.240,140.760>
+<LTRect 24.240,140.040,163.080,140.760>
+<LTRect 163.080,140.040,163.800,140.760>
+<LTRect 163.800,140.040,401.520,140.760>
+<LTRect 401.520,140.040,402.240,140.760>
+<LTRect 402.240,140.040,767.760,140.760>
+<LTRect 767.760,140.040,768.480,140.760>
+<LTRect 23.520,95.520,24.240,140.040>
+<LTRect 163.080,95.520,163.800,140.040>
+<LTRect 401.520,95.520,402.240,140.040>
+<LTRect 767.760,95.520,768.480,140.040>
+<LTRect 23.520,94.800,24.240,95.520>
+<LTRect 24.240,94.800,163.080,95.520>
+<LTRect 163.080,94.800,163.800,95.520>
+<LTRect 163.800,94.800,401.520,95.520>
+<LTRect 401.520,94.800,402.240,95.520>
+<LTRect 402.240,94.800,767.760,95.520>
+<LTRect 767.760,94.800,768.480,95.520>
+<LTRect 23.520,63.720,24.240,94.800>
+<LTRect 23.520,63.000,24.240,63.720>
+<LTRect 23.520,63.000,24.240,63.720>
+<LTRect 24.240,63.000,163.080,63.720>
+<LTRect 163.080,63.720,163.800,94.800>
+<LTRect 163.080,63.000,163.800,63.720>
+<LTRect 163.800,63.000,401.520,63.720>
+<LTRect 401.520,63.720,402.240,94.800>
+<LTRect 401.520,63.000,402.240,63.720>
+<LTRect 402.240,63.000,767.760,63.720>
+<LTRect 767.760,63.720,768.480,94.800>
+<LTRect 767.760,63.000,768.480,63.720>
+<LTRect 767.760,63.000,768.480,63.720>
+
+<LTTextBoxHorizontal(27) 29.280,64.536,143.280,94.392 u'Are there services this \nplan doesn\u2019t cover? \n'>
+<LTTextBoxHorizontal(24) 29.280,103.056,143.880,132.912 u'Do I need a referral to \nsee a \n'>
+<LTTextBoxHorizontal(22) 29.280,168.456,134.424,198.432 u'Does this plan use a \nnetwork of providers\n'>
+<LTTextBoxHorizontal(21) 29.280,227.256,160.188,270.672 u'Is there an overall annual \nlimit on what the plan \npays? \n'>
+<LTTextBoxHorizontal(19) 29.280,279.216,150.480,311.232 u'What is not included in \nthe out\u2013of\u2013pocket limit\n'>
+<LTTextBoxHorizontal(16) 29.280,319.776,90.156,363.192 u'Is there an \npocket limit\nexpenses? \n'>
+<LTTextBoxHorizontal(14) 29.280,365.016,108.000,410.472 u'Are there other \ndeductibles \nservices? \n'>
+<LTTextBoxHorizontal(12) 29.280,432.456,126.000,462.432 u'What is the overall \ndeductible\n'>
+<LTTextBoxHorizontal(9) 29.280,485.088,149.976,501.720 u'Important Questions \n'>
+<LTTextBoxHorizontal(65) 36.000,17.436,575.520,46.512 u'If you aren\u2019t clear about any of the underlined terms used in this form, see the Glossary. You can view the Glossary \nat www.dol.gov/ebsa/pdf/SBCUniformGlossary.pdf, or call 1-800-278-3296 to request a copy. \n'>
+<LTTextBoxHorizontal(64) 36.000,43.656,457.080,60.072 u'Questions: Call 1-800-278-3296, TTY/TDD 1-800-777-1370 or visit us at www.kp.org. \n'>
+<LTTextBoxHorizontal(8) 36.000,503.711,37.101,509.200 u' \n'>
+<LTTextBoxHorizontal(1) 36.000,559.201,454.623,578.660 u'Summary of Benefits and Coverage: What this Plan Covers & What it Costs \n'>
+<LTTextBoxHorizontal(0) 36.000,571.705,340.371,599.480 u'Kaiser Permanente: 30/1000 Deductible \n'>
+<LTTextBoxHorizontal(25) 57.240,103.056,104.556,119.472 u'specialist\n'>
+<LTTextBoxHorizontal(6) 71.640,509.521,75.543,528.980 u' \n'>
+<LTTextBoxHorizontal(7) 72.000,503.711,73.101,509.200 u' \n'>
+<LTTextBoxHorizontal(5) 77.400,513.216,337.230,531.523 u'document at www.kp.org or by calling 1-800-278-3296. \n'>
+<LTTextBoxHorizontal(4) 77.400,525.841,743.040,545.300 u'This is only a summary. If you want more detail about your coverage and costs, you can get the complete terms in the policy or plan \n'>
+<LTTextBoxHorizontal(13) 82.800,432.456,90.960,448.872 u'? \n'>
+<LTTextBoxHorizontal(17) 86.160,346.776,124.560,363.192 u'out\u2013of\u2013\n'>
+<LTTextBoxHorizontal(18) 90.120,333.216,127.800,349.632 u' on my \n'>
+<LTTextBoxHorizontal(15) 90.840,378.456,149.640,394.872 u'for specific \n'>
+<LTTextBoxHorizontal(26) 104.520,103.056,112.560,119.472 u'? \n'>
+<LTTextBoxHorizontal(23) 133.560,168.456,141.720,184.872 u'? \n'>
+<LTTextBoxHorizontal(20) 147.840,279.216,155.880,295.632 u'? \n'>
+<LTTextBoxHorizontal(32) 168.840,274.236,396.600,316.752 u"Premiums, prescription drug copayments, \ndurable medical equipment cost sharing, and \npayments for health care this plan doesn't cover. \n">
+<LTTextBoxHorizontal(10) 168.840,485.088,222.216,501.720 u'Answers \n'>
+<LTTextBoxHorizontal(52) 196.680,161.736,371.520,178.152 u'www.kp.org or call 1-800-278-3296. \n'>
+<LTTextBoxHorizontal(51) 199.080,176.076,369.240,191.592 u'For a list of preferred providers, see \n'>
+<LTTextBoxHorizontal(31) 206.280,326.496,362.040,342.912 u'$3,500 Individual/$7,000 Family \n'>
+<LTTextBoxHorizontal(28) 206.640,439.296,361.560,455.712 u'$1,000 Individual/$2,000 Family \n'>
+<LTTextBoxHorizontal(58) 273.360,71.256,294.840,87.672 u'Yes \n'>
+<LTTextBoxHorizontal(57) 273.360,109.776,294.840,126.192 u'Yes \n'>
+<LTTextBoxHorizontal(50) 273.360,188.736,294.840,205.152 u'Yes \n'>
+<LTTextBoxHorizontal(30) 273.360,340.056,294.840,356.472 u'Yes \n'>
+<LTTextBoxHorizontal(47) 274.440,240.816,293.760,257.232 u'No \n'>
+<LTTextBoxHorizontal(29) 274.440,379.536,293.760,395.952 u'No \n'>
+<LTTextBoxHorizontal(63) 407.280,65.316,763.440,94.272 u'Some of the services this plan doesn\u2019t cover are listed on page 6. See your \npolicy or plan document for additional information about excluded services. \n'>
+<LTTextBoxHorizontal(61) 407.280,96.216,454.596,112.632 u'specialist\n'>
+<LTTextBoxHorizontal(60) 407.280,110.556,731.640,126.072 u'services but only if you have the plan\u2019s permission before you see the \n'>
+<LTTextBoxHorizontal(59) 407.280,123.216,748.200,139.632 u'This plan will pay some or all of the costs to see a specialist for covered \n'>
+<LTTextBoxHorizontal(55) 407.280,141.456,754.320,198.432 u'doctor or hospital may use an out-of-network provider for some services. \nPlans use the term in-network, preferred, or participating for providers in \ntheir network. See the chart starting on page 2 for how this plan pays \ndifferent kinds of providers\n'>
+<LTTextBoxHorizontal(54) 407.280,196.236,757.800,211.752 u'pay some or all of the costs of covered services. Be aware, your in-network \n'>
+<LTTextBoxHorizontal(53) 407.280,209.016,762.240,225.432 u'If you use an in-network doctor or other health care provider, this plan will \n'>
+<LTTextBoxHorizontal(49) 407.280,234.660,630.600,250.356 u'for specific covered services, such as office visits. \n'>
+<LTTextBoxHorizontal(48) 407.280,248.196,753.720,263.712 u'The chart starting on page 2 describes any limits on what the plan will pay \n'>
+<LTTextBoxHorizontal(45) 407.280,280.296,755.280,310.152 u'Even though you pay these expenses, they don\u2019t count toward the out\u2013of\u2013\npocket limit\n'>
+<LTTextBoxHorizontal(42) 407.280,346.776,524.196,363.192 u'The out-of-pocket limit\n'>
+<LTTextBoxHorizontal(41) 407.280,373.596,701.520,389.112 u'starting on page 2 for other costs for services this plan covers.  \n'>
+<LTTextBoxHorizontal(39) 407.280,386.256,579.084,402.672 u'You don\u2019t have to meet deductibles\n'>
+<LTTextBoxHorizontal(37) 407.280,412.296,627.228,428.712 u'covered services after you meet the deductible\n'>
+<LTTextBoxHorizontal(36) 407.280,426.516,741.720,442.032 u'January 1st). See the chart starting on page 2 for how much you pay for \n'>
+<LTTextBoxHorizontal(35) 407.280,439.296,754.440,455.712 u'document to see when the deductible starts over (usually, but not always, \n'>
+<LTTextBoxHorizontal(34) 407.280,453.516,731.520,469.032 u'begins to pay for covered services you use. Check your policy or plan \n'>
+<LTTextBoxHorizontal(33) 407.280,466.176,748.920,482.592 u'You must pay all the costs up to the deductible amount before this plan \n'>
+<LTTextBoxHorizontal(11) 407.280,485.088,510.612,501.720 u'Why this Matters: \n'>
+<LTTextBoxHorizontal(44) 407.280,320.556,762.960,349.512 u'period (usually one year) for your share of the cost of covered services. This \nlimit helps you plan for health care expenses. \n'>
+<LTTextBoxHorizontal(2) 426.360,571.705,761.571,599.480 u'Coverage Period: _______________ \u2013 _________________ \n'>
+<LTTextBoxHorizontal(62) 454.560,96.996,460.200,112.512 u'. \n'>
+<LTTextBoxHorizontal(46) 468.120,281.076,473.880,296.592 u'. \n'>
+<LTTextBoxHorizontal(3) 477.480,559.968,759.336,576.600 u'Coverage for: Family | Plan Type: Deductible HMO \n'>
+<LTTextBoxHorizontal(43) 524.160,347.556,734.160,363.072 u' is the most you could pay during a coverage \n'>
+<LTTextBoxHorizontal(56) 538.560,142.236,544.200,157.752 u'. \n'>
+<LTTextBoxHorizontal(40) 579.120,387.036,758.880,402.552 u' for specific services, but see the chart \n'>
+<LTTextBoxHorizontal(38) 627.240,413.076,633.000,428.592 u'. \n'>
+<LTTextBoxHorizontal(67) 729.600,30.169,763.895,45.470 u' 1 of 9 \n'>
+<LTTextBoxHorizontal(66) 756.000,43.608,759.336,60.240 u' \n'>
+
+
+y (row): 
+0,
+x (col):
+0,
+|Kaiser Permanente: 30/1000 Deductible 
+Coverage Period: _______________ – _________________ 
+Coverage for: Family | Plan Type: Deductible HMO 
+Summary of Benefits and Coverage: What this Plan Covers & What it Costs 
+This is only a summary. If you want more detail about your coverage and costs, you can get the complete terms in the policy or plan 
+document at www.kp.org or by calling 1-800-278-3296. 
+ 
+ 
+ 
+Important Questions 
+Answers 
+Why this Matters: 
+You must pay all the costs up to the deductible amount before this plan 
+begins to pay for covered services you use. Check your policy or plan 
+$1,000 Individual/$2,000 Family 
+document to see when the deductible starts over (usually, but not always, 
+What is the overall 
+deductible
+? 
+January 1st). See the chart starting on page 2 for how much you pay for 
+. 
+covered services after you meet the deductible
+ for specific services, but see the chart 
+You don’t have to meet deductibles
+No 
+for specific 
+starting on page 2 for other costs for services this plan covers.  
+Are there other 
+deductibles 
+services? 
+ is the most you could pay during a coverage 
+out–of–
+The out-of-pocket limit
+Yes 
+ on my 
+$3,500 Individual/$7,000 Family 
+period (usually one year) for your share of the cost of covered services. This 
+limit helps you plan for health care expenses. 
+Is there an 
+pocket limit
+expenses? 
+. 
+Even though you pay these expenses, they don’t count toward the out–of–
+pocket limit
+What is not included in 
+the out–of–pocket limit
+? 
+Premiums, prescription drug copayments, 
+durable medical equipment cost sharing, and 
+payments for health care this plan doesn't cover. 
+The chart starting on page 2 describes any limits on what the plan will pay 
+No 
+for specific covered services, such as office visits. 
+Is there an overall annual 
+limit on what the plan 
+pays? 
+If you use an in-network doctor or other health care provider, this plan will 
+pay some or all of the costs of covered services. Be aware, your in-network 
+Yes 
+For a list of preferred providers, see 
+Does this plan use a 
+network of providers
+? 
+www.kp.org or call 1-800-278-3296. 
+. 
+doctor or hospital may use an out-of-network provider for some services. 
+Plans use the term in-network, preferred, or participating for providers in 
+their network. See the chart starting on page 2 for how this plan pays 
+different kinds of providers
+This plan will pay some or all of the costs to see a specialist for covered 
+services but only if you have the plan’s permission before you see the 
+Yes 
+Do I need a referral to 
+see a 
+specialist
+? 
+. 
+specialist
+Yes 
+Some of the services this plan doesn’t cover are listed on page 6. See your 
+policy or plan document for additional information about excluded services. 
+Are there services this 
+plan doesn’t cover? 
+Questions: Call 1-800-278-3296, TTY/TDD 1-800-777-1370 or visit us at www.kp.org. 
+ 
+ 1 of 9 
+If you aren’t clear about any of the underlined terms used in this form, see the Glossary. You can view the Glossary 
+at www.dol.gov/ebsa/pdf/SBCUniformGlossary.pdf, or call 1-800-278-3296 to request a copy. 
+
+
+
+Row wrong 0

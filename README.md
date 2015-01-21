@@ -39,9 +39,8 @@ Some pdfs don't have horizontal lines (Anthem). Have to use a different method w
 * OEMGroup
 * SeeChange
 * CalChoice
-
-#### Unreadable
 * Kaiser
+
 
 ##Values Extracted
 

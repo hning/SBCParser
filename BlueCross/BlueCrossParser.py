@@ -147,7 +147,7 @@ def output_pdf_to_table(path, config):
     pagenos=set()
 
     for page in PDFPage.get_pages(fp, pagenos, maxpages=maxpages, 
-        password=password,caching=caching, check_extractable=True):
+        password=password,caching=caching, check_extractable=False):
         interpreter.process_page(page)
         layout = device.get_result()
         getRows(layout, config)
