@@ -156,10 +156,10 @@ class TableClass:
             output += "\n\n"
         return output
 
-    # def sort_table(self):
-    #     for row in self.table:
-    #         for col in row:
-    #             col = sorted(col, key=attrgetter('y0'), reverse = True)
+    def sort_table(self):
+        for row in self.table:
+            for col in row:
+                col = sorted(col, key=attrgetter('y0'), reverse = True)
 
     def process_cells(self):
         #Combines the column text into a single text with sorted boxes

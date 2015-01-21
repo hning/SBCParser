@@ -28,7 +28,7 @@ line_margin_threshold = 0.00000001
 word_margin_threshold = 0.3
 
 #Most information on the tables are within the first two pages
-pages_to_view = 2
+pages_to_view = 1
 
 #Unused at the moment
 titles = ["Important Questions", "Answers", "Why This Matters:"]
@@ -51,12 +51,13 @@ def getRows(layout, config):
 
     while objstack:
         obj = objstack.pop()
-        #print obj
+        print obj
         # print "{0} {1} {2} {3}".format(obj.x0, obj.x1,
         #             obj.y0,obj.y1)
        
 
         if type(obj) == LTTextBoxHorizontal:
+            #Rects could look for question marks. Multiple question marks == Textbox Split
             textboxArr.append(obj)
             text = strip_text(obj.get_text())
             if len(text) > 0:
@@ -84,31 +85,23 @@ def getRows(layout, config):
             #Keep track of other rects to (maybe) use later
             rectArr.append(LTRects(obj))
 
+
+
     column_arr.add(max_x)
     row_arr.add(max_y)
 
+    print ""
+    textboxArr = sorted(textboxArr, key=attrgetter('x0','y0'))
+    for t in textboxArr:
+        print t
+
+
+    print ""
+    lineArr = sorted(lineArr, key=attrgetter('x0','y0'))
+    for l in lineArr:
+        print l
+
     # print ""
-    # textboxArr = sorted(textboxArr, key=attrgetter('x0','y0'))
-    # for t in textboxArr:
-    #     print t
-
-
-    # print ""
-    # lineArr = sorted(lineArr, key=attrgetter('x0','y0'))
-    # for l in lineArr:
-    #     print l
-
-    # print ""
-
-    tableClass = TableClass(column_arr, row_arr)
-    tableClass.add_textbox_arr(textboxArr)
-    # print ""
-    # print tableClass
-
-    tableClass.process_cells()
-    configparser = ConfigParser(config, tableClass)
-
-
 
     # rectArr = sorted(rectArr, key=attrgetter('width'), reverse=True)
     # for r in rectArr:
@@ -123,6 +116,18 @@ def getRows(layout, config):
 
     # rows.sort()
     # print rows
+
+    tableClass = TableClass(column_arr, row_arr)
+    tableClass.add_textbox_arr(textboxArr)
+    print ""
+    print tableClass
+
+    tableClass.process_cells()
+    configparser = ConfigParser(config, tableClass)
+
+
+
+
 
 
 def output_pdf_to_table(path, config):
