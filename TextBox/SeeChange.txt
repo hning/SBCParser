@@ -36,80 +36,96 @@
 <LTTextBoxHorizontal(9) 19.680,345.816,118.200,429.912 u'Are there other \ndeductibles for \nspecific services? \nIs there an out\u2013of\u2013 \npocket limit on my \nexpenses? \n'>
 <LTTextBoxHorizontal(10) 19.680,188.736,127.680,321.912 u'What is not included \nin the out\u2013of\u2013pocket \nlimit? \nIs there an overall \nannual limit on what \nthe plan pays? \nDoes this plan use \na network of \nproviders? \n'>
 <LTTextBoxHorizontal(21) 18.960,42.904,762.360,157.992 u'Do I need a referral \nto see a specialist? \nAre there services this \nplan doesn\u2019t cover? \nEnhanced Benefits: This plan will provide you with Enhanced benefits when you complete Preventive Health Actions: annual health questionnaire, biometric \nscreening and age/gender specific preventive health examination. Incentives are based on compliance efforts; not on the outcome of your health. Co-insurance \nwill be reduced or eliminated retroactive to the first day of the plan year. \n \n'>
-Row: 9 Col: 0
-Row: 9 Col: 2
-Row: 9 Col: 0
-Row: 9 Col: 0
-Row: 9 Col: -1 Negative
-Row: 9 Col: -1 Negative
-Row: 8 Col: 0
-Row: 8 Col: 2
-Row: 7 Col: 0
-Row: 5 Col: 0
-Row: 2 Col: 0
+Row: 8 Col: -1 Negative
+Row: 8 Col: 1
+Row: 8 Col: -1 Negative
+Row: 8 Col: -1 Negative
+Row: 8 Col: -1 Negative
+Row: 8 Col: -1 Negative
+Row: 7 Col: -1 Negative
 Row: 7 Col: 1
-Row: 3 Col: 1
+Row: 6 Col: -1 Negative
+Vertical Overlap: 320.4 387.6 345.816 429.912
+0.621785714286
+<LTTextBoxHorizontal(9) 19.680,345.816,118.200,429.912 u'Are there other \ndeductibles for \nspecific services? \nIs there an out\u2013of\u2013 \npocket limit on my \nexpenses? \n'>
+Row: 4 Col: -1 Negative
+Vertical Overlap: 156.36 230.88 188.736 321.912
+0.565539452496
+<LTTextBoxHorizontal(10) 19.680,188.736,127.680,321.912 u'What is not included \nin the out\u2013of\u2013pocket \nlimit? \nIs there an overall \nannual limit on what \nthe plan pays? \nDoes this plan use \na network of \nproviders? \n'>
+Row: 1 Col: -1 Negative
+Row: 6 Col: 0
+Vertical Overlap: 230.88 276.48 252.036 429.792
+0.536052631579
+<LTTextBoxHorizontal(12) 137.520,252.036,288.840,429.792 u'No. There are no other specific \ndeductibles.   \n  \nIn-Network     Out-of-Network \n$5,500              $8,000 \nStandard         Standard  \n$5,000              $7,000 \nEnhanced       Enhanced \n \n \n \n \n \n'>
+Row: 2 Col: 0
+Row: 3 Col: 0
+Row: 2 Col: 0
+Row: 1 Col: 0
+Vertical Overlap: 387.6 428.28 398.676 492.192
+0.727728613569
+<LTTextBoxHorizontal(16) 316.680,398.676,771.120,492.192 u'You must pay all the costs up to the deductible amount before this plan begins to pay for \ncovered services you use. Check your policy or plan document to see when the deductible starts \nover (usually, but not always, January 1st).  See the chart starting on page 2 for how much you pay \nfor covered services after you meet the deductible.   \nYou must pay all of the costs for these services up to the specific deductible amount before this \nplan begins to pay for these services.  \n'>
+Row: 5 Col: 1
 Row: 4 Col: 1
 Row: 3 Col: 1
-Row: 2 Col: 1
-Row: 6 Col: 2
-Row: 5 Col: 2
-Row: 4 Col: 2
-Row: 1 Col: 2
+Vertical Overlap: 126.0 156.36 141.576 277.992
+0.486956521739
+<LTTextBoxHorizontal(19) 316.680,141.576,768.120,277.992 u'This plan will pay for covered services only up to this limit during each coverage period, even if \nyour own need is greater. You\u2019re responsible for all expenses above this limit. The chart starting \non page 2 describes specific coverage limits such as limits on the number of office visits.  \nIf you use an in-network doctor or other health care provider, this plan will pay some or all of \nthe costs of covered services.  Be aware, your in-network doctor or hospital may use an out-of-\nnetwork provider for some services.  Plans use the term in-network, preferred, or participating \nfor providers in their network.  See the chart starting on page 2 for how this plan pays different \nkinds of providers. \nYou can see the specialist you choose without permission from this plan.  \n'>
 Row: 0 Col: 1
+Vertical Overlap: 96.12 126.0 111.996 157.872
+0.468674698795
+<LTTextBoxHorizontal(20) 132.240,111.996,310.920,157.872 u'No. You don\u2019t need a referral to see a \nspecialist.  \nYes. \n'>
+Row: -1 Col: 0 Negative
 Row: -1 Col: -1 Negative
-Row: -1 Col: 2 Negative
-Row: -1 Col: 0 Negative
-Row: -1 Col: 2 Negative
-Row: -1 Col: 2 Negative
-Row: -1 Col: 0 Negative
-Row: -1 Col: 0 Negative
 Row: -1 Col: 1 Negative
-Row: -1 Col: 1 Negative
-Row: -1 Col: 1 Negative
-Row: -1 Col: 1 Negative
+Row: 8 Col: -1 Negative
+Row: 8 Col: 1
+Row: 8 Col: 1
+Row: 8 Col: -1 Negative
+Row: 8 Col: -1 Negative
+Row: 8 Col: 0
+Row: 8 Col: 0
+Row: 8 Col: 0
+Row: 8 Col: 0
 
 Row Delimiters: 
 96.12  126.0  156.36  230.88  276.48  320.4  387.6  428.28  490.56  511.2  
 Col Delimiters: 
 19.32  131.88  316.32  
 Row 0
-<LTTextBoxHorizontal(20) 132.240,111.996,310.920,157.872 u'No. You don\u2019t need a referral to see a \nspecialist.  \nYes. \n'>
-
-Row 1
 <LTTextBoxHorizontal(19) 316.680,141.576,768.120,277.992 u'This plan will pay for covered services only up to this limit during each coverage period, even if \nyour own need is greater. You\u2019re responsible for all expenses above this limit. The chart starting \non page 2 describes specific coverage limits such as limits on the number of office visits.  \nIf you use an in-network doctor or other health care provider, this plan will pay some or all of \nthe costs of covered services.  Be aware, your in-network doctor or hospital may use an out-of-\nnetwork provider for some services.  Plans use the term in-network, preferred, or participating \nfor providers in their network.  See the chart starting on page 2 for how this plan pays different \nkinds of providers. \nYou can see the specialist you choose without permission from this plan.  \n'>
 
-Row 2
-<LTTextBoxHorizontal(10) 19.680,188.736,127.680,321.912 u'What is not included \nin the out\u2013of\u2013pocket \nlimit? \nIs there an overall \nannual limit on what \nthe plan pays? \nDoes this plan use \na network of \nproviders? \n'>
+Row 1
 <LTTextBoxHorizontal(15) 132.240,185.796,316.920,232.392 u'Yes.  See www.MySeeChangeHealth \n.com or call 1-866-218-6009 for a list \nof participating providers. \n'>
 
-Row 3
+Row 2
 <LTTextBoxHorizontal(12) 137.520,252.036,288.840,429.792 u'No. There are no other specific \ndeductibles.   \n  \nIn-Network     Out-of-Network \n$5,500              $8,000 \nStandard         Standard  \n$5,000              $7,000 \nEnhanced       Enhanced \n \n \n \n \n \n'>
 <LTTextBoxHorizontal(14) 132.240,246.876,305.880,277.992 u'Yes, this policy has an overall annual \nlimit of $5,000,000. \n'>
 
-Row 4
+Row 3
 <LTTextBoxHorizontal(13) 132.240,290.796,305.520,321.792 u'Premiums and excluded services this \nplan doesn\u2019t cover. \n'>
 <LTTextBoxHorizontal(18) 316.680,305.496,730.440,321.912 u'Even though you pay these expenses, they don\u2019t count toward the out-of-pocket limit.  \n'>
 
-Row 5
-<LTTextBoxHorizontal(9) 19.680,345.816,118.200,429.912 u'Are there other \ndeductibles for \nspecific services? \nIs there an out\u2013of\u2013 \npocket limit on my \nexpenses? \n'>
+Row 4
 <LTTextBoxHorizontal(17) 316.680,357.996,760.320,389.232 u'The out-of-pocket limit is the most you could pay during a coverage period (usually one year) \nfor your share of the cost covered services.  This limit helps you plan for health care expenses.  \n'>
 
-Row 6
+Row 5
 <LTTextBoxHorizontal(16) 316.680,398.676,771.120,492.192 u'You must pay all the costs up to the deductible amount before this plan begins to pay for \ncovered services you use. Check your policy or plan document to see when the deductible starts \nover (usually, but not always, January 1st).  See the chart starting on page 2 for how much you pay \nfor covered services after you meet the deductible.   \nYou must pay all of the costs for these services up to the specific deductible amount before this \nplan begins to pay for these services.  \n'>
 
-Row 7
-<LTTextBoxHorizontal(8) 19.680,461.976,116.160,491.832 u'What is the overall \ndeductible? \n'>
+Row 6
 <LTTextBoxHorizontal(11) 137.520,436.116,292.920,492.072 u'In-Network     Out-of-Network \n$4,000              $6,000 \nThe deductible doesn\u2019t apply to \npreventive care. \n'>
 
-Row 8
-<LTTextBoxHorizontal(6) 24.960,493.836,182.592,509.172 u'Important Questions  Answers \n'>
+Row 7
 <LTTextBoxHorizontal(7) 321.960,493.836,414.672,509.172 u'Why this Matters: \n'>
 
-Row 9
-<LTTextBoxHorizontal(0) 35.640,563.448,467.645,598.967 u'SeeChange Health Insurance :  California HSA 4000 2-50 \nSummary of Benefits and Coverage: What this Plan Covers & What it Costs \n'>
-<LTTextBoxHorizontal(2) 77.280,549.505,78.681,556.531 u' \n'>
-<LTTextBoxHorizontal(3) 77.280,516.768,735.816,550.093 u'This is only a summary. If you want more detail about your coverage and costs, you can get the complete terms in the \npolicy or plan document at www.MySeeChangeHealth.com or by calling 1-866-218-6009. \n'>
+Row 8
+<LTTextBoxHorizontal(28) 135.240,-2.844,138.240,12.672 u' \n'>
+<LTTextBoxHorizontal(29) 147.360,-2.844,150.360,12.672 u' \n'>
+<LTTextBoxHorizontal(30) 183.720,-2.844,194.520,12.672 u'   \n'>
+<LTTextBoxHorizontal(31) 219.600,-2.844,222.600,12.672 u' \n'>
 <LTTextBoxHorizontal(1) 479.640,565.368,762.816,597.456 u'Coverage Period: ___________ -  _____________ \nCoverage for:  Single       |       Plan Type: PPO \n'>
+<LTTextBoxHorizontal(24) 615.360,14.355,763.059,26.334 u'CA SBC 2-50 HSA 4000 20130501b \n'>
+<LTTextBoxHorizontal(25) 732.600,30.529,764.589,45.919 u'1 of 7 \n'>
+
+Row 9
 
 Row 10

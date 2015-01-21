@@ -37,10 +37,28 @@ def is_line_horizontal(el):
     return False
 
 def interval_overlap(first_x0, first_x1 , second_x0, second_x1):
-	divisor = max(first_x1 - firstx0, second_x1, second_x0)
+	divisor = min(first_x1 - first_x0, second_x1 - second_x0)
+	numerator = 0
 
-	if (first_x0 < second_x0 and first_x1 < second_x0) or \
-		(second_x1)
+	# print "{0} {1} {2} {3}".format(first_x0, first_x1 , second_x0, second_x1)
+
+	# None overlap
+	if (first_x0 < second_x0 and first_x1 <= second_x0) or \
+		(second_x0 < first_x0 and second_x1 <= first_x0):
+		return 0
+	# Completely subsumed
+	elif (first_x0 < second_x0 and first_x1 > second_x1) or \
+		(second_x0 < first_x0 and second_x1 > first_x1):
+		return 1
+	# First interval has left overhang
+	elif (first_x0 <= second_x0 and first_x1 > second_x0):
+		numerator = first_x1 - second_x0
+	# Second interval has left overhang
+	elif (second_x0 <= first_x0 and second_x1 > first_x0):
+		numerator = second_x1 - first_x0
+
+	return numerator/divisor
+
 
 class TableClassHorizontal:
 	def __init__(self):
@@ -99,25 +117,53 @@ class TableClassHorizontal:
 			self.table.append(row)
 
 		self.fill_table()
-		self.post_process_table(0)
+		self.post_process_table()
 
 	def fill_table(self):
 		for el in self.textboxes:
 			row_num = -1
 			col_num = -1
+			found = False
 
 			# Find elements that overlap into 2 columns or 2 rows
+			for i in range(1, len(self.column_delimiters)):
+				overlap = interval_overlap\
+							(self.column_delimiters[i-1], self.column_delimiters[i],\
+								el.x0, el.x1)
 
-
-			for c in self.column_delimiters:
-				if c > el.x0:
+				if overlap > 0.9:
 					break
+				elif overlap > 0.1:
+					#Deal with horizontal overlap
+					break
+
 				col_num = col_num + 1
-			
-			for r in self.row_delimiters:
-				if r > el.y0:
+
+			for i in range(1, len(self.row_delimiters)):
+				overlap = interval_overlap\
+							(self.row_delimiters[i-1], self.row_delimiters[i],\
+								el.y0, el.y1)
+				if overlap > 0.9:
 					break
+				elif overlap > 0.1:
+					#Deal with vertical overlap
+					print "Vertical Overlap: {0} {1} {2} {3}".format(self.row_delimiters[i-1], self.row_delimiters[i],\
+								el.y0, el.y1)
+					print overlap
+					print el
+					break
+
 				row_num = row_num + 1
+
+			# for c in self.column_delimiters:
+			# 	if c > el.x0:
+			# 		break
+			# 	col_num = col_num + 1
+			
+			# for r in self.row_delimiters:
+			# 	if r > el.y0:
+			# 		break
+			# 	row_num = row_num + 1
 
 			if row_num < 0 or col_num < 0:
 				print "Row: {0} Col: {1} Negative".format(row_num, col_num)
@@ -128,6 +174,7 @@ class TableClassHorizontal:
 
 	def post_process_table(self):
 		# Find 
+		hi = 1
 
 
 	def print_delimiters(self):
