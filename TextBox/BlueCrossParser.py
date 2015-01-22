@@ -25,7 +25,7 @@ min_elements_in_row = 0
 
 #default 0.3, 0.25 works for OEMgroup
 #This is the separation between lines that pdfminer uses for textbox analysis
-line_margin_threshold = 0.1
+line_margin_threshold = 0.25
 
 #default 0.2
 word_margin_threshold = 0.1
