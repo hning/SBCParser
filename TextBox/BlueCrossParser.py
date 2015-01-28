@@ -31,7 +31,7 @@ line_margin_threshold = 0.25
 word_margin_threshold = 0.1
 
 #Most information on the tables are within the first two pages
-pages_to_view = 1
+pages_to_view = 2
 
 #Unused at the moment
 titles = ["Important Questions", "Answers", "Why This Matters:"]
@@ -120,7 +120,7 @@ def getRows(layout, config):
     # print tableClass
 
     # tableClass.process_cells()
-    # configparser = ConfigParser(config, tableClass)
+    configparser = ConfigParser(config, tableClass.get_table(), output_file)
 
 
 
@@ -152,4 +152,6 @@ def output_pdf_to_table(path, config):
 directory = os.path.dirname(__file__)
 filename = os.path.join(directory, sys.argv[1])
 config = Config(os.path.join(directory, sys.argv[2]))
+output_file = sys.argv[3]
+open(sys.argv[3], 'w').close()
 output_pdf_to_table(filename, config)

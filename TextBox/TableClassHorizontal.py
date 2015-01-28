@@ -260,7 +260,8 @@ class TableClassHorizontal:
 		# 		print self.table[row][column]
 		# 		print lines
 
-
+	def get_table(self):
+		return self.processed_table
 
 
 	def print_delimiters(self):

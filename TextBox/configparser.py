@@ -1,15 +1,21 @@
 from config import *
 from TableClass import *
 import string
-
+import re
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
+def translate_non_alphanumerics(to_translate, translate_to=u'_'):
+    not_letters_or_digits = u'!"#%\'()*+,-./:;<=>?@[\]^_`{|}~'
+    translate_table = dict((ord(char), translate_to) for char in not_letters_or_digits)
+    return to_translate.translate(translate_table)
+
 class ConfigParser:
-	def __init__(self, _config, _table):
+	def __init__(self, _config, _table, _output_file):
 		self.config =  _config
 		self.table = _table
+		self.output_file = open(_output_file, "a")
 
 		self.execute()
 
@@ -17,10 +23,10 @@ class ConfigParser:
 		#Iterate through rows to determine if they one of the key rows
 		#Find first non-empty column
 
-		if len(self.table.table) == 0:
+		if len(self.table) == 0:
 			return
 
-		for row in self.table.table:
+		for row in self.table:
 			i = 0
 			for col in row:
 				if len(col) == 0:
@@ -51,14 +57,14 @@ class ConfigParser:
 
 				if "variable" in self.config.data[key]["type"]:
 					for value in key_info:
-						print value
+						self.output_file.write("{0}\n".format(value))
 				else: 
 					if not len(key_info) == len(self.config.data[key]["output_format"]):
-						print "Given: {0} Required: {1}".format(len(key_info), len(self.config.data[key]["output_format"]))
+						self.output_file.write("Given: {0} Required: {1}\n".format(len(key_info), len(self.config.data[key]["output_format"])))
 						continue
 					#Output key-value pairs
 					for idx in xrange(len(key_info)):
-						print "{0}:{1}".format(self.config.data[key]["output_format"][idx]["name"], key_info[idx])
+						self.output_file.write("{0}:{1}\n".format(self.config.data[key]["output_format"][idx]["name"], key_info[idx]))
 
 				if found_all is True and len(key_info) > 0:
 					to_delete = key
@@ -68,7 +74,7 @@ class ConfigParser:
 				del self.config.data[to_delete]
 
 	def variable_money_parse(self, text, info):
-		money_arr = [int(s.translate(None, string.punctuation)) for s in text.split() if ("$" in s and s.translate(None, string.punctuation).isdigit())]
+		money_arr = [int(re.sub(r'[^\w\s]', '', s)) for s in text.split() if ("$" in s and re.sub(r'[^\w\s]', '', s).isdigit())]
 		num_values = len(money_arr)
 		output_arr = []
 
@@ -85,6 +91,8 @@ class ConfigParser:
 		elif num_values == 2:
 			output_arr.append("{0}_individual:{1}".format(info["prefix"],money_arr[0]))
 			output_arr.append("{0}_individual:{1}".format(info["prefix"],money_arr[1]))
+		elif num_values == 1:
+			output_arr.append("{0}:{1}".format(info["prefix"],money_arr[0]))
 		else:
 			print "Size of money array is not 2 or 4 (Size={0})".format(num_values)
 
@@ -97,7 +105,8 @@ class ConfigParser:
 
 		possible_values = ["true", "false", "yes", "no"]
 		replace_punctuation = string.maketrans(string.punctuation, ' '*len(string.punctuation))
-		no_punc_text = text.translate(replace_punctuation).lower()
+		# no_punc_text = text.translate(replace_punctuation).lower()
+		no_punc_text = re.sub(r'[^\w\s]', ' ', text).lower()
 		no_punc_text = ' ' + no_punc_text + ' '
 
 		output_arr = []
