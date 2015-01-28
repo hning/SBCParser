@@ -36,10 +36,14 @@ def is_line_horizontal(el):
         return True
     return False
 
-def subsumed_by_row(row_x0, row_x1, x0, x1):
-	if x0 <= row_x0 and x1 <= row_x1:
+def overlap_above_row(row_x0, row_x1, x0, x1):
+	if x1 >= row_x1:
 		return True
 	return False
+
+def get_lines(row_y0, row_y1, textbox_input):
+	
+
 
 def interval_overlap(first_x0, first_x1 , second_x0, second_x1):
 	divisor = min(first_x1 - first_x0, second_x1 - second_x0)
@@ -71,13 +75,17 @@ class TableClassHorizontal:
 		self.row_delimiters = []
 		self.column_delimiters = []
 		self.table = []
+		self.processed_table = []
 		self.textboxes = []
+		self.overlapping = defaultdict(list)
 
 	def clear_elements(self):
 		self.row_delimiters = []
 		self.column_delimiters = []
 		self.table = []
+		self.processed_table = []
 		self.textboxes = []
+		self.overlapping = defaultdict(list)
 
 	def process_elements(self, element_list):
 		self.clear_elements()
@@ -127,7 +135,7 @@ class TableClassHorizontal:
 
 	def fill_table(self):
 		for el in self.textboxes:
-			row_num = len(self.row_delimiters) - 2
+			row_num = 0
 			col_num = 0
 			found = False
 
@@ -142,14 +150,16 @@ class TableClassHorizontal:
 
 				col_num = col_num + 1
 
-			for i in range(len(self.row_delimiters)-1, 0, -1):
+			for i in range(1, len(self.row_delimiters)):
+			#for i in range(len(self.row_delimiters)-1, 0, -1):
 				overlap = interval_overlap\
 							(self.row_delimiters[i-1], self.row_delimiters[i],\
 								el.y0, el.y1)
 				if overlap > 0.3:
 					print "Overlap: {0}".format(overlap)
 					print el
-					if overlap < 0.9:
+					if overlap < 0.9 or (overlap < 0.9 and overlap_above_row(self.row_delimiters[i-1], self.row_delimiters[i],\
+								el.y0, el.y1)):
 						#Deal with vertical overlap
 						lines = el.get_text().splitlines()
 						print lines
@@ -158,9 +168,11 @@ class TableClassHorizontal:
 									el.y0, el.y1)
 						print overlap
 						print el
+
+						self.overlapping.[row_num].append(col_num)
 					break
 
-				row_num = row_num - 1
+				row_num = row_num+1
 
 			if row_num < 0 or col_num < 0:
 				print "Row: {0} Col: {1} Negative".format(row_num, col_num)
@@ -168,11 +180,41 @@ class TableClassHorizontal:
 				continue
 
 			print "Row: {0} Col: {1}".format(row_num, col_num)
-			self.table[len(self.row_delimiters) - 2 - row_num][col_num].append(el)
+			self.table[row_num][col_num].append(el)
 
 	def post_process_table(self):
-		# Find 
-		hi = 1
+		# Go through each element that has proven to be vertically overlapping
+
+		print "### POST PROCESS TABLE"
+		print self.overlapping
+		for row in range(0, len(self.table)):
+			self.processed_table.append([])
+			for col in range(0, len(row)):
+				cell_text = ""
+				if col in self.overlapping[row]:
+					for textbox in sorted(table[row][col], key=attrgetter('y1'), reverse=True):
+						lines_arr = textbox.get_text().splitlines()
+						cell_text = get_lines(row_delimiters[row], row_delimiters[row+1], textbox)
+				else:
+					
+					for textbox in sorted(table[row][col], key=attrgetter('y1'), reverse=True):
+						cell_text = cell_text + textbox.get_text()
+
+				self.processed_table[row].append(cell_text)
+
+		for o in self.overlapping:
+			row = o[0]
+			column = o[1]
+
+			print "{0} {1}".format(row, column)
+			for el in self.table[row][column]:
+				text = ""
+				text = text + el.get_text() + "\n"
+				lines = text.splitlines()
+				print self.table[row][column]
+				print lines
+
+
 
 
 	def print_delimiters(self):

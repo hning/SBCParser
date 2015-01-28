@@ -73,14 +73,14 @@ class ConfigParser:
 		# Non-Network prices: Individual Family
 		if num_values == 4:
 			output_arr.append("{0}_individual_in-network:{1}".format(info["prefix"],money_arr[0]))
-			output_arr.append("{0}_individual_in-network:{1}".format(info["prefix"],money_arr[1]))
-			output_arr.append("{0}_individual_in-network:{1}".format(info["prefix"],money_arr[2]))
-			output_arr.append("{0}_individual_in-network:{1}".format(info["prefix"],money_arr[3]))
+			output_arr.append("{0}_family_in-network:{1}".format(info["prefix"],money_arr[1]))
+			output_arr.append("{0}_individual_out-network:{1}".format(info["prefix"],money_arr[2]))
+			output_arr.append("{0}_family_out-network:{1}".format(info["prefix"],money_arr[3]))
 		# 2 values means doesn't matter
 		# Individual/Family
 		elif num_values == 2:
 			output_arr.append("{0}_individual:{1}".format(info["prefix"],money_arr[0]))
-			output_arr.append("{0}_individual:{1}".format(info["prefix"],money_arr[1]))
+			output_arr.append("{0}_family:{1}".format(info["prefix"],money_arr[1]))
 		else:
 			print "Size of money array is not 2 or 4 (Size={0})".format(num_values)
 
@@ -91,7 +91,7 @@ class ConfigParser:
 
 	def boolean_parse(self, text, info):
 
-		possible_values = ["true", "false", "yes", "no"]
+		possible_values = ["true", "yes", "false", "no"]
 		replace_punctuation = string.maketrans(string.punctuation, ' '*len(string.punctuation))
 		no_punc_text = text.translate(replace_punctuation).lower()
 		no_punc_text = ' ' + no_punc_text + ' '
@@ -101,6 +101,7 @@ class ConfigParser:
 		for val in possible_values:
 			if (' ' + val + ' ') in no_punc_text:
 				output_arr = [val] 
+				break
 
 		if "extra" in info["type"]:
 			output_arr = [output_arr[0] + "|" + text]

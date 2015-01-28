@@ -28,7 +28,7 @@ line_margin_threshold = 0.00000001
 word_margin_threshold = 0.3
 
 #Most information on the tables are within the first two pages
-pages_to_view = 1
+pages_to_view = 2
 
 #Unused at the moment
 titles = ["Important Questions", "Answers", "Why This Matters:"]

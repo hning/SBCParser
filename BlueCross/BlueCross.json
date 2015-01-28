@@ -42,5 +42,13 @@
 		"output_format": [
 			{"name": "network_of_providers"}
 		]
+	},
+	"services_not_covered":{
+		"contains": ["services", "plan", "cover"],
+		"multiple": "false",
+		"type": "boolean",
+		"output_format": [
+			{"name": "services_not_covered"}
+		]
 	}
 }
