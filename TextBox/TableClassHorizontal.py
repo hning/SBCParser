@@ -41,23 +41,63 @@ def overlap_above_row(row_x0, row_x1, x0, x1):
 		return True
 	return False
 
+def get_string_from_list(str_list, remove_tuple=(0,0)):
+	#Removing below
+	print "Before: {0}".format('\n'.join(str_list))
+	print remove_tuple
+	if remove_tuple[0] > 0:
+		del str_list[-remove_tuple[0]:]
+
+	#Removing above
+	if remove_tuple[1] > 0:
+		del str_list[:remove_tuple[1]]
+
+	print "After: {0}".format('\n'.join(str_list))
+
+	return '\n'.join(str_list)
+
 def get_lines(row_y0, row_y1, textbox_input):
-	
+	lines = textbox_input.get_text().splitlines()
+	original_num_lines = len(lines)
+	text_y0 = textbox_input.y0
+	text_y1 = textbox_input.y1
 
+	remove_below = 0
+	remove_above = 0
 
-def interval_overlap(first_x0, first_x1 , second_x0, second_x1):
-	divisor = min(first_x1 - first_x0, second_x1 - second_x0)
+	# Check if the textbox exists below the box; remove those elements
+	if text_y0 < row_y0:
+		percent = interval_overlap(text_y0, row_y0, text_y0, text_y1, False)
+		remove_below = math.trunc(percent * original_num_lines)
+
+		# print "Below: {0}".format(percent)
+
+	# Check if the textbox exists above the box;
+	if text_y1 > row_y1:
+		percent = interval_overlap(row_y1, text_y1, text_y0, text_y1, False)
+		remove_above = math.trunc(percent*original_num_lines)
+
+		# print "After: {0} {1}".format(percent, remove_above)
+
+	print "Tuple: {0} {1}".format(remove_below, remove_above)
+	return (remove_below, remove_above)
+
+def interval_overlap(first_x0, first_x1 , second_x0, second_x1, is_min=True):
+	if is_min is True:
+		divisor = min(first_x1 - first_x0, second_x1 - second_x0)
+	else:
+		divisor = max(first_x1 - first_x0, second_x1 - second_x0)
 	numerator = 0
 
 	# print "{0} {1} {2} {3}".format(first_x0, first_x1 , second_x0, second_x1)
 
 	# None overlap
-	if (first_x0 < second_x0 and first_x1 <= second_x0) or \
-		(second_x0 < first_x0 and second_x1 <= first_x0):
+	if ((first_x0 < second_x0 and first_x1 <= second_x0) or \
+		(second_x0 < first_x0 and second_x1 <= first_x0)) and is_min:
 		return 0
 	# Completely subsumed
-	elif (first_x0 < second_x0 and first_x1 > second_x1) or \
-		(second_x0 < first_x0 and second_x1 > first_x1):
+	elif ((first_x0 < second_x0 and first_x1 > second_x1) or \
+		(second_x0 < first_x0 and second_x1 > first_x1)) and is_min:
 		return 1
 	# First interval has left overhang
 	elif (first_x0 <= second_x0 and first_x1 > second_x0):
@@ -158,8 +198,8 @@ class TableClassHorizontal:
 				if overlap > 0.3:
 					print "Overlap: {0}".format(overlap)
 					print el
-					if overlap < 0.9 or (overlap < 0.9 and overlap_above_row(self.row_delimiters[i-1], self.row_delimiters[i],\
-								el.y0, el.y1)):
+					if overlap < 0.9 or  overlap_above_row(self.row_delimiters[i-1], self.row_delimiters[i],\
+								el.y0, el.y1):
 						#Deal with vertical overlap
 						lines = el.get_text().splitlines()
 						print lines
@@ -169,7 +209,7 @@ class TableClassHorizontal:
 						print overlap
 						print el
 
-						self.overlapping.[row_num].append(col_num)
+						self.overlapping[row_num].append(col_num)
 					break
 
 				row_num = row_num+1
@@ -189,30 +229,36 @@ class TableClassHorizontal:
 		print self.overlapping
 		for row in range(0, len(self.table)):
 			self.processed_table.append([])
-			for col in range(0, len(row)):
+			for col in range(0, len(self.table[row])):
 				cell_text = ""
 				if col in self.overlapping[row]:
-					for textbox in sorted(table[row][col], key=attrgetter('y1'), reverse=True):
+					for textbox in sorted(self.table[row][col], key=attrgetter('y1'), reverse=True):
 						lines_arr = textbox.get_text().splitlines()
-						cell_text = get_lines(row_delimiters[row], row_delimiters[row+1], textbox)
+						remove_tuple = get_lines(self.row_delimiters[row], self.row_delimiters[row+1], textbox)
+						cell_text = get_string_from_list(lines_arr, remove_tuple)
+
+						#There's text above
+						if remove_tuple[1] > 0 and (row+1 < len(self.table)):
+							self.table[row+1][col].append(textbox)
+							self.overlapping[row+1].append(col)
 				else:
 					
-					for textbox in sorted(table[row][col], key=attrgetter('y1'), reverse=True):
+					for textbox in sorted(self.table[row][col], key=attrgetter('y1'), reverse=True):
 						cell_text = cell_text + textbox.get_text()
 
 				self.processed_table[row].append(cell_text)
 
-		for o in self.overlapping:
-			row = o[0]
-			column = o[1]
+		# for o in self.overlapping:
+		# 	row = o[0]
+		# 	column = o[1]
 
-			print "{0} {1}".format(row, column)
-			for el in self.table[row][column]:
-				text = ""
-				text = text + el.get_text() + "\n"
-				lines = text.splitlines()
-				print self.table[row][column]
-				print lines
+		# 	print "{0} {1}".format(row, column)
+		# 	for el in self.table[row][column]:
+		# 		text = ""
+		# 		text = text + el.get_text() + "\n"
+		# 		lines = text.splitlines()
+		# 		print self.table[row][column]
+		# 		print lines
 
 
 
@@ -233,6 +279,13 @@ class TableClassHorizontal:
 				print "|",
 				for el in c:
 					print el
+
+	def print_final_table(self):
+		for i,r in enumerate(self.processed_table):
+			print "\n\nRow {0}".format(i)
+			for c in r:
+				print "|",
+				print c
 
 
 

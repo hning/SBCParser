@@ -111,6 +111,8 @@ def getRows(layout, config):
     tableClass.process_elements(objArr)
     tableClass.print_delimiters()
     tableClass.print_table()
+    print "FINAL TABLE"
+    tableClass.print_final_table()
 
     # tableClass = TableClass(column_arr, row_arr)
     # tableClass.add_textbox_arr(textboxArr)

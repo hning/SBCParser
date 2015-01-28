@@ -126,10 +126,6 @@ def getRows(layout, config):
     configparser = ConfigParser(config, tableClass)
 
 
-
-
-
-
 def output_pdf_to_table(path, config):
 
     fp = open(path, "rb")
