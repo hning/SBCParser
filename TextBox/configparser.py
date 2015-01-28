@@ -103,7 +103,7 @@ class ConfigParser:
 
 	def boolean_parse(self, text, info):
 
-		possible_values = ["true", "false", "yes", "no"]
+		possible_values = ["true", "yes", "false", "no"]
 		replace_punctuation = string.maketrans(string.punctuation, ' '*len(string.punctuation))
 		# no_punc_text = text.translate(replace_punctuation).lower()
 		no_punc_text = re.sub(r'[^\w\s]', ' ', text).lower()
@@ -114,6 +114,7 @@ class ConfigParser:
 		for val in possible_values:
 			if (' ' + val + ' ') in no_punc_text:
 				output_arr = [val] 
+				break
 
 		if len(output_arr) == 0:
 			return output_arr

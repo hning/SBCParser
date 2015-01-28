@@ -142,7 +142,7 @@ class TableClassHorizontal:
 
 		# Find the x0 values (Column dividers)
 		for key,value in list(horizontal_dict.items()):
-			if len(value) < 5:
+			if len(value) < 4:
 				del horizontal_dict[key]
 
 		row_delimiter_dict = defaultdict(int)
