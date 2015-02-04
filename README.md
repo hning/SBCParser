@@ -1,6 +1,6 @@
 # SBCParser
 
-CURRENT WORKING PARSER FOUND UNDER BlueCross/BlueCrossParser.py
+CURRENT WORKING PARSER FOUND UNDER CurrenParser/SBCParser.py
 
 Parse SBC documents using pdfminer.
 
@@ -12,9 +12,9 @@ Mostly uses table parsing to determine the information from SBC forms
 
 ## Usage:
 ````
-python Parser.py
+python SBCParser.py <input_file> <settings_json_file> <output_file>
 ````
-Files are hardcoded for now.
+Right now, all the arguments are necessary. There's also a lot of debugging print statements that occurs. 
 
 ## Strategy:
 
@@ -40,7 +40,6 @@ Some pdfs don't have horizontal lines (Anthem). Have to use a different method w
 * SeeChange
 * CalChoice
 * Kaiser
-
 
 ##Values Extracted
 
