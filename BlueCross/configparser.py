@@ -1,11 +1,16 @@
 from config import *
 from TableClass import *
 import string
+import re
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 class ConfigParser:
-	def __init__(self, _config, _table):
+	def __init__(self, _config, _table, _output_file):
 		self.config =  _config
 		self.table = _table
+		self.output_file = open(_output_file, "a")
 
 		self.execute()
 
@@ -45,18 +50,20 @@ class ConfigParser:
 				#Get all elements within cell, assume next cell
 				key_info = self.parse_cell(row[i+1], self.config.data[key])
 
-				if "variable" in self.config.data[key]["type"]:
-					for value in key_info:
-						print value
-				else: 
-					if not len(key_info) == len(self.config.data[key]["output_format"]):
-						print "Given: {0} Required: {1}".format(len(key_info), len(self.config.data[key]["output_format"]))
-						continue
+				# if "-" in self.config.data[key]["type"]:
+				# 	for value in key_info:
+				# 		print value
+				# else: 
+					# if not len(key_info) == len(self.config.data[key]["output_format"]):
+					# 	print "Given: {0} Required: {1}".format(len(key_info), len(self.config.data[key]["output_format"]))
+					# 	continue
 					#Output key-value pairs
-					for idx in xrange(len(key_info)):
-						print "{0}:{1}".format(self.config.data[key]["output_format"][idx]["name"], key_info[idx])
 
-				if found_all is True and len(key_info) > 0:
+
+				# for idx in xrange(len(key_info)):
+				# 	print "{0}:{1}".format(self.config.data[key]["output_format"][idx]["name"], key_info[idx])
+
+				if found_all is True and key_info is True:
 					to_delete = key
 					break
 				
@@ -64,13 +71,14 @@ class ConfigParser:
 				del self.config.data[to_delete]
 
 	def variable_money_parse(self, text, info):
-		money_arr = [int(s.translate(None, string.punctuation)) for s in text.split() if ("$" in s and s.translate(None, string.punctuation).isdigit())]
+		money_arr = [int(re.sub(r'[^\w\s]', '', s)) for s in text.split() if ("$" in s and re.sub(r'[^\w\s]', '', s).isdigit())]
 		num_values = len(money_arr)
 		output_arr = []
 
 		# 4 values means contains non-network prices
 		# Network prices: Individual/Family
 		# Non-Network prices: Individual Family
+
 		if num_values == 4:
 			output_arr.append("{0}_individual_in-network:{1}".format(info["prefix"],money_arr[0]))
 			output_arr.append("{0}_family_in-network:{1}".format(info["prefix"],money_arr[1]))
@@ -83,8 +91,12 @@ class ConfigParser:
 			output_arr.append("{0}_family:{1}".format(info["prefix"],money_arr[1]))
 		else:
 			print "Size of money array is not 2 or 4 (Size={0})".format(num_values)
+			return False
 
-		return output_arr
+		for i in output_arr:
+			self.output_file.write("{0}\n".format(i))
+
+		return True
 
 	def number_parse(self, text):
 		return [int(s.translate(None, string.punctuation)) for s in text.split() if s.translate(None, string.punctuation).isdigit()]
@@ -103,10 +115,18 @@ class ConfigParser:
 				output_arr = [val] 
 				break
 
-		if "extra" in info["type"]:
-			output_arr = [output_arr[0] + "|" + text]
+		info_types = info["type"].split("-")
 
-		return output_arr
+		for i in range(1,len(info_types)):
+			next_arr = []
+			if info_types[i] == "number":
+				next_arr = self.number_parse(text)
+				for i in next_arr:
+					output_arr = [output_arr[0] + "|" + str(i)]
+
+		self.output_file.write("{0}:{1}\n".format(info["output_format"][0]["name"],output_arr[0]))
+
+		return True
 
 	def money_parse(self, text, info):
 		if "variable" in info["type"]:
@@ -118,15 +138,18 @@ class ConfigParser:
 
 		# print in_type
 
-		if info["type"] == "number":
+		info_types = info["type"].split("-")
+
+		if "number" == info_types[0]:
 			return self.number_parse(cell)
-		elif "boolean" in info["type"]:
+		elif "boolean" == info_types[0]:
 			return self.boolean_parse(cell, info)
-		elif "money" in info["type"]:
-			return self.money_parse(cell, info)
+		elif "money" == info_types[0]:
+			return self.variable_money_parse(cell, info)
 		# elif in_type == "money-variable":
 		# 	return self.variable_deductible_money_parse(cell):
 		else: 
 			print "ERROR: Type '{0}' is not present".format(in_type)
 
-		return []
+		return False
+		# return output_arr

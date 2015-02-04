@@ -13,7 +13,7 @@
 	"specific_service_deductible": {
 		"contains": ["deductibles","specific"],
 		"multiple": "false",
-		"type": "boolean",
+		"type": "boolean-money",
 		"output_format": [
 			{"name": "specific_service_deductible"}
 		]
@@ -32,7 +32,7 @@
 	"annual_limit": {
 		"contains": ["annual","limit"],
 		"multiple": "false",
-		"type": "boolean-extra-yes",
+		"type": "boolean",
 		"output_format": [
 			{"name": "specific_service_deductible"}
 		]
@@ -40,7 +40,7 @@
 	"referral_for_specialist": {
 		"contains": ["referral", "specialist"],
 		"multiple": "false",
-		"type": "boolean-extra-yes",
+		"type": "boolean",
 		"output_format": [
 			{"name": "referral_for_specialist"}
 		]
@@ -48,7 +48,7 @@
 	"network_of_providers": {
 		"contains": ["network", "providers"],
 		"multiple": "false",
-		"type": "boolean-extra-all",
+		"type": "boolean",
 		"output_format": [
 			{"name": "network_of_providers"}
 		]
