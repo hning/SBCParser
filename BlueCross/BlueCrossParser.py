@@ -16,6 +16,8 @@ from config import *
 
 from TableClass import *
 
+from TableClassHorizontal import *
+
 overlap_threshold = 0.7
 
 min_elements_in_row = 0
@@ -39,6 +41,7 @@ from configparser import *
 def getRows(layout, config):
     objstack = list(reversed(layout._objs))
     rows = TableRows()
+    objArr = []
     rectArr = []
     lineArr = []
     textboxArr = []
@@ -49,9 +52,12 @@ def getRows(layout, config):
     max_x = 0
     max_y = 0
 
+    num_lines = 0
+    num_rects = 0
+
     while objstack:
         obj = objstack.pop()
-        print obj
+        objArr.append(obj)
         # print "{0} {1} {2} {3}".format(obj.x0, obj.x1,
         #             obj.y0,obj.y1)
        
@@ -72,18 +78,22 @@ def getRows(layout, config):
                     continue
                 rows.add(obj)
         elif type(obj) == LTLine:
-
             if is_line_vertical(obj):
                 lineArr.append(obj)
                 column_arr.add(obj.x0)
                 row_arr.add(obj.y0)
                 max_x = max(max_x, obj.x1)
                 max_y = max(max_y, obj.y1)
+
+                # Book-keeping
+                num_lines = num_lines + 1
  
 
-        elif type(obj) in [LTLine, LTRect]:
+        elif type(obj) == LTRect:
             #Keep track of other rects to (maybe) use later
             rectArr.append(LTRects(obj))
+            # Book-keeping
+            num_rects = num_rects + 1
 
 
 
@@ -117,13 +127,23 @@ def getRows(layout, config):
     # rows.sort()
     # print rows
 
-    tableClass = TableClass(column_arr, row_arr)
-    tableClass.add_textbox_arr(textboxArr)
-    print ""
-    print tableClass
 
-    tableClass.process_cells()
-    configparser = ConfigParser(config, tableClass, output_file)
+
+
+    if num_lines > 20: 
+        print "LINES {0} > RECTS {1}".format(num_lines, num_rects)
+        tableClass = TableClass(column_arr, row_arr)
+        tableClass.add_textbox_arr(textboxArr)
+        tableClass.process_cells()
+    else:
+        print "RECTS {0} > LINES {1}".format(num_rects, num_lines)
+        tableClass = TableClassHorizontal()
+        tableClass.process_elements(objArr)
+    # print ""
+    # print tableClass
+
+  
+    configparser = ConfigParser(config, tableClass.get_table(), output_file)
 
 
 def output_pdf_to_table(path, config):

@@ -1,0 +1,10 @@
+referral_for_specialist:no
+network_of_providers:yes
+annual_limit:no
+output_of_pocket_individual_in-network:4000
+output_of_pocket_family_in-network:8000
+output_of_pocket_individual_out-network:8000
+output_of_pocket_family_out-network:16000
+specific_service_deductible:no
+deductible:0
+services_not_covered:yes

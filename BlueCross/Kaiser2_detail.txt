@@ -1,0 +1,603 @@
+
+<LTTextBoxHorizontal(49) 22.440,11.436,557.976,28.428 u'You can view the Glossary at www.cciio.cms.gov/resources/other/index.html or call 1-800-788-0710 to request a copy. \n'>
+<LTTextBoxHorizontal(48) 22.440,25.236,409.896,41.952 u'If you aren\u2019t clear about any of the underlined terms used in this form, see the Glossary.  \n'>
+<LTTextBoxHorizontal(47) 22.440,38.916,328.656,55.908 u'Questions: Call 1-800-788-0710 or visit us at www.kp.org/kpic/ppo  \n'>
+<LTTextBoxHorizontal(0) 22.440,583.225,414.891,611.000 u'Kaiser Permanente: $40/$1000 PPO Plan Insurance \n'>
+<LTTextBoxHorizontal(1) 27.000,570.721,445.623,590.180 u'Summary of Benefits and Coverage: What this Plan Covers & What it Costs \n'>
+<LTTextBoxHorizontal(36) 27.960,95.676,159.216,126.348 u'Are there services this plan \ndoesn\u2019t cover? \n'>
+<LTTextBoxHorizontal(35) 27.960,127.956,159.336,158.628 u'Do I need a referral to see a \nspecialist?  \n'>
+<LTTextBoxHorizontal(32) 27.960,187.716,133.176,218.508 u'Does this plan use a \nnetwork of providers? \n'>
+<LTTextBoxHorizontal(25) 27.960,247.596,185.496,271.152 u'limit on what the plan pays?   No. \n'>
+<LTTextBoxHorizontal(24) 27.960,261.276,140.976,278.268 u'Is there an overall annual \n'>
+<LTTextBoxHorizontal(22) 27.960,279.876,155.976,310.548 u'What is not included in the \nout\u2013of\u2013pocket limit?  \n'>
+<LTTextBoxHorizontal(20) 27.960,318.996,149.976,349.788 u'Is there an out\u2013of\u2013pocket \nlimit on my expenses?  \n'>
+<LTTextBoxHorizontal(17) 27.960,372.996,157.536,403.668 u'Are there other deductibles \nfor specific services? \n'>
+<LTTextBoxHorizontal(10) 27.960,440.676,117.696,471.468 u'What is the overall \ndeductible?  \n'>
+<LTTextBoxHorizontal(7) 27.960,492.636,126.936,509.628 u'Important Questions \n'>
+<LTTextBoxHorizontal(37) 36.000,79.116,38.736,95.832 u' \n'>
+<LTTextBoxHorizontal(6) 36.000,510.156,38.736,527.148 u' \n'>
+<LTTextBoxHorizontal(5) 63.000,525.756,65.736,542.748 u' \n'>
+<LTTextBoxHorizontal(4) 77.400,529.476,718.176,560.148 u'This is only a summary. If you want more detail about your coverage and costs, you can get the complete terms in the policy or plan document at \nwww.kp.org/kpic/ppo or by calling 1-800-788-0710. \n'>
+<LTTextBoxHorizontal(21) 167.400,318.996,409.296,349.788 u'Yes. Participating Provider: $5,000 person/$10,000 family; \nNonparticipating Provider: $10,000 person/$20,000 family.  \n'>
+<LTTextBoxHorizontal(39) 167.400,102.516,192.576,119.508 u'Yes.  \n'>
+<LTTextBoxHorizontal(38) 167.400,134.796,188.136,151.512 u'No.  \n'>
+<LTTextBoxHorizontal(34) 167.400,180.876,250.536,197.592 u'network providers. \n'>
+<LTTextBoxHorizontal(33) 167.400,194.676,397.776,225.348 u'Yes. See www.kp.org/kpic/ppo or visit \nwww.multiplan.com/kaiser for a list of participating \n'>
+<LTTextBoxHorizontal(23) 167.400,279.876,392.256,310.392 u'Premiums, precertification penalties, balance-billed \ncharges and health care this plan doesn\u2019t cover. \n'>
+<LTTextBoxHorizontal(19) 167.400,359.196,330.576,375.912 u'There are no other specific deductibles. \n'>
+<LTTextBoxHorizontal(18) 167.400,372.996,419.976,417.468 u'Yes. $200 deductible for MedImpact pharmacy Brand-name \ndrug prescription, $100 deductible for Emergency room \nservices and $50 combined deductible for Home health care.  \n'>
+<LTTextBoxHorizontal(11) 167.400,439.716,406.896,470.508 u'Participating Provider/Nonparticipating Provider: $1,000 \nperson/$2,000 family, combined deductible. \n'>
+<LTTextBoxHorizontal(8) 167.400,492.636,211.176,509.628 u'Answers \n'>
+<LTTextBoxHorizontal(50) 437.280,37.142,478.311,51.017 u'4254/4255 \n'>
+<LTTextBoxHorizontal(42) 437.400,187.716,773.016,218.508 u'or hospital may use an out-of-network provider for some services. Plans use \nthe term in-network, preferred, or participating for providers in their network. \n'>
+<LTTextBoxHorizontal(41) 437.400,215.316,770.856,232.032 u'some or all of the costs of covered services. Be aware, your in-network doctor \n'>
+<LTTextBoxHorizontal(46) 437.400,95.676,772.296,126.348 u'Some of the services this plan doesn\u2019t cover are listed on page 5. See your \npolicy or plan document for additional information about excluded services. \n'>
+<LTTextBoxHorizontal(45) 437.400,134.796,753.576,151.788 u'You can see the specialist you choose without permission from this plan. \n'>
+<LTTextBoxHorizontal(44) 437.400,160.236,489.336,177.228 u'providers.  \n'>
+<LTTextBoxHorizontal(43) 437.400,174.036,745.656,190.752 u'See the chart starting on page 2 for how this plan pays different kinds of \n'>
+<LTTextBoxHorizontal(40) 437.400,228.996,773.736,245.988 u'If you use an in-network doctor or other health care provider, this plan will pay \n'>
+<LTTextBoxHorizontal(31) 437.400,247.596,761.856,277.992 u'The chart starting on page 2 describes any limits on what the plan will pay \nfor specific covered services, such as office visits.  \n'>
+<LTTextBoxHorizontal(30) 437.400,279.876,744.192,310.548 u'Even though you pay these expenses, they don\u2019t count toward the out\u2013of\u2013\npocket limit.  \n'>
+<LTTextBoxHorizontal(29) 437.400,312.156,763.368,342.672 u'(usually one year) for your share of the cost of covered services. This limit helps \nyou plan for health care expenses. \n'>
+<LTTextBoxHorizontal(28) 437.400,339.636,758.856,356.628 u'The out\u2013of\u2013pocket limit is the most you could pay during a coverage period \n'>
+<LTTextBoxHorizontal(27) 437.400,372.996,675.456,389.712 u'amount before this plan begins to pay for these services. \n'>
+<LTTextBoxHorizontal(26) 437.400,386.796,759.696,403.788 u'You must pay all of the costs for these services up to the specific deductible \n'>
+<LTTextBoxHorizontal(16) 437.400,420.036,648.696,437.028 u'covered services after you meet the deductible.  \n'>
+<LTTextBoxHorizontal(15) 437.400,433.836,746.016,450.552 u'January 1st). See the chart starting on page 2 for how much you pay for \n'>
+<LTTextBoxHorizontal(14) 437.400,447.636,756.696,464.628 u'document to see when the deductible starts over (usually, but not always, \n'>
+<LTTextBoxHorizontal(13) 437.400,461.316,735.840,478.032 u'begins to pay for covered services you use. Check your policy or plan \n'>
+<LTTextBoxHorizontal(12) 437.400,475.116,746.616,492.108 u'You must pay all the costs up to the deductible amount before this plan \n'>
+<LTTextBoxHorizontal(9) 437.400,492.636,522.096,509.628 u'Why this Matters: \n'>
+<LTTextBoxHorizontal(3) 475.680,571.488,759.336,588.120 u'Coverage for: Individual + Family | Plan Type: PPO \n'>
+<LTTextBoxHorizontal(2) 495.720,584.759,760.437,606.880 u'Coverage Period: ___________-____________ \n'>
+<LTTextBoxHorizontal(51) 730.320,25.236,758.736,42.228 u'1 of 9 \n'>
+
+RECTS 238 > LINES 0
+Row: 9 Col: 0
+Row: 9 Col: 0
+Row: 9 Col: 2
+Row: 9 Col: 2
+Row: 9 Col: 0
+Row: 9 Col: 0
+Row: 9 Col: 0
+Overlap: 1
+<LTTextBoxHorizontal(7) 27.960,492.636,126.936,509.628 u'Important Questions \n'>
+Row: 8 Col: 0
+Overlap: 1
+<LTTextBoxHorizontal(8) 167.400,492.636,211.176,509.628 u'Answers \n'>
+Row: 8 Col: 1
+Overlap: 1
+<LTTextBoxHorizontal(9) 437.400,492.636,522.096,509.628 u'Why this Matters: \n'>
+Row: 8 Col: 2
+Overlap: 1
+<LTTextBoxHorizontal(10) 27.960,440.676,117.696,471.468 u'What is the overall \ndeductible?  \n'>
+Row: 7 Col: 0
+Overlap: 1
+<LTTextBoxHorizontal(11) 167.400,439.716,406.896,470.508 u'Participating Provider/Nonparticipating Provider: $1,000 \nperson/$2,000 family, combined deductible. \n'>
+Row: 7 Col: 1
+Overlap: 0.859463276836
+<LTTextBoxHorizontal(12) 437.400,475.116,746.616,492.108 u'You must pay all the costs up to the deductible amount before this plan \n'>
+[u'You must pay all the costs up to the deductible amount before this plan ']
+Vertical Overlap: 418.2 489.72 475.116 492.108
+0.859463276836
+<LTTextBoxHorizontal(12) 437.400,475.116,746.616,492.108 u'You must pay all the costs up to the deductible amount before this plan \n'>
+Row: 7 Col: 2
+Overlap: 1
+<LTTextBoxHorizontal(13) 437.400,461.316,735.840,478.032 u'begins to pay for covered services you use. Check your policy or plan \n'>
+Row: 7 Col: 2
+Overlap: 1
+<LTTextBoxHorizontal(14) 437.400,447.636,756.696,464.628 u'document to see when the deductible starts over (usually, but not always, \n'>
+Row: 7 Col: 2
+Overlap: 1
+<LTTextBoxHorizontal(15) 437.400,433.836,746.016,450.552 u'January 1st). See the chart starting on page 2 for how much you pay for \n'>
+Row: 7 Col: 2
+Overlap: 1
+<LTTextBoxHorizontal(16) 437.400,420.036,648.696,437.028 u'covered services after you meet the deductible.  \n'>
+Row: 7 Col: 2
+Overlap: 1
+<LTTextBoxHorizontal(17) 27.960,372.996,157.536,403.668 u'Are there other deductibles \nfor specific services? \n'>
+Row: 6 Col: 0
+Overlap: 1
+<LTTextBoxHorizontal(18) 167.400,372.996,419.976,417.468 u'Yes. $200 deductible for MedImpact pharmacy Brand-name \ndrug prescription, $100 deductible for Emergency room \nservices and $50 combined deductible for Home health care.  \n'>
+Row: 6 Col: 1
+Overlap: 1
+<LTTextBoxHorizontal(19) 167.400,359.196,330.576,375.912 u'There are no other specific deductibles. \n'>
+Row: 6 Col: 1
+Overlap: 1
+<LTTextBoxHorizontal(20) 27.960,318.996,149.976,349.788 u'Is there an out\u2013of\u2013pocket \nlimit on my expenses?  \n'>
+Row: 5 Col: 0
+Overlap: 1
+<LTTextBoxHorizontal(21) 167.400,318.996,409.296,349.788 u'Yes. Participating Provider: $5,000 person/$10,000 family; \nNonparticipating Provider: $10,000 person/$20,000 family.  \n'>
+Row: 5 Col: 1
+Overlap: 0.992566510172
+<LTTextBoxHorizontal(22) 27.960,279.876,155.976,310.548 u'What is not included in the \nout\u2013of\u2013pocket limit?  \n'>
+[u'What is not included in the ', u'out\u2013of\u2013pocket limit?  ']
+Vertical Overlap: 278.04 310.32 279.876 310.548
+0.992566510172
+<LTTextBoxHorizontal(22) 27.960,279.876,155.976,310.548 u'What is not included in the \nout\u2013of\u2013pocket limit?  \n'>
+Row: 4 Col: 0
+Overlap: 0.99764058199
+<LTTextBoxHorizontal(23) 167.400,279.876,392.256,310.392 u'Premiums, precertification penalties, balance-billed \ncharges and health care this plan doesn\u2019t cover. \n'>
+[u'Premiums, precertification penalties, balance-billed ', u'charges and health care this plan doesn\u2019t cover. ']
+Vertical Overlap: 278.04 310.32 279.876 310.392
+0.99764058199
+<LTTextBoxHorizontal(23) 167.400,279.876,392.256,310.392 u'Premiums, precertification penalties, balance-billed \ncharges and health care this plan doesn\u2019t cover. \n'>
+Row: 4 Col: 1
+Overlap: 0.986581920904
+<LTTextBoxHorizontal(24) 27.960,261.276,140.976,278.268 u'Is there an overall annual \n'>
+[u'Is there an overall annual ']
+Vertical Overlap: 245.64 278.04 261.276 278.268
+0.986581920904
+<LTTextBoxHorizontal(24) 27.960,261.276,140.976,278.268 u'Is there an overall annual \n'>
+Row: 3 Col: 0
+Overlap: 1
+<LTTextBoxHorizontal(25) 27.960,247.596,185.496,271.152 u'limit on what the plan pays?   No. \n'>
+Row: 3 Col: 0
+Overlap: 1
+<LTTextBoxHorizontal(26) 437.400,386.796,759.696,403.788 u'You must pay all of the costs for these services up to the specific deductible \n'>
+Row: 6 Col: 2
+Overlap: 1
+<LTTextBoxHorizontal(27) 437.400,372.996,675.456,389.712 u'amount before this plan begins to pay for these services. \n'>
+Row: 6 Col: 2
+Overlap: 0.979519774011
+<LTTextBoxHorizontal(28) 437.400,339.636,758.856,356.628 u'The out\u2013of\u2013pocket limit is the most you could pay during a coverage period \n'>
+[u'The out\u2013of\u2013pocket limit is the most you could pay during a coverage period ']
+Vertical Overlap: 310.32 356.28 339.636 356.628
+0.979519774011
+<LTTextBoxHorizontal(28) 437.400,339.636,758.856,356.628 u'The out\u2013of\u2013pocket limit is the most you could pay during a coverage period \n'>
+Row: 5 Col: 2
+Overlap: 1
+<LTTextBoxHorizontal(29) 437.400,312.156,763.368,342.672 u'(usually one year) for your share of the cost of covered services. This limit helps \nyou plan for health care expenses. \n'>
+Row: 5 Col: 2
+Overlap: 0.992566510172
+<LTTextBoxHorizontal(30) 437.400,279.876,744.192,310.548 u'Even though you pay these expenses, they don\u2019t count toward the out\u2013of\u2013\npocket limit.  \n'>
+[u'Even though you pay these expenses, they don\u2019t count toward the out\u2013of\u2013', u'pocket limit.  ']
+Vertical Overlap: 278.04 310.32 279.876 310.548
+0.992566510172
+<LTTextBoxHorizontal(30) 437.400,279.876,744.192,310.548 u'Even though you pay these expenses, they don\u2019t count toward the out\u2013of\u2013\npocket limit.  \n'>
+Row: 4 Col: 2
+Overlap: 1
+<LTTextBoxHorizontal(31) 437.400,247.596,761.856,277.992 u'The chart starting on page 2 describes any limits on what the plan will pay \nfor specific covered services, such as office visits.  \n'>
+Row: 3 Col: 2
+Overlap: 1
+<LTTextBoxHorizontal(32) 27.960,187.716,133.176,218.508 u'Does this plan use a \nnetwork of providers? \n'>
+Row: 2 Col: 0
+Overlap: 1
+<LTTextBoxHorizontal(33) 167.400,194.676,397.776,225.348 u'Yes. See www.kp.org/kpic/ppo or visit \nwww.multiplan.com/kaiser for a list of participating \n'>
+Row: 2 Col: 1
+Overlap: 1
+<LTTextBoxHorizontal(34) 167.400,180.876,250.536,197.592 u'network providers. \n'>
+Row: 2 Col: 1
+Overlap: 0.988654147105
+<LTTextBoxHorizontal(35) 27.960,127.956,159.336,158.628 u'Do I need a referral to see a \nspecialist?  \n'>
+[u'Do I need a referral to see a ', u'specialist?  ']
+Vertical Overlap: 126.0 158.28 127.956 158.628
+0.988654147105
+<LTTextBoxHorizontal(35) 27.960,127.956,159.336,158.628 u'Do I need a referral to see a \nspecialist?  \n'>
+Row: 1 Col: 0
+Overlap: 0.988654147105
+<LTTextBoxHorizontal(36) 27.960,95.676,159.216,126.348 u'Are there services this plan \ndoesn\u2019t cover? \n'>
+[u'Are there services this plan ', u'doesn\u2019t cover? ']
+Vertical Overlap: 93.72 126.0 95.676 126.348
+0.988654147105
+<LTTextBoxHorizontal(36) 27.960,95.676,159.216,126.348 u'Are there services this plan \ndoesn\u2019t cover? \n'>
+Row: 0 Col: 0
+Row: 9 Col: 0
+Overlap: 1
+<LTTextBoxHorizontal(38) 167.400,134.796,188.136,151.512 u'No.  \n'>
+Row: 1 Col: 1
+Overlap: 1
+<LTTextBoxHorizontal(39) 167.400,102.516,192.576,119.508 u'Yes.  \n'>
+Row: 0 Col: 1
+Overlap: 0.979519774011
+<LTTextBoxHorizontal(40) 437.400,228.996,773.736,245.988 u'If you use an in-network doctor or other health care provider, this plan will pay \n'>
+[u'If you use an in-network doctor or other health care provider, this plan will pay ']
+Vertical Overlap: 158.28 245.64 228.996 245.988
+0.979519774011
+<LTTextBoxHorizontal(40) 437.400,228.996,773.736,245.988 u'If you use an in-network doctor or other health care provider, this plan will pay \n'>
+Row: 2 Col: 2
+Overlap: 1
+<LTTextBoxHorizontal(41) 437.400,215.316,770.856,232.032 u'some or all of the costs of covered services. Be aware, your in-network doctor \n'>
+Row: 2 Col: 2
+Overlap: 1
+<LTTextBoxHorizontal(42) 437.400,187.716,773.016,218.508 u'or hospital may use an out-of-network provider for some services. Plans use \nthe term in-network, preferred, or participating for providers in their network. \n'>
+Row: 2 Col: 2
+Overlap: 1
+<LTTextBoxHorizontal(43) 437.400,174.036,745.656,190.752 u'See the chart starting on page 2 for how this plan pays different kinds of \n'>
+Row: 2 Col: 2
+Overlap: 1
+<LTTextBoxHorizontal(44) 437.400,160.236,489.336,177.228 u'providers.  \n'>
+Row: 2 Col: 2
+Overlap: 1
+<LTTextBoxHorizontal(45) 437.400,134.796,753.576,151.788 u'You can see the specialist you choose without permission from this plan. \n'>
+Row: 1 Col: 2
+Overlap: 0.988654147105
+<LTTextBoxHorizontal(46) 437.400,95.676,772.296,126.348 u'Some of the services this plan doesn\u2019t cover are listed on page 5. See your \npolicy or plan document for additional information about excluded services. \n'>
+[u'Some of the services this plan doesn\u2019t cover are listed on page 5. See your ', u'policy or plan document for additional information about excluded services. ']
+Vertical Overlap: 93.72 126.0 95.676 126.348
+0.988654147105
+<LTTextBoxHorizontal(46) 437.400,95.676,772.296,126.348 u'Some of the services this plan doesn\u2019t cover are listed on page 5. See your \npolicy or plan document for additional information about excluded services. \n'>
+Row: 0 Col: 2
+Row: 9 Col: 0
+Row: 9 Col: 0
+Row: 9 Col: 0
+Row: 9 Col: 2
+Row: 9 Col: 2
+### POST PROCESS TABLE
+defaultdict(<type 'list'>, {0: [0, 2], 1: [0], 2: [2], 3: [0], 4: [0, 1, 2], 5: [2], 7: [2]})
+Tuple: 0 0
+Before: Are there services this plan 
+doesn’t cover? 
+(0, 0)
+After: Are there services this plan 
+doesn’t cover? 
+Tuple: 0 0
+Before: Some of the services this plan doesn’t cover are listed on page 5. See your 
+policy or plan document for additional information about excluded services. 
+(0, 0)
+After: Some of the services this plan doesn’t cover are listed on page 5. See your 
+policy or plan document for additional information about excluded services. 
+Tuple: 0 0
+Before: Do I need a referral to see a 
+specialist?  
+(0, 0)
+After: Do I need a referral to see a 
+specialist?  
+Tuple: 0 0
+Before: If you use an in-network doctor or other health care provider, this plan will pay 
+(0, 0)
+After: If you use an in-network doctor or other health care provider, this plan will pay 
+Tuple: 0 0
+Before: some or all of the costs of covered services. Be aware, your in-network doctor 
+(0, 0)
+After: some or all of the costs of covered services. Be aware, your in-network doctor 
+Tuple: 0 0
+Before: or hospital may use an out-of-network provider for some services. Plans use 
+the term in-network, preferred, or participating for providers in their network. 
+(0, 0)
+After: or hospital may use an out-of-network provider for some services. Plans use 
+the term in-network, preferred, or participating for providers in their network. 
+Tuple: 0 0
+Before: See the chart starting on page 2 for how this plan pays different kinds of 
+(0, 0)
+After: See the chart starting on page 2 for how this plan pays different kinds of 
+Tuple: 0 0
+Before: providers.  
+(0, 0)
+After: providers.  
+Tuple: 0 0
+Before: Is there an overall annual 
+(0, 0)
+After: Is there an overall annual 
+Tuple: 0 0
+Before: limit on what the plan pays?   No. 
+(0, 0)
+After: limit on what the plan pays?   No. 
+Tuple: 0 0
+Before: What is not included in the 
+out–of–pocket limit?  
+(0, 0)
+After: What is not included in the 
+out–of–pocket limit?  
+Tuple: 0 0
+Before: Premiums, precertification penalties, balance-billed 
+charges and health care this plan doesn’t cover. 
+(0, 0)
+After: Premiums, precertification penalties, balance-billed 
+charges and health care this plan doesn’t cover. 
+Tuple: 0 0
+Before: Even though you pay these expenses, they don’t count toward the out–of–
+pocket limit.  
+(0, 0)
+After: Even though you pay these expenses, they don’t count toward the out–of–
+pocket limit.  
+Tuple: 0 0
+Before: The out–of–pocket limit is the most you could pay during a coverage period 
+(0, 0)
+After: The out–of–pocket limit is the most you could pay during a coverage period 
+Tuple: 0 0
+Before: (usually one year) for your share of the cost of covered services. This limit helps 
+you plan for health care expenses. 
+(0, 0)
+After: (usually one year) for your share of the cost of covered services. This limit helps 
+you plan for health care expenses. 
+Tuple: 0 0
+Before: You must pay all the costs up to the deductible amount before this plan 
+(0, 0)
+After: You must pay all the costs up to the deductible amount before this plan 
+Tuple: 0 0
+Before: begins to pay for covered services you use. Check your policy or plan 
+(0, 0)
+After: begins to pay for covered services you use. Check your policy or plan 
+Tuple: 0 0
+Before: document to see when the deductible starts over (usually, but not always, 
+(0, 0)
+After: document to see when the deductible starts over (usually, but not always, 
+Tuple: 0 0
+Before: January 1st). See the chart starting on page 2 for how much you pay for 
+(0, 0)
+After: January 1st). See the chart starting on page 2 for how much you pay for 
+Tuple: 0 0
+Before: covered services after you meet the deductible.  
+(0, 0)
+After: covered services after you meet the deductible.  
+103
+except
+Size of money array is not 2 or 4 (Size=0)
+Row wrong 4
+
+<LTTextBoxHorizontal(38) 22.440,11.436,25.176,28.152 u' \n'>
+<LTTextBoxHorizontal(1) 27.000,590.460,30.336,606.432 u' \n'>
+<LTTextBoxHorizontal(23) 27.960,178.116,110.496,195.108 u'If you have a test \n'>
+<LTTextBoxHorizontal(10) 27.960,288.276,142.416,332.868 u'If you visit a health care \nprovider\u2019s office or \nclinic \n'>
+<LTTextBoxHorizontal(9) 27.960,412.368,111.336,444.840 u'Common  \nMedical Event \n'>
+<LTTextBoxHorizontal(2) 36.000,452.676,38.736,469.392 u' \n'>
+<LTTextBoxHorizontal(0) 67.560,548.316,70.296,565.308 u' \n'>
+<LTTextBoxHorizontal(7) 77.400,466.740,702.216,483.948 u'\u2022  This plan may encourage you to use participating providers by charging you lower deductibles, copayments and coinsurance amounts. \n'>
+<LTTextBoxHorizontal(5) 77.400,508.860,762.816,526.068 u'\u2022  The amount the plan pays for covered services is based on the allowed amount. If an out-of-network provider charges more than the allowed amount, \n'>
+<LTTextBoxHorizontal(3) 77.400,550.980,752.016,582.708 u'\u2022  Copayments are fixed dollar amounts (for example, $15) you pay for covered health care, usually when you receive the service. \n\u2022  Coinsurance is your share of the costs of a covered service, calculated as a percent of the allowed amount for the service. For example, if the plan\u2019s \n'>
+<LTTextBoxHorizontal(6) 95.400,481.476,758.496,512.268 u'you may have to pay the difference. For example, if an out-of-network hospital charges $1,500 for an overnight stay and the allowed amount is $1,000, \nyou may have to pay the $500 difference. (This is called balance billing.) \n'>
+<LTTextBoxHorizontal(4) 95.400,523.596,747.096,554.388 u'allowed amount for an overnight hospital stay is $1,000, your coinsurance payment of 20% would be $200. This may change if you haven\u2019t met your \ndeductible.  \n'>
+<LTTextBoxHorizontal(24) 153.960,156.996,263.976,216.792 u'Diagnostic test (x-ray, \nblood work) \nImaging (CT/PET scans, \nMRIs)  \n'>
+<LTTextBoxHorizontal(20) 153.960,250.476,260.136,280.992 u'Preventive care/ \nscreening/immunization \n'>
+<LTTextBoxHorizontal(14) 153.960,314.676,259.056,345.192 u'Other practitioner office \nvisit \n'>
+<LTTextBoxHorizontal(13) 153.960,351.396,218.496,368.112 u'Specialist visit \n'>
+<LTTextBoxHorizontal(12) 153.960,374.316,265.656,404.712 u'Primary care visit to treat \nan injury or illness \n'>
+<LTTextBoxHorizontal(11) 153.960,412.368,259.176,444.840 u'Services You May \nNeed \n'>
+<LTTextBoxHorizontal(25) 284.400,156.996,401.496,216.792 u'30% coinsurance/ \nencounter after deductible \n30% coinsurance/ \nprocedure after deductible \n'>
+<LTTextBoxHorizontal(21) 284.400,257.316,334.776,274.032 u'No Charge \n'>
+<LTTextBoxHorizontal(19) 284.400,321.636,342.336,338.352 u'Not Covered \n'>
+<LTTextBoxHorizontal(18) 284.400,351.396,352.296,368.112 u'$40 copay/visit \n'>
+<LTTextBoxHorizontal(17) 284.400,381.156,352.296,397.872 u'$40 copay/visit \n'>
+<LTTextBoxHorizontal(15) 307.800,418.488,383.856,435.120 u'Participating \n'>
+<LTTextBoxHorizontal(16) 319.920,404.688,375.336,421.320 u'Provider  \n'>
+<LTTextBoxHorizontal(8) 347.040,436.608,478.416,453.240 u'Your cost if you use a  \n'>
+<LTTextBoxHorizontal(26) 414.960,156.996,534.816,216.792 u'50% coinsurance/ \nencounter after deductible \n50% coinsurance/ \nprocedure after deductible  \n'>
+<LTTextBoxHorizontal(22) 414.960,257.316,512.856,274.032 u'50% coinsurance/visit \n'>
+<LTTextBoxHorizontal(33) 414.960,321.636,475.656,338.352 u'Not Covered  \n'>
+<LTTextBoxHorizontal(29) 414.960,344.436,515.616,404.712 u'50% coinsurance/visit  \nafter deductible  \n50% coinsurance/visit  \nafter deductible \n'>
+<LTTextBoxHorizontal(27) 427.080,418.488,525.816,435.120 u'Nonparticipating \n'>
+<LTTextBoxHorizontal(28) 450.360,404.688,502.416,421.320 u'Provider \n'>
+<LTTextBoxHorizontal(37) 545.400,156.996,763.176,187.512 u'Precertification required. Failure to precertify may \nresult in a penalty up to $500. \n'>
+<LTTextBoxHorizontal(36) 545.400,193.116,750.576,209.832 u'\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013none\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013 \n'>
+<LTTextBoxHorizontal(35) 545.400,216.036,765.336,315.432 u'Deductible does not apply. Some preventive \nscreenings (such as lab and imaging) may be at a \ndifferent cost share. \nParticipating Provider: Routine Physical Exams \nare limited to one exam per calendar year.  \nNonparticipating Provider: Routine Physical \nexams are not covered.  \n'>
+<LTTextBoxHorizontal(34) 545.400,322.596,750.576,339.312 u'\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013none\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013 \n'>
+<LTTextBoxHorizontal(32) 545.400,351.396,763.176,368.112 u'Participating Provider: Deductible does not apply. \n'>
+<LTTextBoxHorizontal(31) 545.400,381.156,763.176,397.872 u'Participating Provider: Deductible does not apply. \n'>
+<LTTextBoxHorizontal(30) 545.400,420.288,692.136,436.920 u'Limitations & Exceptions \n'>
+<LTTextBoxHorizontal(39) 730.320,11.436,758.736,28.428 u'2 of 9 \n'>
+
+RECTS 282 > LINES 0
+Row: 4 Col: 3
+Row: 4 Col: 3
+Row: 4 Col: 3
+Row: 4 Col: 0
+Row: 4 Col: 0
+Row: 4 Col: 0
+Row: 4 Col: 0
+Row: 4 Col: 0
+Row: 4 Col: 1
+Row: 4 Col: 3
+Overlap: 0.593918191604
+<LTTextBoxHorizontal(10) 27.960,288.276,142.416,332.868 u'If you visit a health care \nprovider\u2019s office or \nclinic \n'>
+[u'If you visit a health care ', u'provider\u2019s office or ', u'clinic ']
+Vertical Overlap: 186.36 314.76 288.276 332.868
+0.593918191604
+<LTTextBoxHorizontal(10) 27.960,288.276,142.416,332.868 u'If you visit a health care \nprovider\u2019s office or \nclinic \n'>
+Row: 0 Col: 3
+Row: 4 Col: 0
+Overlap: 1
+<LTTextBoxHorizontal(12) 153.960,374.316,265.656,404.712 u'Primary care visit to treat \nan injury or illness \n'>
+[u'Primary care visit to treat ', u'an injury or illness ']
+Vertical Overlap: 374.4 402.72 374.316 404.712
+1
+<LTTextBoxHorizontal(12) 153.960,374.316,265.656,404.712 u'Primary care visit to treat \nan injury or illness \n'>
+Row: 3 Col: 0
+Overlap: 1
+<LTTextBoxHorizontal(13) 153.960,351.396,218.496,368.112 u'Specialist visit \n'>
+Row: 2 Col: 0
+Overlap: 1
+<LTTextBoxHorizontal(14) 153.960,314.676,259.056,345.192 u'Other practitioner office \nvisit \n'>
+[u'Other practitioner office ', u'visit ']
+Vertical Overlap: 314.76 344.64 314.676 345.192
+1
+<LTTextBoxHorizontal(14) 153.960,314.676,259.056,345.192 u'Other practitioner office \nvisit \n'>
+Row: 1 Col: 0
+Row: 4 Col: 1
+Row: 4 Col: 1
+Overlap: 1
+<LTTextBoxHorizontal(17) 284.400,381.156,352.296,397.872 u'$40 copay/visit \n'>
+Row: 3 Col: 1
+Overlap: 1
+<LTTextBoxHorizontal(18) 284.400,351.396,352.296,368.112 u'$40 copay/visit \n'>
+Row: 2 Col: 1
+Overlap: 1
+<LTTextBoxHorizontal(19) 284.400,321.636,342.336,338.352 u'Not Covered \n'>
+Row: 1 Col: 1
+Overlap: 1
+<LTTextBoxHorizontal(20) 153.960,250.476,260.136,280.992 u'Preventive care/ \nscreening/immunization \n'>
+Row: 0 Col: 0
+Overlap: 1
+<LTTextBoxHorizontal(21) 284.400,257.316,334.776,274.032 u'No Charge \n'>
+Row: 0 Col: 1
+Overlap: 1
+<LTTextBoxHorizontal(22) 414.960,257.316,512.856,274.032 u'50% coinsurance/visit \n'>
+Row: 0 Col: 2
+Overlap: 0.514830508475
+<LTTextBoxHorizontal(23) 27.960,178.116,110.496,195.108 u'If you have a test \n'>
+[u'If you have a test ']
+Vertical Overlap: 186.36 314.76 178.116 195.108
+0.514830508475
+<LTTextBoxHorizontal(23) 27.960,178.116,110.496,195.108 u'If you have a test \n'>
+Row: 0 Col: 3
+Overlap: 0.508930363235
+<LTTextBoxHorizontal(24) 153.960,156.996,263.976,216.792 u'Diagnostic test (x-ray, \nblood work) \nImaging (CT/PET scans, \nMRIs)  \n'>
+[u'Diagnostic test (x-ray, ', u'blood work) ', u'Imaging (CT/PET scans, ', u'MRIs)  ']
+Vertical Overlap: 186.36 314.76 156.996 216.792
+0.508930363235
+<LTTextBoxHorizontal(24) 153.960,156.996,263.976,216.792 u'Diagnostic test (x-ray, \nblood work) \nImaging (CT/PET scans, \nMRIs)  \n'>
+Row: 0 Col: 0
+Overlap: 0.508930363235
+<LTTextBoxHorizontal(25) 284.400,156.996,401.496,216.792 u'30% coinsurance/ \nencounter after deductible \n30% coinsurance/ \nprocedure after deductible \n'>
+[u'30% coinsurance/ ', u'encounter after deductible ', u'30% coinsurance/ ', u'procedure after deductible ']
+Vertical Overlap: 186.36 314.76 156.996 216.792
+0.508930363235
+<LTTextBoxHorizontal(25) 284.400,156.996,401.496,216.792 u'30% coinsurance/ \nencounter after deductible \n30% coinsurance/ \nprocedure after deductible \n'>
+Row: 0 Col: 1
+Overlap: 0.508930363235
+<LTTextBoxHorizontal(26) 414.960,156.996,534.816,216.792 u'50% coinsurance/ \nencounter after deductible \n50% coinsurance/ \nprocedure after deductible  \n'>
+[u'50% coinsurance/ ', u'encounter after deductible ', u'50% coinsurance/ ', u'procedure after deductible  ']
+Vertical Overlap: 186.36 314.76 156.996 216.792
+0.508930363235
+<LTTextBoxHorizontal(26) 414.960,156.996,534.816,216.792 u'50% coinsurance/ \nencounter after deductible \n50% coinsurance/ \nprocedure after deductible  \n'>
+Row: 0 Col: 2
+Row: 4 Col: 2
+Row: 4 Col: 2
+Overlap: 1
+<LTTextBoxHorizontal(29) 414.960,344.436,515.616,404.712 u'50% coinsurance/visit  \nafter deductible  \n50% coinsurance/visit  \nafter deductible \n'>
+[u'50% coinsurance/visit  ', u'after deductible  ', u'50% coinsurance/visit  ', u'after deductible ']
+Vertical Overlap: 344.64 374.4 344.436 404.712
+1
+<LTTextBoxHorizontal(29) 414.960,344.436,515.616,404.712 u'50% coinsurance/visit  \nafter deductible  \n50% coinsurance/visit  \nafter deductible \n'>
+Row: 2 Col: 2
+Row: 4 Col: 3
+Overlap: 1
+<LTTextBoxHorizontal(31) 545.400,381.156,763.176,397.872 u'Participating Provider: Deductible does not apply. \n'>
+Row: 3 Col: 3
+Overlap: 1
+<LTTextBoxHorizontal(32) 545.400,351.396,763.176,368.112 u'Participating Provider: Deductible does not apply. \n'>
+Row: 2 Col: 3
+Overlap: 1
+<LTTextBoxHorizontal(33) 414.960,321.636,475.656,338.352 u'Not Covered  \n'>
+Row: 1 Col: 2
+Overlap: 1
+<LTTextBoxHorizontal(34) 545.400,322.596,750.576,339.312 u'\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013none\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013 \n'>
+Row: 1 Col: 3
+Overlap: 0.993239164554
+<LTTextBoxHorizontal(35) 545.400,216.036,765.336,315.432 u'Deductible does not apply. Some preventive \nscreenings (such as lab and imaging) may be at a \ndifferent cost share. \nParticipating Provider: Routine Physical Exams \nare limited to one exam per calendar year.  \nNonparticipating Provider: Routine Physical \nexams are not covered.  \n'>
+[u'Deductible does not apply. Some preventive ', u'screenings (such as lab and imaging) may be at a ', u'different cost share. ', u'Participating Provider: Routine Physical Exams ', u'are limited to one exam per calendar year.  ', u'Nonparticipating Provider: Routine Physical ', u'exams are not covered.  ']
+Vertical Overlap: 186.36 314.76 216.036 315.432
+0.993239164554
+<LTTextBoxHorizontal(35) 545.400,216.036,765.336,315.432 u'Deductible does not apply. Some preventive \nscreenings (such as lab and imaging) may be at a \ndifferent cost share. \nParticipating Provider: Routine Physical Exams \nare limited to one exam per calendar year.  \nNonparticipating Provider: Routine Physical \nexams are not covered.  \n'>
+Row: 0 Col: 3
+Overlap: 1
+<LTTextBoxHorizontal(36) 545.400,193.116,750.576,209.832 u'\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013none\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013 \n'>
+Row: 0 Col: 3
+Row: 4 Col: 3
+Row: 4 Col: 3
+Row: 4 Col: 3
+### POST PROCESS TABLE
+defaultdict(<type 'list'>, {0: [3, 3, 0, 1, 2, 3], 1: [0], 2: [2], 3: [0]})
+Tuple: 0 0
+Before: Preventive care/ 
+screening/immunization 
+(0, 0)
+After: Preventive care/ 
+screening/immunization 
+Tuple: 1 0
+Before: Diagnostic test (x-ray, 
+blood work) 
+Imaging (CT/PET scans, 
+MRIs)  
+(1, 0)
+After: Diagnostic test (x-ray, 
+blood work) 
+Imaging (CT/PET scans, 
+Tuple: 0 0
+Before: No Charge 
+(0, 0)
+After: No Charge 
+Tuple: 1 0
+Before: 30% coinsurance/ 
+encounter after deductible 
+30% coinsurance/ 
+procedure after deductible 
+(1, 0)
+After: 30% coinsurance/ 
+encounter after deductible 
+30% coinsurance/ 
+Tuple: 0 0
+Before: 50% coinsurance/visit 
+(0, 0)
+After: 50% coinsurance/visit 
+Tuple: 1 0
+Before: 50% coinsurance/ 
+encounter after deductible 
+50% coinsurance/ 
+procedure after deductible  
+(1, 0)
+After: 50% coinsurance/ 
+encounter after deductible 
+50% coinsurance/ 
+Tuple: 0 1
+Before: If you visit a health care 
+provider’s office or 
+clinic 
+(0, 1)
+After: provider’s office or 
+clinic 
+Tuple: 0 0
+Before: Deductible does not apply. Some preventive 
+screenings (such as lab and imaging) may be at a 
+different cost share. 
+Participating Provider: Routine Physical Exams 
+are limited to one exam per calendar year.  
+Nonparticipating Provider: Routine Physical 
+exams are not covered.  
+(0, 0)
+After: Deductible does not apply. Some preventive 
+screenings (such as lab and imaging) may be at a 
+different cost share. 
+Participating Provider: Routine Physical Exams 
+are limited to one exam per calendar year.  
+Nonparticipating Provider: Routine Physical 
+exams are not covered.  
+Tuple: 0 0
+Before: ––––––––––––––––none––––––––––––––––– 
+(0, 0)
+After: ––––––––––––––––none––––––––––––––––– 
+Tuple: 0 0
+Before: If you have a test 
+(0, 0)
+After: If you have a test 
+Tuple: 0 0
+Before: Other practitioner office 
+visit 
+(0, 0)
+After: Other practitioner office 
+visit 
+Tuple: 0 0
+Before: ––––––––––––––––none––––––––––––––––– 
+(0, 0)
+After: ––––––––––––––––none––––––––––––––––– 
+Tuple: 1 0
+Before: If you visit a health care 
+provider’s office or 
+clinic 
+(1, 0)
+After: If you visit a health care 
+provider’s office or 
+Tuple: 0 2
+Before: 50% coinsurance/visit  
+after deductible  
+50% coinsurance/visit  
+after deductible 
+(0, 2)
+After: 50% coinsurance/visit  
+after deductible 
+Tuple: 0 0
+Before: Primary care visit to treat 
+an injury or illness 
+(0, 0)
+After: Primary care visit to treat 
+an injury or illness 
+Tuple: 1 0
+Before: 50% coinsurance/visit  
+after deductible  
+50% coinsurance/visit  
+after deductible 
+(1, 0)
+After: 50% coinsurance/visit  
+after deductible  
+50% coinsurance/visit  
+Row wrong 5

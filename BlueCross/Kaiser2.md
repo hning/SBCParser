@@ -1,0 +1,7 @@
+services_not_covered:yes
+referral_for_specialist:no
+network_of_providers:yes
+output_of_pocket_individual:5000
+output_of_pocket_family:10000
+specific_service_deductible:yes|200|100|50
+deductible:1000

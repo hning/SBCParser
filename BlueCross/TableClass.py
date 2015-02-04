@@ -229,6 +229,9 @@ class TableClass:
 
         self.table[row_num][col_num].append(text_box)
 
+    def get_table(self):
+        return self.table
+
     def add_textbox_arr(self, textbox_arr):
         for t in textbox_arr:
             self.add_textbox(t)

@@ -18,10 +18,10 @@ class ConfigParser:
 		#Iterate through rows to determine if they one of the key rows
 		#Find first non-empty column
 
-		if len(self.table.table) == 0:
+		if len(self.table) == 0:
 			return
 
-		for row in self.table.table:
+		for row in self.table:
 			i = 0
 			for col in row:
 				if len(col) == 0:
@@ -70,11 +70,40 @@ class ConfigParser:
 			if not to_delete is "":
 				del self.config.data[to_delete]
 
+	def embedded_money_search(self, text):
+		dollar_locations = []
+		location = 0
+		final_location = len(text)
+		money_arr = []
+		print final_location
+		try:
+			while location < final_location:
+				new_loc = text[location:].index('$')
+				
+				dollar_locations.append(location+new_loc)
+				location = location + new_loc + 1
+		except:
+			print "except"
+			
+
+		for index in dollar_locations:
+			next_index = index+1
+			while next_index < final_location and (text[next_index].isdigit() or text[next_index] is ","):
+				next_index = next_index + 1
+			money_arr.append(int(re.sub(r'[^\w\s]', '', text[index:next_index])))
+
+		return money_arr
+
+
 	def variable_money_parse(self, text, info):
 		money_arr = [int(re.sub(r'[^\w\s]', '', s)) for s in text.split() if ("$" in s and re.sub(r'[^\w\s]', '', s).isdigit())]
 		num_values = len(money_arr)
 		output_arr = []
 
+		if num_values == 0:
+			#Search for possible embedded numbers inside strings
+			money_arr = self.embedded_money_search(text)
+			num_values = len(money_arr)
 		# 4 values means contains non-network prices
 		# Network prices: Individual/Family
 		# Non-Network prices: Individual Family
@@ -89,7 +118,10 @@ class ConfigParser:
 		elif num_values == 2:
 			output_arr.append("{0}_individual:{1}".format(info["prefix"],money_arr[0]))
 			output_arr.append("{0}_family:{1}".format(info["prefix"],money_arr[1]))
+		elif num_values == 1:
+			output_arr.append("{0}:{1}".format(info["prefix"],money_arr[0]))
 		else:
+
 			print "Size of money array is not 2 or 4 (Size={0})".format(num_values)
 			return False
 
@@ -99,13 +131,14 @@ class ConfigParser:
 		return True
 
 	def number_parse(self, text):
-		return [int(s.translate(None, string.punctuation)) for s in text.split() if s.translate(None, string.punctuation).isdigit()]
+		return [int(re.sub(r'[^\w\s]', '', s)) for s in text.split() if (re.sub(r'[^\w\s]', '', s).isdigit())]
+		# return [int(s.translate(None, string.punctuation)) for s in text.split() if s.translate(None, string.punctuation).isdigit()]
 
 	def boolean_parse(self, text, info):
 
 		possible_values = ["true", "yes", "false", "no"]
 		replace_punctuation = string.maketrans(string.punctuation, ' '*len(string.punctuation))
-		no_punc_text = text.translate(replace_punctuation).lower()
+		no_punc_text = re.sub(r'[^\w\s]', ' ', text).lower()
 		no_punc_text = ' ' + no_punc_text + ' '
 
 		output_arr = []

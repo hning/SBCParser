@@ -1,0 +1,207 @@
+
+<LTTextBoxHorizontal(53) 19.901,14.997,525.314,42.833 u'underlinedtermsusedinthisform,seetheGlossary.YoucanviewtheGlossaryatwww.cciio.cms.govor\nwww.dol.gov/ebsa/healthreformorcall1-866-487-2365torequestacopy.\n'>
+<LTTextBoxHorizontal(52) 20.600,39.001,580.588,55.063 u'Questions:Call1-800-624-8822orvisitusatwww.welcometouhc.com/uhcwest.Ifyouaren\u2019tclearaboutanyofthe\n'>
+<LTTextBoxHorizontal(17) 25.699,406.899,112.676,422.962 u'specificservices?\n'>
+<LTTextBoxHorizontal(48) 25.700,134.997,117.449,175.063 u'Arethereservices\nthisplandoesnot\ncover?\n'>
+<LTTextBoxHorizontal(44) 25.700,178.899,126.522,206.963 u'DoIneedareferral\ntoseea specialist?\n'>
+<LTTextBoxHorizontal(24) 25.700,242.999,81.338,259.063 u'networkof\n'>
+<LTTextBoxHorizontal(23) 25.700,255.001,125.823,271.063 u'Doesthisplanusea\n'>
+<LTTextBoxHorizontal(22) 25.700,274.897,132.246,314.963 u'Isthereanoverall\nannuallimitonwhat\ntheinsurerpays?\n'>
+<LTTextBoxHorizontal(21) 25.700,319.101,131.993,359.163 u'Whatisnotincluded\nintheout-of-pocket\nlimit?\n'>
+<LTTextBoxHorizontal(20) 25.700,363.001,109.255,379.063 u'onmyexpenses?\n'>
+<LTTextBoxHorizontal(19) 25.700,374.999,121.800,391.063 u'out-of-pocketlimit\n'>
+<LTTextBoxHorizontal(18) 25.700,387.001,79.925,403.063 u'Istherean\n'>
+<LTTextBoxHorizontal(16) 25.700,418.899,101.988,434.963 u'deductiblesfor\n'>
+<LTTextBoxHorizontal(15) 25.700,430.901,104.736,446.963 u'Arethereother\n'>
+<LTTextBoxHorizontal(8) 25.700,482.999,122.570,511.063 u'Whatistheoverall\ndeductible?\n'>
+<LTTextBoxHorizontal(6) 25.700,514.901,184.567,530.963 u'ImportantQuestions Answers\n'>
+<LTTextBoxHorizontal(25) 25.703,230.999,81.265,247.061 u'providers?\n'>
+<LTTextBoxHorizontal(0) 35.495,567.999,425.517,584.062 u'SummaryofBenefitsandCoverage:WhatthisPlanCovers&WhatitCosts\n'>
+<LTTextBoxHorizontal(5) 74.605,532.899,378.915,548.962 u'documentatwww.uhcwest.comorbycalling1-800-624-8822.\n'>
+<LTTextBoxHorizontal(4) 75.400,544.901,712.628,560.963 u'Thisisonlyasummary.Ifyouwantmoredetailaboutyourcoverageandcosts,youcangetthecompletetermsinthepolicyorplan\n'>
+<LTTextBoxHorizontal(35) 139.693,298.901,157.431,314.734 u'No.\n'>
+<LTTextBoxHorizontal(30) 139.696,331.102,354.848,358.938 u'Premium,balance-billedcharges,healthcare\nthisplandoesn\u2019tcover.\n'>
+<LTTextBoxHorizontal(45) 139.698,178.901,364.418,206.736 u'Yes,writtenororalapprovalisrequired,based\nonmedicalpolicies\n'>
+<LTTextBoxHorizontal(38) 139.700,242.999,352.383,270.834 u'Yes.Foralistofparticipatingproviders,see\nwww.uhcwest.comorcall1-800-624-8822\n'>
+<LTTextBoxHorizontal(9) 139.702,458.997,364.736,510.836 u'Participating:$250Individual/$500Family\nPercalendaryear.Doesnotapplytocopays,\nprescriptiondrugs,andserviceslistedbelowas\n"NoCharge".\n'>
+<LTTextBoxHorizontal(26) 139.704,430.902,304.886,446.736 u'No,therearenootherdeductibles.\n'>
+<LTTextBoxHorizontal(49) 139.705,159.001,161.455,174.834 u'Yes.\n'>
+<LTTextBoxHorizontal(29) 139.705,375.002,356.135,402.838 u'Yes,Participating:$1,500Individual/$3,000\nFamily\n'>
+<LTTextBoxHorizontal(1) 147.800,578.819,316.133,600.013 u'SignatureValueHBB/2R\n'>
+<LTTextBoxHorizontal(37) 378.488,286.899,600.859,302.733 u'specificcoveredservices,suchasofficevisits.\n'>
+<LTTextBoxHorizontal(36) 379.693,298.901,751.785,314.734 u'Thechartstartingonpage2describesanylimitsonwhattheplanwillpayfor\n'>
+<LTTextBoxHorizontal(47) 379.695,178.899,724.413,194.962 u'butonlyifyouhavetheplan\u2019spermissionbeforeyouseethespecialist.\n'>
+<LTTextBoxHorizontal(28) 379.695,418.899,675.438,434.733 u'startingonpage2forothercostsforservicesthisplancovers.\n'>
+<LTTextBoxHorizontal(32) 379.695,362.997,764.837,390.833 u'(usuallyoneyear)foryourshareofthecostofcoveredservices.Thislimithelps\nyouplanforhealthcareexpenses.\n'>
+<LTTextBoxHorizontal(33) 379.695,343.104,766.332,359.167 u'Eventhoughyoupaytheseexpenses,theydon\u2019tcounttowardtheout-of-pocket\n'>
+<LTTextBoxHorizontal(42) 379.697,218.999,766.900,235.063 u'termin-network,preferred,orparticipatingforprovidersintheirnetwork.See\n'>
+<LTTextBoxHorizontal(43) 379.697,206.999,759.513,223.061 u'thechartstartingonpage2forhowthisplanpaysdifferentkindsofproviders.\n'>
+<LTTextBoxHorizontal(46) 379.698,190.901,766.717,206.965 u'Thisplanwillpaysomeorallofthecoststoseeaspecialistforcoveredservices\n'>
+<LTTextBoxHorizontal(14) 379.698,446.997,480.677,463.060 u'meetthedeductible.\n'>
+<LTTextBoxHorizontal(13) 379.698,458.999,747.837,474.833 u'chartstartingonpage2forhowmuchyoupayforcoveredservicesafteryou\n'>
+<LTTextBoxHorizontal(12) 379.698,470.997,753.224,487.060 u'whenthedeductiblestartsover(usually,butnotalways,January1st).Seethe\n'>
+<LTTextBoxHorizontal(11) 379.698,482.999,746.874,498.833 u'payforcoveredservicesyouuse.Checkyourpolicyorplandocumenttosee\n'>
+<LTTextBoxHorizontal(41) 379.699,230.997,751.729,247.060 u'hospitalmayuseanout-of-networkproviderforsomeservices.Plansusethe\n'>
+<LTTextBoxHorizontal(40) 379.699,242.999,765.323,258.833 u'someorallofthecostsofcoveredservices.Beaware,yourin-networkdoctoror\n'>
+<LTTextBoxHorizontal(39) 379.700,255.001,762.383,271.063 u'Ifyouuseanin-networkdoctororotherhealthcareprovider,thisplanwillpay\n'>
+<LTTextBoxHorizontal(10) 379.702,495.001,769.166,511.065 u'Youmustpayallthecostsuptothedeductibleamountbeforethisplanbeginsto\n'>
+<LTTextBoxHorizontal(27) 379.704,430.901,736.387,446.965 u'Youdon\u2019thavetomeetdeductiblesforspecificservices,butseethechart\n'>
+<LTTextBoxHorizontal(51) 379.705,146.999,748.013,163.063 u'Policyorplandocumentforadditionalinformationaboutexcludedservices.\n'>
+<LTTextBoxHorizontal(50) 379.705,159.001,756.472,174.834 u'Someoftheservicesthisplandoesn\u2019tcoverarelistedonpage5or6.Seeyour\n'>
+<LTTextBoxHorizontal(31) 379.705,387.001,744.774,403.067 u'Theout-of-pocketlimitisthemostyoucouldpayduringacoverageperiod\n'>
+<LTTextBoxHorizontal(34) 380.400,331.101,406.912,347.163 u'limit.\n'>
+<LTTextBoxHorizontal(7) 380.404,514.901,474.418,530.963 u'WhythisMatters:\n'>
+<LTTextBoxHorizontal(54) 393.100,16.692,398.493,27.905 u'1\n'>
+<LTTextBoxHorizontal(3) 493.889,567.999,755.615,584.062 u'Coveragefor:Employee/Family|PlanType:HMO\n'>
+<LTTextBoxHorizontal(2) 543.800,580.001,755.699,596.063 u'CoveragePeriod:01/01/2014-12/31/2014\n'>
+
+<LTLine 20.900,129.800,20.900,178.800>
+<LTLine 20.900,175.900,20.900,210.700>
+<LTLine 20.900,206.900,20.900,274.800>
+<LTLine 20.900,271.900,20.900,318.700>
+<LTLine 20.900,314.600,20.900,362.600>
+<LTLine 20.900,358.800,20.900,406.800>
+<LTLine 20.900,403.900,20.900,450.700>
+<LTLine 20.900,447.800,20.900,514.800>
+<LTLine 20.900,511.900,20.900,528.700>
+<LTLine 20.900,532.800,20.900,560.600>
+<LTLine 21.400,564.700,21.400,566.600>
+<LTLine 136.600,129.800,136.600,178.800>
+<LTLine 136.600,175.900,136.600,210.700>
+<LTLine 136.600,206.900,136.600,274.800>
+<LTLine 136.600,271.900,136.600,318.700>
+<LTLine 136.600,314.600,136.600,362.600>
+<LTLine 136.600,358.800,136.600,406.800>
+<LTLine 136.600,403.900,136.600,450.700>
+<LTLine 136.600,447.800,136.600,514.800>
+<LTLine 136.600,511.900,136.600,528.700>
+<LTLine 376.600,129.800,376.600,178.800>
+<LTLine 376.600,175.900,376.600,210.700>
+<LTLine 376.600,206.900,376.600,274.800>
+<LTLine 376.600,271.900,376.600,318.700>
+<LTLine 376.600,314.600,376.600,362.600>
+<LTLine 376.600,358.800,376.600,406.800>
+<LTLine 376.600,403.900,376.600,450.700>
+<LTLine 376.600,447.800,376.600,514.800>
+<LTLine 376.600,511.900,376.600,528.700>
+<LTLine 770.600,129.800,770.600,178.800>
+<LTLine 770.600,130.800,770.600,210.700>
+<LTLine 770.600,206.900,770.600,274.800>
+<LTLine 770.600,207.800,770.600,318.700>
+<LTLine 770.600,314.600,770.600,362.600>
+<LTLine 770.600,358.800,770.600,406.800>
+<LTLine 770.600,447.800,770.600,514.800>
+<LTLine 770.600,511.900,770.600,528.700>
+<LTLine 770.600,532.800,770.600,560.600>
+LINES 38 > RECTS 6
+Row wrong 5
+65
+except
+Size of money array is not 2 or 4 (Size=0)
+49
+except
+133
+except
+Row wrong 5
+
+<LTTextBoxHorizontal(31) 25.700,202.901,266.435,218.963 u'Ifyouhaveatest Diagnostictest(x-ray,blood\n'>
+<LTTextBoxHorizontal(13) 25.700,374.997,112.101,391.063 u'provider\u2019soffice\n'>
+<LTTextBoxHorizontal(12) 25.700,386.999,89.011,415.063 u'Ifyouvisita\nhealthcare\n'>
+<LTTextBoxHorizontal(6) 25.700,439.104,117.605,464.963 u'CommonMedical\nEvent\n'>
+<LTTextBoxHorizontal(14) 25.702,362.999,67.250,379.061 u'orclinic\n'>
+<LTTextBoxHorizontal(2) 74.598,528.899,284.812,544.962 u'changeifyouhaven\u2019tmetyourdeductible.\n'>
+<LTTextBoxHorizontal(5) 74.600,472.901,733.419,488.963 u'Thisplanonlycoversservicesifrenderedbyparticipatingproviders.Exceptionsincludeemergencyservicesasdescribedinyourpolicy.\n'>
+<LTTextBoxHorizontal(3) 74.600,512.801,757.603,528.863 u'Theamounttheplanpaysforcoveredservicesisbasedontheallowedamount.Ifanout-of-networkproviderchargesmorethantheallowed\n'>
+<LTTextBoxHorizontal(1) 74.603,540.899,756.146,556.963 u'example,iftheplan\u2019sallowedamountforanovernighthospitalstayis$1,000,yourco-insurancepaymentof20%wouldbe$200.Thismay\n'>
+<LTTextBoxHorizontal(4) 75.400,488.801,756.598,516.863 u'amount,youmayhavetopaythedifference.Forexample,ifanout-of-networkhospitalcharges$1,500foranovernightstayandtheallowed\namountis$1,000,youmayhavetopaythe$500difference.(Thisiscalledbalancebilling.)\n'>
+<LTTextBoxHorizontal(0) 75.400,552.901,734.517,584.963 u'Co-payments(copay)arefixeddollaramounts(forexample,$15)youpayforcoveredhealthcare,usuallywhenyoureceivetheservice.\nCo-insurance(co-ins)isyourshareofthecostsofacoveredservice,calculatedasapercentoftheallowedamountfortheservice.For\n'>
+<LTTextBoxHorizontal(32) 129.595,190.899,158.370,206.733 u'work)\n'>
+<LTTextBoxHorizontal(15) 129.597,387.002,265.557,414.838 u'Primarycarevisittotreatan\ninjuryorillness\n'>
+<LTTextBoxHorizontal(35) 129.600,158.999,248.907,186.834 u'Imaging(CT/PETscans,\nMRIs)\n'>
+<LTTextBoxHorizontal(24) 129.600,223.097,261.451,262.934 u'Preventive\ncare/screening/immunizati-\non\n'>
+<LTTextBoxHorizontal(23) 129.600,266.999,246.292,294.834 u'Otherpractitioneroffice\nvisit\n'>
+<LTTextBoxHorizontal(19) 129.600,343.101,199.767,358.934 u'Specialistvisit\n'>
+<LTTextBoxHorizontal(7) 130.306,448.901,251.493,464.963 u'ServicesYouMayNeed\n'>
+<LTTextBoxHorizontal(33) 274.798,202.901,327.095,218.734 u'NoCharge\n'>
+<LTTextBoxHorizontal(16) 274.800,387.002,342.485,414.838 u'$10copayper\nvisit\n'>
+<LTTextBoxHorizontal(36) 274.803,158.999,342.487,186.834 u'$50copayper\nprocedure\n'>
+<LTTextBoxHorizontal(28) 274.803,247.101,327.099,262.934 u'NoCharge\n'>
+<LTTextBoxHorizontal(25) 274.803,279.001,336.523,294.834 u'NotCovered\n'>
+<LTTextBoxHorizontal(20) 274.803,331.099,342.487,358.934 u'$20copayper\nvisit\n'>
+<LTTextBoxHorizontal(10) 275.500,418.903,343.113,445.063 u'Participating\nProvider\n'>
+<LTTextBoxHorizontal(8) 310.598,448.901,420.217,464.963 u'Yourcostifyouusea\n'>
+<LTTextBoxHorizontal(11) 364.296,418.903,457.347,445.063 u'Non-Participating\nProvider\n'>
+<LTTextBoxHorizontal(26) 364.792,279.001,426.512,294.834 u'NotCovered\n'>
+<LTTextBoxHorizontal(34) 364.799,202.901,426.519,218.734 u'NotCovered\n'>
+<LTTextBoxHorizontal(17) 364.801,399.004,426.521,414.838 u'NotCovered\n'>
+<LTTextBoxHorizontal(37) 364.804,171.001,426.524,186.834 u'NotCovered\n'>
+<LTTextBoxHorizontal(29) 364.804,247.101,426.524,262.934 u'NotCovered\n'>
+<LTTextBoxHorizontal(21) 364.804,343.101,426.524,358.934 u'NotCovered\n'>
+<LTTextBoxHorizontal(40) 392.900,16.692,398.293,27.905 u'2\n'>
+<LTTextBoxHorizontal(27) 464.590,279.001,723.617,294.834 u'NoCoverageformanipulative(chiropractic)services.\n'>
+<LTTextBoxHorizontal(38) 464.597,202.901,490.697,218.734 u'None\n'>
+<LTTextBoxHorizontal(18) 464.599,387.002,747.581,414.838 u'Ifyoureceiveservicesinadditiontoofficevisit,additional\ncopays,deductibles,orco-insmayapply.\n'>
+<LTTextBoxHorizontal(39) 464.602,171.001,490.702,186.834 u'None\n'>
+<LTTextBoxHorizontal(22) 464.602,295.093,762.442,358.934 u'Memberisrequiredtoobtainreferraltospecialistorother\nlicensedhealthcarepractitioner,exceptforOB/GYN\nPhysicianservicesandEmergency/UrgentlyNeededServices.\nIfyoureceiveservicesinadditiontoofficevisit,additional\ncopays,deductibles,orco-insmayapply.\n'>
+<LTTextBoxHorizontal(30) 464.602,235.099,763.068,262.934 u'Includespreventivehealthservicesspecifiedinthehealthcare\nreformlaw.\n'>
+<LTTextBoxHorizontal(9) 465.392,448.901,596.930,464.963 u'Limitations&Exceptions\n'>
+
+<LTLine 20.900,153.800,20.900,222.700>
+<LTLine 20.900,415.900,20.900,462.700>
+<LTLine 20.900,469.700,20.900,590.600>
+<LTLine 125.800,153.800,125.800,222.700>
+<LTLine 125.800,415.900,125.800,462.700>
+<LTLine 270.700,153.800,270.700,222.700>
+<LTLine 270.700,415.900,270.700,462.700>
+<LTLine 360.700,153.800,360.700,222.700>
+<LTLine 360.700,415.900,360.700,443.800>
+<LTLine 460.600,153.800,460.600,222.700>
+<LTLine 460.600,415.900,460.600,462.700>
+<LTLine 770.600,153.800,770.600,222.700>
+<LTLine 770.600,415.900,770.600,462.700>
+<LTLine 770.600,469.700,770.600,590.600>
+RECTS 8 > LINES 14
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+Row: 0 Col: 0
+### POST PROCESS TABLE
+defaultdict(<type 'list'>, {})
+Row wrong 0

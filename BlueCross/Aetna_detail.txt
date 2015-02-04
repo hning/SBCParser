@@ -1,0 +1,173 @@
+
+<LTTextBoxHorizontal(42) 16.800,7.304,534.636,34.328 u"If you aren't clear about any of the bolded terms used in this form, see the Glossary. You can view the Glossary\nat www.HealthReformPlanSBC.com or call 1-866-529-2517 to request a copy.\n">
+<LTTextBoxHorizontal(41) 16.800,30.344,391.248,46.760 u'Questions: Call 1-866-529-2517 or visit us at www.HealthReformPlanSBC.com.\n'>
+<LTTextBoxHorizontal(3) 18.000,552.544,384.684,568.960 u'Summary of Benefits and Coverage: What this Plan Covers & What it Costs\n'>
+<LTTextBoxHorizontal(8) 20.800,489.544,127.192,505.960 u'Important Questions\n'>
+<LTTextBoxHorizontal(23) 20.800,159.844,131.668,190.460 u"Are there services this\nplan doesn't cover?\n">
+<LTTextBoxHorizontal(22) 20.800,193.944,132.436,223.160 u'Do I need a referral to\nsee a specialist?\n'>
+<LTTextBoxHorizontal(19) 20.800,264.744,130.060,296.460 u'Does this plan use a\nnetwork of providers?\n'>
+<LTTextBoxHorizontal(18) 20.800,299.244,125.488,344.260 u'Is there an overall\nannual limit on what\nthe plan pays?\n'>
+<LTTextBoxHorizontal(16) 20.800,346.344,140.176,376.960 u'What is not included in\nthe out-of-pocket limit?\n'>
+<LTTextBoxHorizontal(14) 20.800,379.744,124.420,439.460 u'for specific services?\nIs there an\nout-of-pocket limit\non my expenses?\n'>
+<LTTextBoxHorizontal(12) 20.800,439.744,158.032,456.160 u'Are there other deductibles\n'>
+<LTTextBoxHorizontal(9) 20.800,457.244,114.460,489.760 u'What is the overall\ndeductible?\n'>
+<LTTextBoxHorizontal(5) 61.200,531.944,182.592,548.360 u'This is only a summary.\n'>
+<LTTextBoxHorizontal(7) 61.500,513.844,382.536,530.260 u'at www.HealthReformPlanSBC.com or by calling 1-866-529-2517.\n'>
+<LTTextBoxHorizontal(0) 102.608,577.866,107.288,602.490 u':\n'>
+<LTTextBoxHorizontal(1) 125.800,581.566,413.242,606.190 u'CA Platinum Basic HMO Copay Plan\n'>
+<LTTextBoxHorizontal(25) 164.200,174.144,184.048,189.648 u'Yes.\n'>
+<LTTextBoxHorizontal(24) 164.200,206.644,312.772,223.060 u'Yes, for in-network specialists.\n'>
+<LTTextBoxHorizontal(21) 164.300,265.644,355.580,296.460 u'Yes. For a list of network providers, see\nwww.aetna.com or call 1-866-529-2517.\n'>
+<LTTextBoxHorizontal(20) 164.300,327.744,182.276,343.248 u'No.\n'>
+<LTTextBoxHorizontal(17) 164.300,346.944,363.488,376.848 u"Premiums and health care this plan doesn't\ncover.\n">
+<LTTextBoxHorizontal(15) 164.300,408.344,348.476,424.760 u'Yes. Individual $4,000 / Family $8,000.\n'>
+<LTTextBoxHorizontal(13) 165.700,439.744,183.676,455.248 u'No.\n'>
+<LTTextBoxHorizontal(11) 165.700,473.344,287.092,489.760 u'Individual $0 / Family $0.\n'>
+<LTTextBoxHorizontal(10) 166.500,489.544,209.208,505.960 u'Answers\n'>
+<LTTextBoxHorizontal(6) 189.000,530.744,738.300,546.248 u'If you want more detail about your coverage and costs, you can get the complete terms in the policy or plan document\n'>
+<LTTextBoxHorizontal(26) 390.500,489.544,480.284,505.960 u'Why this Matters:\n'>
+<LTTextBoxHorizontal(40) 390.600,159.644,752.004,176.060 u'policy or plan document for additional information about excluded services.\n'>
+<LTTextBoxHorizontal(39) 390.600,174.044,731.616,189.548 u"Some of the services this plan doesn't cover are listed on page 5. See your\n">
+<LTTextBoxHorizontal(38) 390.600,192.444,763.932,223.260 u"This plan will pay some or all of the costs to see a specialist for covered\nservices but only if you have the plan's permission before you see the specialist.\n">
+<LTTextBoxHorizontal(29) 390.600,425.344,678.636,440.848 u'starting on page 2 for other costs for services this plan covers.\n'>
+<LTTextBoxHorizontal(28) 390.600,439.744,738.216,456.160 u"You don't have to meet deductibles for specific services, but see the chart\n">
+<LTTextBoxHorizontal(27) 390.600,473.444,755.304,488.948 u'See the chart starting on page 2 for your costs for the services this plan covers.\n'>
+<LTTextBoxHorizontal(37) 391.500,222.544,764.208,267.760 u'hospital may use an out-of-network provider for some services. Plans use the\nterm in-network, preferred, or participating for providers in their network. See\nthe chart starting on page 2 for how this plan pays different kinds of providers.\n'>
+<LTTextBoxHorizontal(36) 391.500,265.744,766.464,281.248 u'some or all of the costs of covered services. Be aware, your in-network doctor or\n'>
+<LTTextBoxHorizontal(35) 391.500,280.144,762.132,296.560 u'If you use an in-network doctor or other health care provider, this plan will pay\n'>
+<LTTextBoxHorizontal(34) 391.500,313.344,594.468,329.016 u'specific covered services, such as office visits.\n'>
+<LTTextBoxHorizontal(33) 391.500,327.744,751.392,343.248 u'The chart starting on page 2 describes any limits on what the plan will pay for\n'>
+<LTTextBoxHorizontal(32) 391.500,347.244,730.764,378.060 u"Even though you pay these expenses, they don't count toward the out-of\npocket limit.\n">
+<LTTextBoxHorizontal(31) 391.500,379.444,734.856,409.348 u'(usually one year) for your share of the cost of covered services. This limit\nhelps you plan for health care expenses.\n'>
+<LTTextBoxHorizontal(30) 391.500,408.244,747.900,424.660 u'The out-of-pocket limit is the most you could pay during a coverage period\n'>
+<LTTextBoxHorizontal(4) 512.385,552.544,773.805,568.960 u'Coverage for: Individual + Family | Plan Type: HMO\n'>
+<LTTextBoxHorizontal(2) 564.469,577.544,773.713,593.960 u'Coverage Period: 11/15/2014 - 11/14/2015\n'>
+<LTTextBoxHorizontal(43) 683.375,30.970,773.855,43.890 u'072000-030020-921444\n'>
+<LTTextBoxHorizontal(44) 730.365,19.970,773.855,32.890 u'Page 1 of 8\n'>
+
+<LTLine 18.000,156.300,18.000,189.100>
+<LTLine 18.000,189.100,18.000,222.600>
+<LTLine 18.000,223.100,18.000,295.500>
+<LTLine 18.000,294.900,18.000,342.800>
+<LTLine 18.000,342.900,18.000,375.600>
+<LTLine 18.000,375.600,18.000,423.400>
+<LTLine 18.000,423.400,18.000,454.500>
+<LTLine 18.000,454.600,18.000,488.500>
+<LTLine 162.000,156.300,162.000,189.100>
+<LTLine 162.000,189.100,162.000,222.600>
+<LTLine 162.000,223.100,162.000,295.500>
+<LTLine 162.000,294.900,162.000,342.800>
+<LTLine 162.000,342.900,162.000,375.600>
+<LTLine 162.000,375.600,162.000,423.400>
+<LTLine 162.000,423.400,162.000,454.500>
+<LTLine 162.000,454.600,162.000,488.500>
+<LTLine 387.000,156.300,387.000,189.100>
+<LTLine 387.000,189.100,387.000,222.600>
+<LTLine 387.000,223.100,387.000,295.500>
+<LTLine 387.000,294.900,387.000,342.800>
+<LTLine 387.000,342.900,387.000,375.600>
+<LTLine 387.000,375.600,387.000,423.400>
+<LTLine 387.000,423.400,387.000,454.500>
+<LTLine 387.000,454.600,387.000,488.500>
+<LTLine 774.000,156.300,774.000,189.100>
+<LTLine 774.000,189.100,774.000,222.600>
+<LTLine 774.000,223.100,774.000,295.500>
+<LTLine 774.000,294.900,774.000,342.800>
+<LTLine 774.000,342.900,774.000,375.600>
+<LTLine 774.000,375.600,774.000,423.400>
+<LTLine 774.000,423.400,774.000,454.500>
+<LTLine 774.000,454.600,774.000,488.500>
+LINES 32 > RECTS 34
+Size of money array is not 2 or 4 (Size=0)
+
+<LTTextBoxHorizontal(46) 16.800,7.304,534.636,34.328 u"If you aren't clear about any of the bolded terms used in this form, see the Glossary. You can view the Glossary\nat www.HealthReformPlanSBC.com or call 1-866-529-2517 to request a copy.\n">
+<LTTextBoxHorizontal(45) 16.800,30.344,391.248,46.760 u'Questions: Call 1-866-529-2517 or visit us at www.HealthReformPlanSBC.com.\n'>
+<LTTextBoxHorizontal(3) 18.000,552.544,384.684,568.960 u'Summary of Benefits and Coverage: What this Plan Covers & What it Costs\n'>
+<LTTextBoxHorizontal(8) 19.500,378.044,66.960,394.460 u'Common\n'>
+<LTTextBoxHorizontal(9) 20.400,362.644,94.464,379.060 u'Medical Event\n'>
+<LTTextBoxHorizontal(12) 20.800,206.889,106.972,223.305 u'If you have a test\n'>
+<LTTextBoxHorizontal(11) 20.800,272.862,126.556,318.078 u"If you visit a health\ncare provider's office\nor clinic\n">
+<LTTextBoxHorizontal(7) 83.000,426.144,707.360,442.560 u'This plan may encourage you to use network providers by charging you lower deductibles, copayments, and coinsurance amounts.\n'>
+<LTTextBoxHorizontal(6) 83.000,447.424,751.568,489.760 u'The amount the plan pays for covered services is based on the allowed amount. If an out-of-network provider charges more than the allowed\namount, you may have to pay the difference. For example, if an out-of-network hospital charges $1,500 for an overnight stay and the allowed\namount is $1,000, you may have to pay the $500 difference. (This is called balance billing.)\n'>
+<LTTextBoxHorizontal(5) 83.000,490.824,743.060,549.360 u"Copayments are fixed dollar amounts (for example, $15) you pay for covered health care, usually when you receive the service.\nCoinsurance is your share of the costs of a covered service, calculated as a percent of the allowed amount for the service. For example, if the\nplan's allowed amount for an overnight hospital stay is $1,000, your coinsurance payment of 20% would be $200. This may change if you\nhaven't met your deductible.\n">
+<LTTextBoxHorizontal(0) 102.608,577.866,107.288,602.490 u':\n'>
+<LTTextBoxHorizontal(1) 125.800,581.566,413.242,606.190 u'CA Platinum Basic HMO Copay Plan\n'>
+<LTTextBoxHorizontal(18) 137.800,184.639,288.160,200.143 u'Imaging (CT/PET scans, MRIs)\n'>
+<LTTextBoxHorizontal(17) 137.800,225.380,299.740,240.884 u'Diagnostic test (x-ray, blood work)\n'>
+<LTTextBoxHorizontal(16) 137.800,242.121,261.652,269.625 u'Preventive care /screening\n/immunization\n'>
+<LTTextBoxHorizontal(15) 137.800,282.962,274.012,298.466 u'Other practitioner office visit\n'>
+<LTTextBoxHorizontal(14) 137.800,299.803,202.600,315.307 u'Specialist visit\n'>
+<LTTextBoxHorizontal(13) 137.800,316.544,311.248,344.048 u'Primary care visit to treat an injury or\nillness\n'>
+<LTTextBoxHorizontal(10) 140.600,371.644,261.608,388.060 u'Services You May Need\n'>
+<LTTextBoxHorizontal(34) 326.800,184.639,419.188,200.143 u'$150 copay per visit\n'>
+<LTTextBoxHorizontal(33) 326.800,201.380,429.664,240.884 u'Lab: $20 copay per\nvisit; X-ray: $40 copay\nper visit\n'>
+<LTTextBoxHorizontal(32) 326.800,254.121,375.496,269.625 u'No charge\n'>
+<LTTextBoxHorizontal(31) 326.800,270.962,430.552,298.466 u'$15 copay per visit for\nacupuncture\n'>
+<LTTextBoxHorizontal(30) 326.800,299.803,413.572,315.307 u'$40 copay per visit\n'>
+<LTTextBoxHorizontal(27) 326.800,328.544,413.572,344.048 u'$20 copay per visit\n'>
+<LTTextBoxHorizontal(20) 331.049,375.644,433.961,392.060 u' You Use a Network\n'>
+<LTTextBoxHorizontal(19) 351.358,390.044,413.674,406.460 u'Your Cost If\n'>
+<LTTextBoxHorizontal(21) 361.046,361.244,403.994,377.660 u'Provider\n'>
+<LTTextBoxHorizontal(43) 443.800,184.639,502.360,200.143 u'Not covered\n'>
+<LTTextBoxHorizontal(38) 443.800,225.380,502.360,240.884 u'Not covered\n'>
+<LTTextBoxHorizontal(37) 443.800,254.121,502.360,269.625 u'Not covered\n'>
+<LTTextBoxHorizontal(36) 443.800,282.962,502.360,298.466 u'Not covered\n'>
+<LTTextBoxHorizontal(35) 443.800,299.803,502.360,315.307 u'Not covered\n'>
+<LTTextBoxHorizontal(28) 443.800,328.544,502.360,344.048 u'Not covered\n'>
+<LTTextBoxHorizontal(24) 453.547,361.244,546.463,377.660 u'Non-Participating\n'>
+<LTTextBoxHorizontal(22) 468.858,390.044,531.174,406.460 u'Your Cost If\n'>
+<LTTextBoxHorizontal(23) 472.426,375.644,527.638,392.060 u' You Use a\n'>
+<LTTextBoxHorizontal(25) 478.546,346.844,521.494,363.260 u'Provider\n'>
+<LTTextBoxHorizontal(4) 512.385,552.544,773.805,568.960 u'Coverage for: Individual + Family | Plan Type: HMO\n'>
+<LTTextBoxHorizontal(44) 560.800,184.739,725.272,200.243 u'\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013 None \u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\n'>
+<LTTextBoxHorizontal(42) 560.800,225.480,725.272,240.984 u'\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013 None \u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\n'>
+<LTTextBoxHorizontal(41) 560.800,254.221,747.976,269.725 u'Age and frequency schedules may apply.\n'>
+<LTTextBoxHorizontal(40) 560.800,271.062,719.620,298.566 u'Coverage is limited to 12 visits for\nacupuncture.\n'>
+<LTTextBoxHorizontal(39) 560.800,299.903,725.272,315.407 u'\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013 None \u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\n'>
+<LTTextBoxHorizontal(29) 560.800,328.644,725.272,344.148 u'\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013 None \u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\n'>
+<LTTextBoxHorizontal(2) 564.469,577.544,773.713,593.960 u'Coverage Period: 11/15/2014 - 11/14/2015\n'>
+<LTTextBoxHorizontal(26) 564.800,369.444,696.692,385.860 u'Limitations & Exceptions\n'>
+<LTTextBoxHorizontal(47) 683.375,30.970,773.855,43.890 u'072000-030020-921444\n'>
+<LTTextBoxHorizontal(48) 730.365,19.970,773.855,32.890 u'Page 2 of 8\n'>
+
+<LTLine 18.000,182.854,18.000,199.695>
+<LTLine 18.000,199.695,18.000,240.436>
+<LTLine 18.000,240.436,18.000,269.177>
+<LTLine 18.000,269.177,18.000,298.018>
+<LTLine 18.000,298.018,18.000,314.859>
+<LTLine 18.000,314.859,18.000,343.600>
+<LTLine 135.000,182.854,135.000,199.695>
+<LTLine 135.000,199.695,135.000,240.436>
+<LTLine 135.000,240.436,135.000,269.177>
+<LTLine 135.000,269.177,135.000,298.018>
+<LTLine 135.000,298.018,135.000,314.859>
+<LTLine 135.000,314.859,135.000,343.600>
+<LTLine 135.000,343.600,135.000,406.600>
+<LTLine 324.000,182.854,324.000,199.695>
+<LTLine 324.000,199.695,324.000,240.436>
+<LTLine 324.000,240.436,324.000,269.177>
+<LTLine 324.000,269.177,324.000,298.018>
+<LTLine 324.000,298.018,324.000,314.859>
+<LTLine 324.000,314.859,324.000,343.600>
+<LTLine 324.000,343.600,324.000,406.600>
+<LTLine 441.000,182.854,441.000,199.695>
+<LTLine 441.000,199.695,441.000,240.436>
+<LTLine 441.000,240.436,441.000,269.177>
+<LTLine 441.000,269.177,441.000,298.018>
+<LTLine 441.000,298.018,441.000,314.859>
+<LTLine 441.000,314.859,441.000,343.600>
+<LTLine 441.000,343.600,441.000,406.600>
+<LTLine 558.000,182.854,558.000,199.695>
+<LTLine 558.000,199.695,558.000,240.436>
+<LTLine 558.000,240.436,558.000,269.177>
+<LTLine 558.000,269.177,558.000,298.018>
+<LTLine 558.000,298.018,558.000,314.859>
+<LTLine 558.000,314.859,558.000,343.600>
+<LTLine 558.000,343.600,558.000,406.600>
+<LTLine 774.000,182.854,774.000,199.695>
+<LTLine 774.000,199.695,774.000,240.436>
+<LTLine 774.000,240.436,774.000,269.177>
+<LTLine 774.000,269.177,774.000,298.018>
+<LTLine 774.000,298.018,774.000,314.859>
+<LTLine 774.000,314.859,774.000,343.600>
+LINES 40 > RECTS 40
