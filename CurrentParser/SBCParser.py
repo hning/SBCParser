@@ -132,25 +132,6 @@ class SBCParser:
         for l in lineArr:
             print l
 
-        # print ""
-
-        # rectArr = sorted(rectArr, key=attrgetter('width'), reverse=True)
-        # for r in rectArr:
-        #     print r.obj
-        #     print "{0} {1} {2} {3}".format(
-        #             r.obj.x0,
-        #             r.obj.x1,
-        #             r.obj.y0,
-        #             r.obj.y1
-        #         )
-        #     print r.width
-
-        # rows.sort()
-        # print rows
-
-
-
-
         if num_lines > 20: 
             print "LINES {0} > RECTS {1}".format(num_lines, num_rects)
             tableClass = TableClass(column_arr, row_arr)
