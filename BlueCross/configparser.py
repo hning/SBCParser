@@ -7,12 +7,28 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 class ConfigParser:
-	def __init__(self, _config, _table, _output_file):
+	def __init__(self, _config, _table):
 		self.config =  _config
 		self.table = _table
-		self.output_file = open(_output_file, "a")
+		
+		self.output_dict = {}
 
 		self.execute()
+
+	def get_dict(self):
+		print "get_dict {0}".format(len(self.output_dict))
+		return self.output_dict
+
+	def get_dict_string(self):
+
+		output_str = ""
+		for key,value in self.output_dict.iteritems():
+			output_str = output_str + "{0}:{1}\n".format(key,value)
+		return output_str
+
+	def write_to_file(self, _output_file):
+		output_file = open(_output_file, "a")
+		output_file.write(self.get_dict_string());
 
 	def execute(self):
 		#Iterate through rows to determine if they one of the key rows
@@ -49,19 +65,6 @@ class ConfigParser:
 					continue
 				#Get all elements within cell, assume next cell
 				key_info = self.parse_cell(row[i+1], self.config.data[key])
-
-				# if "-" in self.config.data[key]["type"]:
-				# 	for value in key_info:
-				# 		print value
-				# else: 
-					# if not len(key_info) == len(self.config.data[key]["output_format"]):
-					# 	print "Given: {0} Required: {1}".format(len(key_info), len(self.config.data[key]["output_format"]))
-					# 	continue
-					#Output key-value pairs
-
-
-				# for idx in xrange(len(key_info)):
-				# 	print "{0}:{1}".format(self.config.data[key]["output_format"][idx]["name"], key_info[idx])
 
 				if found_all is True and key_info is True:
 					to_delete = key
@@ -109,24 +112,27 @@ class ConfigParser:
 		# Non-Network prices: Individual Family
 
 		if num_values == 4:
-			output_arr.append("{0}_individual_in-network:{1}".format(info["prefix"],money_arr[0]))
-			output_arr.append("{0}_family_in-network:{1}".format(info["prefix"],money_arr[1]))
-			output_arr.append("{0}_individual_out-network:{1}".format(info["prefix"],money_arr[2]))
-			output_arr.append("{0}_family_out-network:{1}".format(info["prefix"],money_arr[3]))
+			self.output_dict["{0}_individual_in-network".format(info["prefix"])] = money_arr[0]
+			self.output_dict["{0}_family_in-network".format(info["prefix"])] = money_arr[1]
+			self.output_dict["{0}_individual_out-network".format(info["prefix"])] = money_arr[2]
+			self.output_dict["{0}_family_out-network".format(info["prefix"])] = money_arr[3]
+			# output_arr.append("{0}_individual_in-network:{1}".format(info["prefix"],money_arr[0]))
+			# output_arr.append("{0}_family_in-network:{1}".format(info["prefix"],money_arr[1]))
+			# output_arr.append("{0}_individual_out-network:{1}".format(info["prefix"],money_arr[2]))
+			# output_arr.append("{0}_family_out-network:{1}".format(info["prefix"],money_arr[3]))
 		# 2 values means doesn't matter
 		# Individual/Family
 		elif num_values == 2:
-			output_arr.append("{0}_individual:{1}".format(info["prefix"],money_arr[0]))
-			output_arr.append("{0}_family:{1}".format(info["prefix"],money_arr[1]))
+			self.output_dict["{0}_individual".format(info["prefix"])] = money_arr[0]
+			self.output_dict["{0}_family".format(info["prefix"])] = money_arr[1]
+			# output_arr.append("{0}_individual:{1}".format(info["prefix"],money_arr[0]))
+			# output_arr.append("{0}_family:{1}".format(info["prefix"],money_arr[1]))
 		elif num_values == 1:
-			output_arr.append("{0}:{1}".format(info["prefix"],money_arr[0]))
+			self.output_dict[info["prefix"]] = money_arr[0]
+			# output_arr.append("{0}:{1}".format(info["prefix"],money_arr[0]))
 		else:
-
 			print "Size of money array is not 2 or 4 (Size={0})".format(num_values)
 			return False
-
-		for i in output_arr:
-			self.output_file.write("{0}\n".format(i))
 
 		return True
 
@@ -157,7 +163,9 @@ class ConfigParser:
 				for i in next_arr:
 					output_arr = [output_arr[0] + "|" + str(i)]
 
-		self.output_file.write("{0}:{1}\n".format(info["output_format"][0]["name"],output_arr[0]))
+
+		self.output_dict[info["output_format"][0]["name"]] = output_arr[0]
+		# self.output_file.write("{0}:{1}\n".format(info["output_format"][0]["name"],output_arr[0]))
 
 		return True
 

@@ -103,6 +103,7 @@ except
 133
 except
 Row wrong 5
+get_dict 9
 
 <LTTextBoxHorizontal(31) 25.700,202.901,266.435,218.963 u'Ifyouhaveatest Diagnostictest(x-ray,blood\n'>
 <LTTextBoxHorizontal(13) 25.700,374.997,112.101,391.063 u'provider\u2019soffice\n'>
@@ -205,3 +206,5 @@ Row: 0 Col: 0
 ### POST PROCESS TABLE
 defaultdict(<type 'list'>, {})
 Row wrong 0
+get_dict 0
+{u'referral_for_specialist': 'yes', 'deductible_family': 500, 'output_of_pocket_family': 3000, u'specific_service_deductible': 'no', 'deductible_individual': 250, u'services_not_covered': 'yes', 'output_of_pocket_individual': 1500, u'network_of_providers': 'yes', u'annual_limit': 'no'}
