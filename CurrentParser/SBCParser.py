@@ -195,6 +195,7 @@ filename = os.path.join(directory, sys.argv[1])
 config = Config(os.path.join(directory, sys.argv[2]))
 output_file = sys.argv[3]
 open(sys.argv[3], 'w').close()
+
 parser = SBCParser(filename, config)
 parser.execute()
 parser.write_to_file(output_file)
