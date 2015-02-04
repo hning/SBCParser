@@ -1,0 +1,54 @@
+{
+	"overall_deductible":	{
+		"contains": ["overall","deductible"],
+		"multiple": "true",
+		"type": "money-variable",
+		"prefix": "deductible"
+	},
+	"specific_service_deductible": {
+		"contains": ["deductibles","specific"],
+		"multiple": "false",
+		"type": "boolean-number",
+		"output_format": [
+			{"name": "specific_service_deductible"}
+		]
+	},
+	"out_of_pocket_limit":	{
+		"contains": ["out","of", "pocket"],
+		"multiple": "true",
+		"type": "money-variable", 
+		"prefix": "output_of_pocket"
+	},
+	"annual_limit": {
+		"contains": ["annual","limit"],
+		"multiple": "false",
+		"type": "boolean",
+		"output_format": [
+			{"name": "annual_limit"}
+		]
+	},
+	"referral_for_specialist": {
+		"contains": ["referral", "specialist"],
+		"multiple": "false",
+		"type": "boolean",
+		"output_format": [
+			{"name": "referral_for_specialist"}
+		]
+	},
+	"network_of_providers": {
+		"contains": ["network", "providers"],
+		"multiple": "false",
+		"type": "boolean",
+		"output_format": [
+			{"name": "network_of_providers"}
+		]
+	},
+	"services_not_covered":{
+		"contains": ["services", "plan", "cover"],
+		"multiple": "false",
+		"type": "boolean",
+		"output_format": [
+			{"name": "services_not_covered"}
+		]
+	}
+}
