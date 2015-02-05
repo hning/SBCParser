@@ -1,6 +1,6 @@
 # SBCParser
 
-CURRENT WORKING PARSER FOUND UNDER CurrenParser/SBCParser.py
+CURRENT WORKING PARSER FOUND UNDER CurrentParser/SBCParser.py
 
 Parse SBC documents using pdfminer.
 
@@ -88,12 +88,10 @@ There are multiple hits that are described within "output_format"
 	- Numeric values
 * "money"
 	- Numeric values preceded by "$"
-* "money-variable"
-	- Determines whether there is a non-network option and then generates correct output based on the given information
 * "boolean"
 	- looks for "true/false" & "yes/no"
-* "boolean-extra"
-	- "boolean" but also includes the extra information within the second box
+* "boolean-number"
+	- "boolean" but also includes the rest of the numbers in the text area
 
 ### Output Format
 The key pair output that is described within type and given a name
