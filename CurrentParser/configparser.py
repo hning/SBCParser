@@ -98,7 +98,7 @@ class ConfigParser:
 		return money_arr
 
 
-	def variable_money_parse(self, text, info):
+	def deductible_parse(self, text, info):
 		money_arr = [int(re.sub(r'[^\w\s]', '', s)) for s in text.split() if ("$" in s and re.sub(r'[^\w\s]', '', s).isdigit())]
 		num_values = len(money_arr)
 		output_arr = []
@@ -170,8 +170,6 @@ class ConfigParser:
 		return True
 
 	def money_parse(self, text, info):
-		if "variable" in info["type"]:
-			return self.variable_money_parse(text, info)
 		return [int(s.translate(None, string.punctuation)) for s in text.split() if ("$" in s and s.translate(None, string.punctuation).isdigit())]
 
 	def parse_cell(self, cell, info):
@@ -185,8 +183,10 @@ class ConfigParser:
 			return self.number_parse(cell)
 		elif "boolean" == info_types[0]:
 			return self.boolean_parse(cell, info)
+		elif "deductible" == info_types[0]:
+			return self.deductible_parse(cell, info)
 		elif "money" == info_types[0]:
-			return self.variable_money_parse(cell, info)
+			return self.money_parse(cell, info)
 		# elif in_type == "money-variable":
 		# 	return self.variable_deductible_money_parse(cell):
 		else: 

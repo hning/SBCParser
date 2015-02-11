@@ -2,7 +2,7 @@
 	"overall_deductible":	{
 		"contains": ["overall","deductible"],
 		"multiple": "true",
-		"type": "money-variable",
+		"type": "deductible",
 		"prefix": "deductible"
 	},
 	"specific_service_deductible": {
@@ -16,7 +16,7 @@
 	"out_of_pocket_limit":	{
 		"contains": ["out","of", "pocket"],
 		"multiple": "true",
-		"type": "money-variable", 
+		"type": "deductible", 
 		"prefix": "output_of_pocket"
 	},
 	"annual_limit": {
